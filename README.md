@@ -1,5 +1,5 @@
 # Abedin Trade Point website
 
-WordPress + WooCommerce quote-request catalogue for Abedin Trade Point (bulk supply, Bangladesh).
+Quote-request catalogue for Abedin Trade Point (bulk supply, Bangladesh), built with Next.js and hosted on Vercel.
 
-The theme and the quote plugin are added through pull requests.
+The site lives in [`web/`](web/README.md). On Vercel, set the project's Root Directory to `web`.
