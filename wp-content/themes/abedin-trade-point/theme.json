@@ -1,0 +1,84 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "settings": {
+    "appearanceTools": true,
+    "useRootPaddingAwareAlignments": true,
+    "layout": { "contentSize": "760px", "wideSize": "1200px" },
+    "color": {
+      "defaultPalette": false,
+      "defaultGradients": false,
+      "palette": [
+        { "slug": "logo-blue", "name": "Logo blue", "color": "#2D7DC2" },
+        { "slug": "dark-blue", "name": "Dark blue", "color": "#1F5F99" },
+        { "slug": "logo-grey", "name": "Logo grey", "color": "#595854" },
+        { "slug": "charcoal", "name": "Charcoal", "color": "#1F2937" },
+        { "slug": "muted", "name": "Muted text", "color": "#5B6573" },
+        { "slug": "pale", "name": "Pale background", "color": "#F4F7FA" },
+        { "slug": "line", "name": "Border", "color": "#DDE5EE" },
+        { "slug": "white", "name": "White", "color": "#FFFFFF" }
+      ]
+    },
+    "spacing": {
+      "units": ["px", "rem", "%", "vw"],
+      "spacingSizes": [
+        { "slug": "20", "name": "XS", "size": "0.5rem" },
+        { "slug": "30", "name": "S", "size": "1rem" },
+        { "slug": "40", "name": "M", "size": "1.5rem" },
+        { "slug": "50", "name": "L", "size": "2.5rem" },
+        { "slug": "60", "name": "XL", "size": "4rem" }
+      ]
+    },
+    "typography": {
+      "defaultFontSizes": false,
+      "fluid": true,
+      "fontFamilies": [
+        {
+          "slug": "inter",
+          "name": "Inter",
+          "fontFamily": "Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif",
+          "fontFace": [
+            { "fontFamily": "Inter", "fontStyle": "normal", "fontWeight": "400 800", "src": ["file:./assets/fonts/Inter-Variable.woff2"] }
+          ]
+        }
+      ],
+      "fontSizes": [
+        { "slug": "small", "name": "Small", "size": "0.875rem" },
+        { "slug": "base", "name": "Base", "size": "1.0625rem" },
+        { "slug": "medium", "name": "Medium", "size": "1.1875rem" },
+        { "slug": "large", "name": "Large", "size": "1.75rem", "fluid": { "min": "1.5rem", "max": "2.125rem" } },
+        { "slug": "x-large", "name": "Extra large", "size": "2.5rem", "fluid": { "min": "2rem", "max": "3.125rem" } }
+      ]
+    }
+  },
+  "styles": {
+    "color": { "background": "var:preset|color|white", "text": "var:preset|color|charcoal" },
+    "typography": { "fontFamily": "var:preset|font-family|inter", "fontSize": "var:preset|font-size|base", "lineHeight": "1.6" },
+    "spacing": { "padding": { "left": "max(16px, env(safe-area-inset-left, 0px))", "right": "max(16px, env(safe-area-inset-right, 0px))" }, "blockGap": "1.25rem" },
+    "elements": {
+      "heading": { "typography": { "fontWeight": "800", "lineHeight": "1.2", "letterSpacing": "-0.01em" }, "color": { "text": "var:preset|color|charcoal" } },
+      "h1": { "typography": { "fontSize": "var:preset|font-size|x-large" } },
+      "h2": { "typography": { "fontSize": "var:preset|font-size|large" } },
+      "h3": { "typography": { "fontSize": "1.1875rem", "fontWeight": "700" } },
+      "link": { "color": { "text": "var:preset|color|dark-blue" }, ":hover": { "color": { "text": "var:preset|color|logo-blue" } } },
+      "button": {
+        "color": { "background": "var:preset|color|dark-blue", "text": "var:preset|color|white" },
+        "typography": { "fontWeight": "600", "fontSize": "1rem" },
+        "border": { "radius": "6px" },
+        "spacing": { "padding": { "top": "14px", "bottom": "14px", "left": "22px", "right": "22px" } },
+        ":hover": { "color": { "background": "var:preset|color|logo-blue" } },
+        ":focus": { "outline": { "color": "var:preset|color|logo-blue", "width": "3px", "style": "solid", "offset": "2px" } }
+      }
+    },
+    "blocks": {
+      "core/button": { "variations": { "outline": { "color": { "background": "transparent", "text": "var:preset|color|dark-blue" }, "border": { "color": "var:preset|color|dark-blue", "width": "2px", "style": "solid" } } } }
+    }
+  },
+  "templateParts": [
+    { "name": "header", "title": "Header", "area": "header" },
+    { "name": "footer", "title": "Footer", "area": "footer" }
+  ],
+  "customTemplates": [
+    { "name": "page-quote", "title": "Quote request page", "postTypes": ["page"] }
+  ]
+}

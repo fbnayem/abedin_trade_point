@@ -1,0 +1,20 @@
+[
+ {"slug":"garments-uniforms-workwear","name":"Garments, Uniforms & Workwear","group":"Bags & Apparel","release":"first",
+  "intro":"Plan clothing orders for your team, workplace, event or resale requirements. Share the garment type, fabric preference, size breakdown and quantity so we can review suitable options for your order.",
+  "prompt":"Tell us the fabric or GSM requirement, colour, quantity by size, branding positions and required delivery date.","button":"Request a Garment Quote"},
+ {"slug":"bags-backpacks","name":"Bags & Backpacks","group":"Bags & Apparel","release":"first",
+  "intro":"Explore bag requirements for workplaces, schools, events and promotional use. Send your preferred style, dimensions, material and quantity, with artwork or a reference image if you have one.",
+  "prompt":"Include bag dimensions, material, handle type, compartments, print position and quantity.","button":"Request a Bag Quote"},
+ {"slug":"stationery-office-supplies","name":"Stationery & Office Supplies","group":"Office & Corporate","release":"first",
+  "intro":"Put together the everyday items your office, institution or project needs. Send a list of stationery products and quantities so the required brands, specifications and pack sizes can be reviewed together.",
+  "prompt":"Include item name, preferred brand, size or specification, pack quantity and total units.","button":"Request a Stationery Quote"},
+ {"slug":"paper-printing","name":"Paper & Printing Materials","group":"Office & Corporate","release":"next",
+  "intro":"Plan paper purchases and printed materials for your organisation, campaign or project. Share the finished size, paper specification, printing requirements and quantity so your request can be reviewed accurately.",
+  "prompt":"Include page count, paper GSM, paper type, colour or black-and-white printing, binding, finishing and quantity. Attach the print file or a reference when available.","button":"Request a Printing Quote"},
+ {"slug":"corporate-gifts","name":"Corporate Gifts & Promotional Items","group":"Office & Corporate","release":"next",
+  "intro":"Plan products for staff gifts, business events and brand campaigns. Tell us your audience, item preferences, quantity and branding requirements so suitable options can be considered for your request.",
+  "prompt":"Include your quantity, budget range if useful, artwork, packaging preference and event date.","button":"Discuss a Gift Order"},
+ {"slug":"packaging-materials","name":"Packaging Materials","group":"Packaging & Retail","release":"next",
+  "intro":"Find packaging options suited to your product and handling needs. Share dimensions, material preferences, quantities and any printing requirements so the packaging specification can be reviewed before quoting.",
+  "prompt":"Include internal dimensions, intended contents, material or thickness requirement, printing and pack quantities.","button":"Request a Packaging Quote"}
+]

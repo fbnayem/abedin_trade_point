@@ -1,0 +1,47 @@
+{
+ "bulk-supply": {
+  "title": "Bulk Supply",
+  "h1": "Bulk Supply Built Around Your Purchase List",
+  "status": "publish"
+ },
+ "custom-branding": {
+  "title": "Custom Branding",
+  "h1": "Custom Products for Your Brand, Team or Event",
+  "status": "publish"
+ },
+ "industries": {
+  "title": "Industries",
+  "h1": "Supply Requirements for Different Organisations",
+  "status": "publish"
+ },
+ "about": {
+  "title": "About",
+  "h1": "About Abedin Trade Point",
+  "status": "publish"
+ },
+ "contact": {
+  "title": "Contact",
+  "h1": "Let's Discuss Your Supply Requirements",
+  "status": "publish"
+ },
+ "faqs": {
+  "title": "FAQs",
+  "h1": "Frequently Asked Questions",
+  "status": "publish"
+ },
+ "ordering-delivery": {
+  "title": "Ordering & Delivery",
+  "h1": "Understanding Your Quotation and Order",
+  "status": "draft"
+ },
+ "privacy": {
+  "title": "Privacy",
+  "h1": "Privacy Notice",
+  "status": "draft"
+ },
+ "request-a-quote": {
+  "title": "Request a Quote",
+  "h1": "Request a Bulk Supply Quote",
+  "status": "publish"
+ }
+}
