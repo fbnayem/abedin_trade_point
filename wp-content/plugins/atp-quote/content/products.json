@@ -1,0 +1,371 @@
+[
+ {
+  "name": "T-Shirts for Bulk Orders",
+  "sku": "ATP-101",
+  "category": "garments-uniforms-workwear",
+  "unit": "piece",
+  "description": "Request T-shirts for your team or event. Share fabric, colour, sizes, quantity and any branding artwork.",
+  "spec_prompt": "Fabric composition; GSM; fit; size chart; colour; quantity per size; print or embroidery request.",
+  "featured": true,
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL"
+  ],
+  "pack": ""
+ },
+ {
+  "name": "Polo Shirts",
+  "sku": "ATP-102",
+  "category": "garments-uniforms-workwear",
+  "unit": "piece",
+  "description": "Polo shirts for staff, events and uniforms. Share fabric, colour, sizes, quantity and any embroidery or print request.",
+  "spec_prompt": "Fabric; GSM; collar and placket style; colour; quantity per size; embroidery position.",
+  "featured": true,
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL"
+  ],
+  "pack": ""
+ },
+ {
+  "name": "Formal Shirts",
+  "sku": "ATP-103",
+  "category": "garments-uniforms-workwear",
+  "unit": "piece",
+  "description": "Formal shirts for office and front-desk uniforms. Share fabric, sleeve length, colour and size breakdown.",
+  "spec_prompt": "Fabric; sleeve length; colour; fit; quantity per size; logo position.",
+  "featured": false,
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL"
+  ],
+  "pack": ""
+ },
+ {
+  "name": "Hoodies & Sweatshirts",
+  "sku": "ATP-104",
+  "category": "garments-uniforms-workwear",
+  "unit": "piece",
+  "description": "Hoodies and sweatshirts for teams, schools and events. Share fabric weight, colour, sizes and branding.",
+  "spec_prompt": "Fabric and GSM; zip or pullover; colour; quantity per size; print or embroidery.",
+  "featured": false,
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL"
+  ],
+  "pack": ""
+ },
+ {
+  "name": "Workwear & Uniforms",
+  "sku": "ATP-105",
+  "category": "garments-uniforms-workwear",
+  "unit": "set",
+  "description": "Uniform sets for factories, hospitality and service teams. Share the role, garments in each set, fabric and size breakdown.",
+  "spec_prompt": "Garments per set; fabric; colour; reflective or safety features required; quantity per size.",
+  "featured": false,
+  "sizes": [],
+  "pack": ""
+ },
+ {
+  "name": "Jute Bags for Bulk Orders",
+  "sku": "ATP-106",
+  "category": "bags-backpacks",
+  "unit": "piece",
+  "description": "Request jute bags for events, gifting or everyday use. Share dimensions, handle style, quantity and branding details.",
+  "spec_prompt": "Bag dimensions; fabric construction; lining request; handle type; print area; colours; quantity.",
+  "featured": true,
+  "sizes": [],
+  "pack": ""
+ },
+ {
+  "name": "Cotton Tote Bags",
+  "sku": "ATP-107",
+  "category": "bags-backpacks",
+  "unit": "piece",
+  "description": "Cotton tote bags for events, retail and promotions. Share size, fabric, handle length, print and quantity.",
+  "spec_prompt": "Dimensions; fabric weight; handle length; gusset; print colours and area; quantity.",
+  "featured": false,
+  "sizes": [],
+  "pack": ""
+ },
+ {
+  "name": "Backpacks",
+  "sku": "ATP-108",
+  "category": "bags-backpacks",
+  "unit": "piece",
+  "description": "Backpacks for schools, offices and promotional programmes. Share the style, size, compartments, material and quantity.",
+  "spec_prompt": "Dimensions; material; compartments; laptop sleeve; colour; logo position; quantity.",
+  "featured": true,
+  "sizes": [],
+  "pack": ""
+ },
+ {
+  "name": "Document & Conference Bags",
+  "sku": "ATP-109",
+  "category": "bags-backpacks",
+  "unit": "piece",
+  "description": "Document and conference bags for events, training and office use. Share size, material, closure and branding.",
+  "spec_prompt": "Dimensions; material; closure type; strap; print position; quantity.",
+  "featured": false,
+  "sizes": [],
+  "pack": ""
+ },
+ {
+  "name": "Drawstring Bags",
+  "sku": "ATP-110",
+  "category": "bags-backpacks",
+  "unit": "piece",
+  "description": "Drawstring bags for events, sports and giveaways. Share size, fabric, cord colour, print and quantity.",
+  "spec_prompt": "Dimensions; fabric; cord type and colour; print area; quantity.",
+  "featured": false,
+  "sizes": [],
+  "pack": ""
+ },
+ {
+  "name": "Notebooks & Exercise Books",
+  "sku": "ATP-111",
+  "category": "stationery-office-supplies",
+  "unit": "piece",
+  "description": "Request notebooks or exercise books for your organisation. Specify size, page count, paper, cover, binding and quantity.",
+  "spec_prompt": "Size; pages or sheets; paper GSM; ruling; cover stock; printing; binding; quantity.",
+  "featured": true,
+  "sizes": [],
+  "pack": ""
+ },
+ {
+  "name": "Ballpoint Pens",
+  "sku": "ATP-112",
+  "category": "stationery-office-supplies",
+  "unit": "pack",
+  "description": "Ballpoint pens for offices, schools and events. Share preferred brand, ink colour, pack size and total quantity.",
+  "spec_prompt": "Preferred brand; ink colour; tip size; pack size; total units; logo printing.",
+  "featured": true,
+  "sizes": [],
+  "pack": "Pack contents confirmed with quotation"
+ },
+ {
+  "name": "Pencils & Erasers",
+  "sku": "ATP-113",
+  "category": "stationery-office-supplies",
+  "unit": "pack",
+  "description": "Pencils and erasers for classrooms and offices. Share grade, brand preference, pack size and quantity.",
+  "spec_prompt": "Pencil grade; with or without eraser; preferred brand; pack size; quantity.",
+  "featured": false,
+  "sizes": [],
+  "pack": "Pack contents confirmed with quotation"
+ },
+ {
+  "name": "Files & Folders",
+  "sku": "ATP-114",
+  "category": "stationery-office-supplies",
+  "unit": "piece",
+  "description": "Files and folders for document handling. Share type, size, material, colour and quantity.",
+  "spec_prompt": "Type (box file, clip file, ring binder, envelope folder); size; material; colour; printing; quantity.",
+  "featured": false,
+  "sizes": [],
+  "pack": ""
+ },
+ {
+  "name": "Desk Supplies",
+  "sku": "ATP-115",
+  "category": "stationery-office-supplies",
+  "unit": "piece",
+  "description": "Staplers, punches, tape dispensers and other desk items. Send your item list with preferred brands and quantities.",
+  "spec_prompt": "Item name; preferred brand; size or model; quantity.",
+  "featured": false,
+  "sizes": [],
+  "pack": ""
+ },
+ {
+  "name": "A4 Office Paper",
+  "sku": "ATP-116",
+  "category": "paper-printing",
+  "unit": "ream",
+  "description": "Office paper for printing and copying. Share size, GSM, brand preference and the number of reams.",
+  "spec_prompt": "Paper size; GSM; brightness; preferred brand; reams per box; total reams.",
+  "featured": true,
+  "sizes": [],
+  "pack": "Sheets per ream confirmed with quotation"
+ },
+ {
+  "name": "Printed Booklets & Manuals",
+  "sku": "ATP-117",
+  "category": "paper-printing",
+  "unit": "piece",
+  "description": "Booklets, manuals and reports printed to your files. Share size, page count, paper, printing and binding.",
+  "spec_prompt": "Finished size; page count; paper GSM; colour or black-and-white; binding; finishing; quantity.",
+  "featured": false,
+  "sizes": [],
+  "pack": ""
+ },
+ {
+  "name": "Printed Forms & Pads",
+  "sku": "ATP-118",
+  "category": "paper-printing",
+  "unit": "piece",
+  "description": "Forms, receipt books and pads printed to your layout. Share size, copies per set, numbering and quantity.",
+  "spec_prompt": "Size; single or carbonless copies; numbering; binding; quantity.",
+  "featured": false,
+  "sizes": [],
+  "pack": ""
+ },
+ {
+  "name": "Branded Pens",
+  "sku": "ATP-119",
+  "category": "corporate-gifts",
+  "unit": "piece",
+  "description": "Pens printed or engraved with your logo for events and gifts. Share the style, branding method and quantity.",
+  "spec_prompt": "Pen style; colour; branding method; logo colours; packaging; quantity; event date.",
+  "featured": false,
+  "sizes": [],
+  "pack": ""
+ },
+ {
+  "name": "Mugs",
+  "sku": "ATP-120",
+  "category": "corporate-gifts",
+  "unit": "piece",
+  "description": "Mugs printed with your design for staff gifts and campaigns. Share type, colour, print area and quantity.",
+  "spec_prompt": "Mug type and capacity; colour; print area; gift box; quantity; event date.",
+  "featured": false,
+  "sizes": [],
+  "pack": ""
+ },
+ {
+  "name": "Caps",
+  "sku": "ATP-121",
+  "category": "corporate-gifts",
+  "unit": "piece",
+  "description": "Caps with printed or embroidered branding. Share style, colour, branding position and quantity.",
+  "spec_prompt": "Cap style; fabric; colour; branding method and position; quantity.",
+  "featured": false,
+  "sizes": [],
+  "pack": ""
+ },
+ {
+  "name": "Gift Sets",
+  "sku": "ATP-122",
+  "category": "corporate-gifts",
+  "unit": "set",
+  "description": "Gift sets for staff, clients and events. Tell us the items you would like together, your quantity and packaging preference.",
+  "spec_prompt": "Items in each set; branding; packaging; budget range if useful; quantity; event date.",
+  "featured": true,
+  "sizes": [],
+  "pack": ""
+ },
+ {
+  "name": "Corrugated Cartons",
+  "sku": "ATP-123",
+  "category": "packaging-materials",
+  "unit": "piece",
+  "description": "Cartons for shipping and storage. Share internal dimensions, ply, printing and quantity.",
+  "spec_prompt": "Internal dimensions; ply; contents and weight; printing; quantity.",
+  "featured": false,
+  "sizes": [],
+  "pack": ""
+ },
+ {
+  "name": "Paper Bags",
+  "sku": "ATP-124",
+  "category": "packaging-materials",
+  "unit": "piece",
+  "description": "Paper bags for retail and events. Share size, paper type, handle, print and quantity.",
+  "spec_prompt": "Dimensions; paper type and GSM; handle type; print colours; quantity.",
+  "featured": false,
+  "sizes": [],
+  "pack": ""
+ },
+ {
+  "name": "Product Labels & Stickers",
+  "sku": "ATP-125",
+  "category": "packaging-materials",
+  "unit": "roll",
+  "description": "Labels and stickers for products and packaging. Share size, material, finish, print and quantity.",
+  "spec_prompt": "Label size; material; finish; colours; labels per roll; total quantity.",
+  "featured": false,
+  "sizes": [],
+  "pack": "Labels per roll confirmed with quotation"
+ },
+ {
+  "name": "Packing Tape",
+  "sku": "ATP-126",
+  "category": "packaging-materials",
+  "unit": "roll",
+  "description": "Packing tape for cartons and dispatch. Share width, length, colour, printing and quantity.",
+  "spec_prompt": "Width; length; colour; printed or plain; quantity.",
+  "featured": false,
+  "sizes": [],
+  "pack": ""
+ },
+ {
+  "name": "Tissue Products",
+  "sku": "ATP-127",
+  "category": "cleaning-hygiene",
+  "unit": "pack",
+  "description": "Toilet rolls, facial tissue and hand towels. Share the product type, brand preference, pack size and quantity.",
+  "spec_prompt": "Product type; ply; brand preference; pack size; quantity.",
+  "featured": false,
+  "sizes": [],
+  "pack": "Pack contents confirmed with quotation"
+ },
+ {
+  "name": "Cleaning Tools",
+  "sku": "ATP-128",
+  "category": "cleaning-hygiene",
+  "unit": "piece",
+  "description": "Mops, brooms, buckets and other cleaning tools. Send your item list with sizes and quantities.",
+  "spec_prompt": "Item name; size; material; preferred brand; quantity.",
+  "featured": false,
+  "sizes": [],
+  "pack": ""
+ },
+ {
+  "name": "Waste Bins",
+  "sku": "ATP-129",
+  "category": "cleaning-hygiene",
+  "unit": "piece",
+  "description": "Waste bins for offices and facilities. Share capacity, type, colour and quantity.",
+  "spec_prompt": "Capacity; pedal or open; material; colour; quantity.",
+  "featured": false,
+  "sizes": [],
+  "pack": ""
+ },
+ {
+  "name": "Office Chairs",
+  "sku": "ATP-130",
+  "category": "office-institutional-furniture",
+  "unit": "piece",
+  "description": "Office chairs for workstations and meeting rooms. Share the type, material, adjustment needs and quantity.",
+  "spec_prompt": "Chair type; material; arm rests; adjustment; colour; quantity; assembly required.",
+  "featured": false,
+  "sizes": [],
+  "pack": ""
+ },
+ {
+  "name": "Classroom Desks & Benches",
+  "sku": "ATP-131",
+  "category": "office-institutional-furniture",
+  "unit": "piece",
+  "description": "Desks and benches for classrooms and training rooms. Share dimensions, seats per unit, material and quantity.",
+  "spec_prompt": "Dimensions; seats per unit; material; finish; quantity; delivery location.",
+  "featured": false,
+  "sizes": [],
+  "pack": ""
+ }
+]

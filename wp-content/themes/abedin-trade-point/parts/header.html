@@ -1,0 +1,41 @@
+<!-- wp:group {"tagName":"header","className":"atp-header","layout":{"type":"constrained"}} -->
+<header class="wp-block-group atp-header">
+	<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"12px","bottom":"12px"}}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
+	<div class="wp-block-group alignwide" style="padding-top:12px;padding-bottom:12px">
+		<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+		<div class="wp-block-group">
+			<!-- wp:site-logo {"width":44} /-->
+			<!-- wp:site-title {"level":0,"style":{"typography":{"fontWeight":"800","fontSize":"1.0625rem"},"elements":{"link":{"color":{"text":"var:preset|color|charcoal"}}}}} /-->
+		</div>
+		<!-- /wp:group -->
+
+		<!-- wp:navigation {"overlayMenu":"mobile","layout":{"type":"flex","justifyContent":"center"},"style":{"spacing":{"blockGap":"22px"},"typography":{"fontSize":"0.9375rem"}}} -->
+			<!-- wp:navigation-link {"label":"Home","url":"/"} /-->
+			<!-- wp:navigation-link {"label":"Products","url":"/products/"} /-->
+			<!-- wp:navigation-link {"label":"Bulk Supply","url":"/bulk-supply/"} /-->
+			<!-- wp:navigation-link {"label":"Custom Branding","url":"/custom-branding/"} /-->
+			<!-- wp:navigation-link {"label":"Industries","url":"/industries/"} /-->
+			<!-- wp:navigation-link {"label":"About","url":"/about/"} /-->
+			<!-- wp:navigation-link {"label":"Contact","url":"/contact/"} /-->
+		<!-- /wp:navigation -->
+
+	</div>
+	<!-- /wp:group -->
+
+	<!-- wp:group {"align":"wide","className":"atp-header__tools","style":{"spacing":{"padding":{"bottom":"12px"},"blockGap":"12px"}},"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"center"}} -->
+	<div class="wp-block-group alignwide atp-header__tools" style="padding-bottom:12px">
+		<!-- wp:search {"label":"Search products","showLabel":false,"placeholder":"Search products, e.g. T-shirt, jute bag, exercise book","buttonText":"Search","query":{"post_type":"product"}} /-->
+		<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+		<div class="wp-block-group">
+			<!-- wp:shortcode -->[atp_quote_count]<!-- /wp:shortcode -->
+			<!-- wp:buttons -->
+			<div class="wp-block-buttons"><!-- wp:button -->
+				<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/request-a-quote/">Request a Quote</a></div>
+			<!-- /wp:button --></div>
+			<!-- /wp:buttons -->
+		</div>
+		<!-- /wp:group -->
+	</div>
+	<!-- /wp:group -->
+</header>
+<!-- /wp:group -->
