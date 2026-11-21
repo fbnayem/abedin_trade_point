@@ -26,6 +26,8 @@ const CACHE_DIR = path.join(ROOT, ".next/cache/atp-images");
 const CACHE_FILE = path.join(CACHE_DIR, "manifest.json");
 const UA = "AbedinTradePointCatalogue/2.0 (website build; product photo lookup)";
 const SIZE = 900;
+// Event, people and artwork photos rarely show the product clearly.
+const PEOPLE = /\b(concert|festival|singer|band|musician|rapper|actor|actress|politician|player|match|game|protest|rally|wedding|ceremony|parade|portrait|selfie|crowd|award|premiere|conference 20\d\d|\d{4}-\d{2}-\d{2})\b/i;
 const BLOCK = /\b(logo|map|diagram|flag|coat of arms|icon|chart|poster|screenshot|svg|stamp|sign|graffiti|cartoon|drawing|illustration|patent|advert|museum|painting|portrait of|statue|banknote|coin|text|document|page|book cover|album)\b/i;
 
 const products = JSON.parse(await fs.readFile(path.join(ROOT, "content/products.json"), "utf8"));
@@ -91,7 +93,7 @@ async function commonsSearch(q) {
 
 async function openverseSearch(q) {
   const url = `https://api.openverse.org/v1/images/?q=${encodeURIComponent(q)}&license_type=commercial&mature=false&page_size=20`;
-  const data = await get(url);
+  const data = await get(url, "json", 1);
   return (data?.results || []).map((r) => ({
     title: r.title || q,
     url: r.url,
@@ -115,7 +117,7 @@ function acceptable(c) {
     const r = c.width / c.height;
     if (r < 0.5 || r > 2.2) return false;
   }
-  if (BLOCK.test(c.title)) return false;
+  if (BLOCK.test(c.title) || PEOPLE.test(c.title)) return false;
   return !used.has(c.source);
 }
 
@@ -133,11 +135,13 @@ async function saveImage(slug, buf) {
 async function tryCandidates(slug, list) {
   for (const c of list) {
     if (!acceptable(c)) continue;
+    used.add(c.source); // reserve now so parallel workers never pick the same photo
     const buf = await get(c.url, "buffer", 2);
-    if (!buf || buf.length < 5000) continue;
     try {
+      if (!buf || buf.length < 5000) throw new Error("empty");
       await saveImage(slug, buf);
     } catch {
+      used.delete(c.source);
       continue;
     }
     return c;
@@ -158,9 +162,10 @@ async function handle(p) {
   }
   const cached = cache[p.slug];
   const wanted = o.file || null;
-  if (cached && (!wanted || cached.title === wanted) && (await exists(path.join(CACHE_DIR, `${p.slug}.jpg`)))) {
+  const cacheOk = cached && (!wanted || cached.title === wanted) && (wanted || (!BLOCK.test(cached.title) && !PEOPLE.test(cached.title))) && !used.has(cached.source);
+  if (cacheOk) used.add(cached.source);
+  if (cacheOk && (await exists(path.join(CACHE_DIR, `${p.slug}.jpg`)))) {
     await fs.copyFile(path.join(CACHE_DIR, `${p.slug}.jpg`), path.join(OUT_DIR, `${p.slug}.jpg`));
-    used.add(cached.source);
     credits[p.slug] = { ...cached, src: `/img/products/${p.slug}.jpg` };
     return;
   }
@@ -168,7 +173,13 @@ async function handle(p) {
   let chosen = null;
   if (wanted) chosen = await tryCandidates(p.slug, [await commonsByTitle(wanted)].filter(Boolean));
   const q = o.query || p.image_query || p.name;
-  if (!chosen) chosen = await tryCandidates(p.slug, await commonsSearch(q));
+  // Commons search needs every word to match, so widen step by step.
+  const words = q.split(/\s+/);
+  const tries = [...new Set([q, words.slice(0, 2).join(" "), p.name.replace(/\b(for|with|and|bulk|orders?)\b/gi, " ").replace(/\s+/g, " ").trim()])];
+  for (const t of tries) {
+    if (chosen) break;
+    chosen = await tryCandidates(p.slug, await commonsSearch(t));
+  }
   if (!chosen) chosen = await tryCandidates(p.slug, await openverseSearch(q));
   if (!chosen) {
     console.log(`  no photo: ${p.slug} (${q})`);
@@ -193,7 +204,7 @@ async function worker() {
     } catch (e) {
       console.log(`  error: ${p.slug}: ${e.message}`);
     }
-    if (Date.now() - started > 8 * 60 * 1000) {
+    if (Date.now() - started > 12 * 60 * 1000) {
       console.log("  time limit reached; remaining products use illustrations");
       queue.length = 0;
     }
@@ -202,8 +213,8 @@ async function worker() {
 const online = process.env.ATP_SKIP_IMAGES !== "1" && (await get("https://commons.wikimedia.org/w/api.php?action=query&format=json&meta=siteinfo", "json", 1)) !== null;
 if (!online) console.log("Image sources unreachable: using cached and own photos only.");
 console.log(`Fetching product photos for ${products.length} products...`);
-// Three at a time keeps the build quick without overloading the image APIs.
-await Promise.all([worker(), worker(), worker()]);
+// Five at a time keeps the build quick without overloading the image APIs.
+await Promise.all([worker(), worker(), worker(), worker(), worker()]);
 
 await fs.writeFile(CACHE_FILE, JSON.stringify(cache, null, 1));
 const sorted = Object.fromEntries(Object.keys(credits).sort().map((k) => [k, credits[k]]));
