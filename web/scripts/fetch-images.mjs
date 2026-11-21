@@ -28,7 +28,49 @@ const UA = "AbedinTradePointCatalogue/2.0 (website build; product photo lookup)"
 const SIZE = 900;
 // Event, people and artwork photos rarely show the product clearly.
 const PEOPLE = /\b(concert|festival|singer|band|musician|rapper|actor|actress|politician|player|match|game|protest|rally|wedding|ceremony|parade|portrait|selfie|crowd|award|premiere|conference 20\d\d|\d{4}-\d{2}-\d{2})\b/i;
-const BLOCK = /\b(logo|map|diagram|flag|coat of arms|icon|chart|poster|screenshot|svg|stamp|sign|graffiti|cartoon|drawing|illustration|patent|advert|museum|painting|portrait of|statue|banknote|coin|text|document|page|book cover|album)\b/i;
+const BLOCK = /\b(logo|map|diagram|flag|coat of arms|icon|chart|poster|screenshot|svg|stamp|sign|graffiti|cartoon|drawing|illustration|patent|advert|museum|painting|portrait of|statue|banknote|coin|text|document|page|book cover|album|stadium|conference room|hackathon|battalion|regiment|soldiers?|army|police|competition|making of|covid|reception|clerk|visitors|world cup|lego|toy|toxic|blood|clouds|shown|team|squad|harry potter|wedding|funeral|church|cathedral|museum)\b/i;
+
+// What each product photo must show: the file title has to name the product
+// type, so a search never fills the T-shirt grid with a stadium or a portrait.
+// q is the broad search used when the product's own search finds nothing.
+const SUBS = {
+  "t-shirts": { key: /t-?shirt|\btees?\b|tank ?top|singlet|henley|raglan/i, q: "t-shirt" },
+  "polo-shirts": { key: /polo[ _-]?shirt|piqu[eé] polo|polo top/i, q: "polo shirt" },
+  "formal-shirts": { key: /shirt/i, q: "dress shirt" },
+  "hoodies-sweatshirts": { key: /hood(ie|y)|sweatshirt|sweater|jacket|fleece|gilet|\bvest\b|windbreaker|anorak|pullover|jumper/i, q: "hoodie" },
+  "workwear-uniforms": { key: /coverall|boiler ?suit|overall|uniform|workwear|hi-?vis|high.visibility|safety vest|lab coat|scrubs|chef|apron|trousers|cargo pants|work ?wear/i, q: "workwear" },
+  "jute-bags": { key: /jute|hessian|burlap|gunny|juco/i, q: "jute bag" },
+  "cotton-canvas-tote-bags": { key: /tote|shopping bag|shopper|canvas bag|cotton bag|carrier bag|non.?woven|reusable bag/i, q: "tote bag" },
+  "backpacks": { key: /backpack|rucksack|daypack|knapsack|school ?bag/i, q: "backpack" },
+  "document-conference-bags": { key: /briefcase|satchel|messenger bag|laptop (bag|sleeve|case)|document (bag|pouch|case)|portfolio|tote|conference bag|file bag/i, q: "briefcase" },
+  "drawstring-duffel-bags": { key: /drawstring|duffel|duffle|gym bag|holdall|sports bag|kit ?bag|shoe bag/i, q: "drawstring bag" },
+  "notebooks-exercise-books": { key: /notebook|exercise book|journal|diary|planner|sketch ?book|notepad|copybook|moleskine|composition book/i, q: "notebook" },
+  "pens-markers": { key: /\bpens?\b|marker|highlighter|biro|ballpoint|felt.tip/i, q: "ballpoint pen" },
+  "pencils-erasers": { key: /pencil|eraser|rubber|sharpener|crayon/i, q: "pencils" },
+  "files-folders": { key: /\bfiles?\b|folder|binder|clipboard|lever arch|display book/i, q: "office folder" },
+  "desk-supplies": { key: /stapler|staples|hole ?punch|paper punch|scissors|sticky note|post-it|organi[sz]er|calculator|glue|adhesive tape|paper ?clips?|binder clips?/i, q: "office supplies" },
+  "office-paper": { key: /paper|ream|card ?stock|cardstock/i, q: "copy paper" },
+  "printed-booklets-manuals": { key: /booklet|manual|brochure|flyer|leaflet|pamphlet|annual report|bound book|printed book|catalogue|catalog/i, q: "booklet" },
+  "printed-forms-pads": { key: /receipt|letterhead|stationery|envelope|notepad|writing pad|business cards?|visiting cards?|invoice|carbon(less)? (paper|copy)/i, q: "receipt book" },
+  "branded-pens": { key: /\bpens?\b|ballpoint|stylus/i, q: "promotional pen" },
+  "mugs-drinkware": { key: /\bmugs?\b|\bcups?\b|bottle|tumbler|flask/i, q: "mug" },
+  "caps-hats": { key: /\bcaps?\b|\bhats?\b|visor|beanie|bucket hat|snapback/i, q: "baseball cap" },
+  "gift-sets": { key: /gift|hamper|lanyard|key ?chain|key ?ring|welcome kit|merchandise|swag|power bank/i, q: "corporate gift" },
+  "corrugated-cartons": { key: /carton|cardboard|corrugated|shipping box|mailer box|pizza box|storage box|archive box/i, q: "cardboard box" },
+  "paper-bags": { key: /paper bags?|kraft bag|carrier bag|paper shopping bag/i, q: "paper bag" },
+  "labels-stickers": { key: /label|sticker|hologram/i, q: "labels" },
+  "packing-tape-wrap": { key: /\btapes?\b|stretch (film|wrap)|shrink ?wrap|bubble ?wrap|pallet wrap/i, q: "packing tape" },
+  "tissue-products": { key: /tissue|toilet (paper|roll)|napkin|paper towel|kitchen roll|wipes|kleenex/i, q: "tissue paper" },
+  "cleaning-tools-chemicals": { key: /\bmops?\b|broom|dustpan|cleaning cloth|microfib|brush|cleaner|cleaning|detergent|saniti[sz]er|hand ?wash|soap|squeegee|janitor/i, q: "cleaning supplies" },
+  "waste-bins-dispensers": { key: /\bbins?\b|trash|garbage|rubbish|waste|dustbin|recycl|dispenser|bin bag/i, q: "waste bin" },
+  "office-chairs": { key: /chairs?\b|stool|seating/i, q: "office chair" },
+  "desks-classroom-furniture": { key: /\bdesks?\b|\btables?\b|filing cabinet|bookshelf|bookcase|shelving|school bench/i, q: "office desk" },
+  "medical-consumables": { key: /mask|glove|syringe|gauze|bandage|shoe cover|surgical cap|gown|thermometer|first.aid|medical supplies/i, q: "medical supplies" },
+};
+const fits = (p, title = "") => {
+  const rule = SUBS[p.subcategory];
+  return !rule || rule.key.test(title);
+};
 
 const products = JSON.parse(await fs.readFile(path.join(ROOT, "content/products.json"), "utf8"));
 const overrides = JSON.parse(await fs.readFile(path.join(ROOT, "content/image-overrides.json"), "utf8").catch(() => "{}"));
@@ -108,8 +150,9 @@ async function openverseSearch(q) {
   }));
 }
 
-function acceptable(c) {
+function acceptable(c, p) {
   if (!c || !c.url) return false;
+  if (!fits(p, c.title)) return false;
   if (!/jpe?g|png|webp/i.test(c.mime || "")) return false;
   if (c.width && c.width < 500) return false;
   if (c.height && c.height < 400) return false;
@@ -132,9 +175,10 @@ async function saveImage(slug, buf) {
   await fs.writeFile(path.join(OUT_DIR, `${slug}.jpg`), out);
 }
 
-async function tryCandidates(slug, list) {
+async function tryCandidates(p, list, pinned = false) {
+  const slug = p.slug;
   for (const c of list) {
-    if (!acceptable(c)) continue;
+    if (pinned ? !c?.url : !acceptable(c, p)) continue;
     used.add(c.source); // reserve now so parallel workers never pick the same photo
     const buf = await get(c.url, "buffer", 2);
     try {
@@ -162,7 +206,7 @@ async function handle(p) {
   }
   const cached = cache[p.slug];
   const wanted = o.file || null;
-  const cacheOk = cached && (!wanted || cached.title === wanted) && (wanted || (!BLOCK.test(cached.title) && !PEOPLE.test(cached.title))) && !used.has(cached.source);
+  const cacheOk = cached && (!wanted || cached.title === wanted) && (wanted || (!BLOCK.test(cached.title) && !PEOPLE.test(cached.title) && fits(p, cached.title))) && !used.has(cached.source);
   if (cacheOk) used.add(cached.source);
   if (cacheOk && (await exists(path.join(CACHE_DIR, `${p.slug}.jpg`)))) {
     await fs.copyFile(path.join(CACHE_DIR, `${p.slug}.jpg`), path.join(OUT_DIR, `${p.slug}.jpg`));
@@ -171,16 +215,21 @@ async function handle(p) {
   }
   if (!online) return;
   let chosen = null;
-  if (wanted) chosen = await tryCandidates(p.slug, [await commonsByTitle(wanted)].filter(Boolean));
+  // A pinned file is trusted as is.
+  if (wanted) chosen = await tryCandidates(p, [await commonsByTitle(wanted)].filter(Boolean), true);
   const q = o.query || p.image_query || p.name;
   // Commons search needs every word to match, so widen step by step.
   const words = q.split(/\s+/);
   const tries = [...new Set([q, words.slice(0, 2).join(" "), p.name.replace(/\b(for|with|and|bulk|orders?)\b/gi, " ").replace(/\s+/g, " ").trim()])];
   for (const t of tries) {
     if (chosen) break;
-    chosen = await tryCandidates(p.slug, await commonsSearch(t));
+    chosen = await tryCandidates(p, await commonsSearch(t));
   }
-  if (!chosen) chosen = await tryCandidates(p.slug, await openverseSearch(q));
+  if (!chosen) chosen = await tryCandidates(p, await openverseSearch(q));
+  // Last resort: another photo of the same kind of product.
+  const broad = SUBS[p.subcategory]?.q;
+  if (!chosen && broad && !tries.includes(broad)) chosen = await tryCandidates(p, await commonsSearch(broad));
+  if (!chosen && broad) chosen = await tryCandidates(p, await openverseSearch(broad));
   if (!chosen) {
     console.log(`  no photo: ${p.slug} (${q})`);
     return;
@@ -204,7 +253,7 @@ async function worker() {
     } catch (e) {
       console.log(`  error: ${p.slug}: ${e.message}`);
     }
-    if (Date.now() - started > 12 * 60 * 1000) {
+    if (Date.now() - started > 18 * 60 * 1000) {
       console.log("  time limit reached; remaining products use illustrations");
       queue.length = 0;
     }
