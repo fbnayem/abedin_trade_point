@@ -134,7 +134,7 @@ function atp_normalise_qty( $qty, $unit ) {
  */
 function atp_list_add( $product_id, $qty, array $options = array(), $notes = '' ) {
 	$product = function_exists( 'wc_get_product' ) ? wc_get_product( $product_id ) : null;
-	if ( ! $product || 'publish' !== $product->get_status() ) {
+	if ( ! $product || 'publish' !== $product->get_status() || ! apply_filters( 'atp_can_add_product', true, $product->get_id() ) ) {
 		return new WP_Error( 'atp_product', __( 'This product is not available for enquiry.', 'atp-quote' ) );
 	}
 	$unit = atp_product_unit( $product );

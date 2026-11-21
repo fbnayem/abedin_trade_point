@@ -5,7 +5,7 @@
 		<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 		<div class="wp-block-group">
 			<!-- wp:site-logo {"width":44} /-->
-			<!-- wp:site-title {"style":{"typography":{"fontWeight":"800","fontSize":"1.0625rem"},"elements":{"link":{"color":{"text":"var:preset|color|charcoal"}}}}} /-->
+			<!-- wp:site-title {"level":0,"style":{"typography":{"fontWeight":"800","fontSize":"1.0625rem"},"elements":{"link":{"color":{"text":"var:preset|color|charcoal"}}}}} /-->
 		</div>
 		<!-- /wp:group -->
 
@@ -19,6 +19,12 @@
 			<!-- wp:navigation-link {"label":"Contact","url":"/contact/"} /-->
 		<!-- /wp:navigation -->
 
+	</div>
+	<!-- /wp:group -->
+
+	<!-- wp:group {"align":"wide","className":"atp-header__tools","style":{"spacing":{"padding":{"bottom":"12px"},"blockGap":"12px"}},"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"center"}} -->
+	<div class="wp-block-group alignwide atp-header__tools" style="padding-bottom:12px">
+		<!-- wp:search {"label":"Search products","showLabel":false,"placeholder":"Search products, e.g. T-shirt, jute bag, exercise book","buttonText":"Search","query":{"post_type":"product"}} /-->
 		<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 		<div class="wp-block-group">
 			<!-- wp:shortcode -->[atp_quote_count]<!-- /wp:shortcode -->
@@ -29,12 +35,6 @@
 			<!-- /wp:buttons -->
 		</div>
 		<!-- /wp:group -->
-	</div>
-	<!-- /wp:group -->
-
-	<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"bottom":"10px"}}},"layout":{"type":"default"}} -->
-	<div class="wp-block-group alignwide" style="padding-bottom:10px">
-		<!-- wp:search {"label":"Search products","showLabel":false,"placeholder":"Search products, e.g. T-shirt, jute bag, exercise book","buttonText":"Search","query":{"post_type":"product"}} /-->
 	</div>
 	<!-- /wp:group -->
 </header>

@@ -42,3 +42,26 @@ body { padding-bottom: 72px; }
 
 .wp-block-site-title a { text-decoration: none; }
 .atp-contact-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 6px; }
+
+/* Products menu: ten groups */
+.atp-products-menu .wp-block-navigation__submenu-container { min-width: 260px; padding: 8px 0; border-radius: 8px; border: 1px solid var(--atp-line) !important; box-shadow: 0 8px 24px rgba(31, 41, 55, .08); }
+.atp-products-menu .wp-block-navigation__submenu-container a { padding: 8px 16px !important; }
+.atp-products-menu .wp-block-navigation__submenu-container li:first-child a { font-weight: 700; }
+.atp-logo-placeholder img { display: block; width: 44px; height: 44px; }
+
+/* Selected work */
+.atp-case__facts { list-style: none; padding: 0; display: grid; gap: 6px; }
+.atp-case .atp-photo-placeholder { min-height: 200px; }
+
+/* WooCommerce breadcrumb and archive title spacing */
+.woocommerce .woocommerce-breadcrumb { font-size: .875rem; color: var(--wp--preset--color--muted); margin: 1.5rem 0 .5rem; }
+.woocommerce-products-header__title.page-title { margin-top: .5rem; }
+.term-description { font-size: 1.0625rem; color: var(--wp--preset--color--muted); max-width: 760px; }
+
+/* Header tools row: search grows, quote actions stay on the right */
+.atp-header__tools > .wp-block-search { flex: 1 1 auto; min-width: 0; margin: 0; }
+.atp-header__tools > .wp-block-group { flex: 0 0 auto; }
+@media (max-width: 781px) {
+	.atp-header__tools { flex-wrap: wrap !important; }
+	.atp-header__tools > .wp-block-search { flex-basis: 100%; }
+}

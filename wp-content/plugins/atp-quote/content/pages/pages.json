@@ -2,46 +2,72 @@
  "bulk-supply": {
   "title": "Bulk Supply",
   "h1": "Bulk Supply Built Around Your Purchase List",
-  "status": "publish"
+  "status": "publish",
+  "meta_title": "Bulk Supply & Procurement - Abedin Trade Point",
+  "meta_description": "Request a quotation for several items in one enquiry. Share your purchase list, quantities, specifications and delivery location."
  },
  "custom-branding": {
   "title": "Custom Branding",
   "h1": "Custom Products for Your Brand, Team or Event",
-  "status": "publish"
+  "status": "publish",
+  "meta_title": "Custom Branded Bulk Orders - Abedin Trade Point",
+  "meta_description": "Enquire about branded garments, bags and promotional products. Send your artwork, quantities and custom product requirements."
  },
  "industries": {
   "title": "Industries",
   "h1": "Supply Requirements for Different Organisations",
-  "status": "publish"
+  "status": "publish",
+  "meta_title": "Supplies for Organisations - Abedin Trade Point",
+  "meta_description": "Explore supply enquiries for offices, education, projects, events and other organisations. Send a requirement suited to your team."
  },
  "about": {
   "title": "About",
   "h1": "About Abedin Trade Point",
-  "status": "publish"
+  "status": "publish",
+  "meta_title": "About Abedin Trade Point",
+  "meta_description": "Learn about Abedin Trade Point, a Bangladesh-based supply business focused on bulk products and business procurement requirements."
  },
  "contact": {
   "title": "Contact",
   "h1": "Let's Discuss Your Supply Requirements",
-  "status": "publish"
+  "status": "publish",
+  "meta_title": "Contact Abedin Trade Point - Bulk Supply Enquiries",
+  "meta_description": "Contact Abedin Trade Point about your supply requirements. Share product names, quantities, specifications and delivery details."
  },
  "faqs": {
   "title": "FAQs",
   "h1": "Frequently Asked Questions",
-  "status": "publish"
+  "status": "publish",
+  "meta_title": "FAQs - Abedin Trade Point",
+  "meta_description": "Answers to common questions about bulk enquiries, quotations, custom branding, purchase lists and delivery."
  },
  "ordering-delivery": {
   "title": "Ordering & Delivery",
   "h1": "Understanding Your Quotation and Order",
-  "status": "draft"
+  "status": "publish",
+  "meta_title": "Ordering & Delivery - Abedin Trade Point",
+  "meta_description": "How quotations, order confirmation, delivery and issue reporting work at Abedin Trade Point."
  },
  "privacy": {
   "title": "Privacy",
   "h1": "Privacy Notice",
-  "status": "draft"
+  "status": "publish",
+  "meta_title": "Privacy Notice - Abedin Trade Point",
+  "meta_description": "How Abedin Trade Point uses and protects the details you share in an enquiry."
  },
  "request-a-quote": {
   "title": "Request a Quote",
   "h1": "Request a Bulk Supply Quote",
-  "status": "publish"
+  "status": "publish",
+  "template": "page-quote",
+  "meta_title": "Request a Bulk Supply Quote - Abedin Trade Point",
+  "meta_description": "Submit your product list or upload a purchase document. Request a quotation for your business, institution or project requirement."
+ },
+ "selected-work": {
+  "title": "Selected Work",
+  "h1": "Selected Supply & Custom Product Work",
+  "status": "draft",
+  "meta_title": "Selected Work - Abedin Trade Point",
+  "meta_description": "Selected products and completed supply requirements from Abedin Trade Point."
  }
 }

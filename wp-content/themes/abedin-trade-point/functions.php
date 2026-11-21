@@ -7,7 +7,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'ATP_THEME_VERSION', '0.1.0' );
+define( 'ATP_THEME_VERSION', '1.0.0' );
 
 add_action( 'after_setup_theme', function () {
 	add_theme_support( 'wp-block-styles' );
@@ -68,15 +68,31 @@ add_action( 'wp_footer', function () {
 	$phone    = atp_setting( 'phone' );
 	$whatsapp = atp_setting( 'whatsapp' );
 	$quote    = atp_quote_page_url();
+	$fallback = function_exists( 'atp_show_placeholders' ) && atp_show_placeholders() ? home_url( '/contact/' ) : '';
 	?>
 	<nav class="atp-mbar" aria-label="<?php esc_attr_e( 'Quick actions', 'abedin-trade-point' ); ?>">
 		<?php if ( $phone ) : ?>
 			<a class="atp-mbar__btn" href="<?php echo esc_url( 'tel:' . preg_replace( '/[^0-9+]/', '', $phone ) ); ?>"><?php esc_html_e( 'Call', 'abedin-trade-point' ); ?></a>
+		<?php elseif ( $fallback ) : ?>
+			<a class="atp-mbar__btn" href="<?php echo esc_url( $fallback ); ?>"><?php esc_html_e( 'Call', 'abedin-trade-point' ); ?></a>
 		<?php endif; ?>
 		<?php if ( $whatsapp ) : ?>
 			<a class="atp-mbar__btn" href="<?php echo esc_url( atp_whatsapp_url() ); ?>" target="_blank" rel="noopener"><?php esc_html_e( 'WhatsApp', 'abedin-trade-point' ); ?></a>
+		<?php elseif ( $fallback ) : ?>
+			<a class="atp-mbar__btn" href="<?php echo esc_url( $fallback ); ?>"><?php esc_html_e( 'WhatsApp', 'abedin-trade-point' ); ?></a>
 		<?php endif; ?>
 		<a class="atp-mbar__btn atp-mbar__btn--primary" href="<?php echo esc_url( $quote ); ?>"><?php esc_html_e( 'Get Quote', 'abedin-trade-point' ); ?></a>
 	</nav>
 	<?php
+} );
+
+/**
+ * Until the real logo is uploaded, show a clearly marked placeholder mark so
+ * the header layout is final. Replace it under Appearance → Editor → Header.
+ */
+add_filter( 'render_block_core/site-logo', function ( $content ) {
+	if ( '' !== trim( $content ) || get_theme_mod( 'custom_logo' ) ) {
+		return $content;
+	}
+	return '<div class="wp-block-site-logo atp-logo-placeholder"><a href="' . esc_url( home_url( '/' ) ) . '" rel="home"><img src="' . esc_url( get_theme_file_uri( 'assets/images/logo-placeholder.svg' ) ) . '" width="44" height="44" alt="' . esc_attr__( 'Abedin Trade Point (logo placeholder)', 'abedin-trade-point' ) . '"></a></div>';
 } );

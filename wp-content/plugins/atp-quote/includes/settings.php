@@ -19,7 +19,47 @@ function atp_setting_fields() {
 		'hours'          => array( __( 'Business hours', 'atp-quote' ), 'text' ),
 		'notify_emails'  => array( __( 'Staff emails for new enquiries (comma separated)', 'atp-quote' ), 'text' ),
 		'privacy_url'    => array( __( 'Privacy Notice URL', 'atp-quote' ), 'url' ),
+		'profile_url'    => array( __( 'Company profile PDF URL (upload under Media, then paste the file URL). The download button appears only when this is set.', 'atp-quote' ), 'url' ),
+		'ga4_id'         => array( __( 'Google Analytics 4 measurement ID (e.g. G-XXXXXXXXXX). Leave blank for no analytics.', 'atp-quote' ), 'text' ),
+		'placeholders'   => array( __( 'Show highlighted placeholders for missing contact details (turn off before launch)', 'atp-quote' ), 'checkbox' ),
 	);
+}
+
+/**
+ * Public label for a missing contact detail.
+ *
+ * @param string $key Field key.
+ */
+function atp_placeholder_label( $key ) {
+	$labels = array(
+		'phone'       => __( 'BUSINESS PHONE', 'atp-quote' ),
+		'whatsapp'    => __( 'WHATSAPP NUMBER', 'atp-quote' ),
+		'sales_email' => __( 'SALES EMAIL', 'atp-quote' ),
+		'address'     => __( 'BUSINESS ADDRESS', 'atp-quote' ),
+		'hours'       => __( 'BUSINESS HOURS', 'atp-quote' ),
+	);
+	return isset( $labels[ $key ] ) ? '[' . $labels[ $key ] . ']' : '';
+}
+
+/**
+ * Whether placeholders should show for missing details. On until someone
+ * saves the settings with the box unticked.
+ */
+function atp_show_placeholders() {
+	$all = get_option( 'atp_settings', null );
+	return ! is_array( $all ) || ! array_key_exists( 'placeholders', $all ) || '1' === (string) $all['placeholders'];
+}
+
+/**
+ * Highlighted placeholder markup, or '' when not shown.
+ *
+ * @param string $key Field key.
+ */
+function atp_placeholder_html( $key ) {
+	if ( ! atp_show_placeholders() ) {
+		return '';
+	}
+	return '<mark class="atp-placeholder">' . esc_html( atp_placeholder_label( $key ) ) . '</mark>';
 }
 
 /**
@@ -96,6 +136,9 @@ add_action( 'admin_init', function () {
 						case 'url':
 							$clean[ $key ] = esc_url_raw( $val );
 							break;
+						case 'checkbox':
+							$clean[ $key ] = empty( $val ) ? '0' : '1';
+							break;
 						case 'textarea':
 							$clean[ $key ] = sanitize_textarea_field( $val );
 							break;
@@ -124,7 +167,10 @@ function atp_render_settings_page() {
 					<tr>
 						<th scope="row"><label for="atp-<?php echo esc_attr( $key ); ?>"><?php echo esc_html( $def[0] ); ?></label></th>
 						<td>
-							<?php if ( 'textarea' === $def[1] ) : ?>
+							<?php if ( 'checkbox' === $def[1] ) : ?>
+								<input type="hidden" name="atp_settings[<?php echo esc_attr( $key ); ?>]" value="0">
+								<input id="atp-<?php echo esc_attr( $key ); ?>" type="checkbox" name="atp_settings[<?php echo esc_attr( $key ); ?>]" value="1" <?php checked( 'placeholders' === $key ? atp_show_placeholders() : '1' === atp_setting( $key ) ); ?>>
+							<?php elseif ( 'textarea' === $def[1] ) : ?>
 								<textarea id="atp-<?php echo esc_attr( $key ); ?>" name="atp_settings[<?php echo esc_attr( $key ); ?>]" rows="3" class="large-text"><?php echo esc_textarea( atp_setting( $key ) ); ?></textarea>
 							<?php else : ?>
 								<input id="atp-<?php echo esc_attr( $key ); ?>" type="<?php echo esc_attr( 'url' === $def[1] ? 'url' : ( 'email' === $def[1] ? 'email' : 'text' ) ); ?>" name="atp_settings[<?php echo esc_attr( $key ); ?>]" value="<?php echo esc_attr( atp_setting( $key ) ); ?>" class="regular-text">
@@ -153,20 +199,27 @@ add_shortcode( 'atp_contact_block', function () {
 	$addr  = atp_setting( 'address' );
 	$hours = atp_setting( 'hours' );
 	$wa    = atp_whatsapp_url();
+	$ph    = 'atp_placeholder_html';
 	if ( $phone ) {
-		$rows[] = '<li><a href="' . esc_url( 'tel:' . preg_replace( '/[^0-9+]/', '', $phone ) ) . '">' . esc_html( $phone ) . '</a></li>';
+		$rows[] = '<li><span class="atp-contact-label">' . esc_html__( 'Call Our Team', 'atp-quote' ) . '</span> <a href="' . esc_url( 'tel:' . preg_replace( '/[^0-9+]/', '', $phone ) ) . '">' . esc_html( $phone ) . '</a></li>';
+	} elseif ( $ph( 'phone' ) ) {
+		$rows[] = '<li><span class="atp-contact-label">' . esc_html__( 'Call Our Team', 'atp-quote' ) . '</span> ' . $ph( 'phone' ) . '</li>';
 	}
 	if ( $wa ) {
-		$rows[] = '<li><a href="' . esc_url( $wa ) . '" target="_blank" rel="noopener">' . esc_html__( 'Message on WhatsApp', 'atp-quote' ) . '</a></li>';
+		$rows[] = '<li><span class="atp-contact-label">' . esc_html__( 'WhatsApp', 'atp-quote' ) . '</span> <a href="' . esc_url( $wa ) . '" target="_blank" rel="noopener">' . esc_html__( 'Message on WhatsApp', 'atp-quote' ) . '</a></li>';
+	} elseif ( $ph( 'whatsapp' ) ) {
+		$rows[] = '<li><span class="atp-contact-label">' . esc_html__( 'WhatsApp', 'atp-quote' ) . '</span> ' . $ph( 'whatsapp' ) . '</li>';
 	}
 	if ( $email ) {
-		$rows[] = '<li><a href="' . esc_url( 'mailto:' . $email ) . '">' . esc_html( $email ) . '</a></li>';
+		$rows[] = '<li><span class="atp-contact-label">' . esc_html__( 'Email', 'atp-quote' ) . '</span> <a href="' . esc_url( 'mailto:' . $email ) . '">' . esc_html( $email ) . '</a></li>';
+	} elseif ( $ph( 'sales_email' ) ) {
+		$rows[] = '<li><span class="atp-contact-label">' . esc_html__( 'Email', 'atp-quote' ) . '</span> ' . $ph( 'sales_email' ) . '</li>';
 	}
-	if ( $addr ) {
-		$rows[] = '<li>' . nl2br( esc_html( $addr ) ) . '</li>';
+	if ( $addr || $ph( 'address' ) ) {
+		$rows[] = '<li><span class="atp-contact-label">' . esc_html__( 'Address', 'atp-quote' ) . '</span> ' . ( $addr ? nl2br( esc_html( $addr ) ) : $ph( 'address' ) ) . '</li>';
 	}
-	if ( $hours ) {
-		$rows[] = '<li>' . esc_html( $hours ) . '</li>';
+	if ( $hours || $ph( 'hours' ) ) {
+		$rows[] = '<li><span class="atp-contact-label">' . esc_html__( 'Hours', 'atp-quote' ) . '</span> ' . ( $hours ? esc_html( $hours ) : $ph( 'hours' ) ) . '</li>';
 	}
 	if ( ! $rows ) {
 		return current_user_can( 'manage_options' ) ? '<p><em>' . esc_html__( 'Add contact details under Enquiries → Site Settings.', 'atp-quote' ) . '</em></p>' : '';
@@ -185,4 +238,93 @@ add_shortcode( 'atp_whatsapp_button', function ( $atts ) {
 		return '';
 	}
 	return '<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button" href="' . esc_url( $url ) . '" target="_blank" rel="noopener">' . esc_html( $atts['label'] ) . '</a></div>';
+} );
+
+add_shortcode( 'atp_profile_download', function () {
+	$url = atp_setting( 'profile_url' );
+	if ( ! $url ) {
+		return '';
+	}
+	return '<div class="atp-profile"><p>' . esc_html__( 'Read a short overview of Abedin Trade Point, our published supply categories and the process for sending a quotation request.', 'atp-quote' ) . '</p>'
+		. '<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button" href="' . esc_url( $url ) . '" download>' . esc_html__( 'Download Company Profile', 'atp-quote' ) . '</a></div></div>';
+} );
+
+/* ---------- Launch checklist ---------- */
+
+/**
+ * Items still to finish before launch.
+ *
+ * @return array<int, array{0: string, 1: string}> Label and admin link.
+ */
+function atp_launch_todo() {
+	$todo     = array();
+	$settings = admin_url( 'edit.php?post_type=atp_enquiry&page=atp-settings' );
+	$labels   = array(
+		'phone'         => __( 'Business phone', 'atp-quote' ),
+		'whatsapp'      => __( 'WhatsApp number', 'atp-quote' ),
+		'sales_email'   => __( 'Sales email', 'atp-quote' ),
+		'address'       => __( 'Business address', 'atp-quote' ),
+		'hours'         => __( 'Business hours', 'atp-quote' ),
+		'notify_emails' => __( 'Staff emails for new enquiries', 'atp-quote' ),
+	);
+	foreach ( $labels as $key => $label ) {
+		if ( '' === atp_setting( $key ) ) {
+			/* translators: %s: field name */
+			$todo[] = array( sprintf( __( 'Add the %s in Site Settings.', 'atp-quote' ), $label ), $settings );
+		}
+	}
+	if ( atp_show_placeholders() ) {
+		$todo[] = array( __( 'Turn off "Show highlighted placeholders" in Site Settings.', 'atp-quote' ), $settings );
+	}
+	if ( ! get_theme_mod( 'custom_logo' ) ) {
+		$todo[] = array( __( 'Upload the real logo (Appearance → Editor → Header → Site Logo). A text placeholder shows until then.', 'atp-quote' ), admin_url( 'site-editor.php' ) );
+	}
+	foreach ( array( 'privacy', 'ordering-delivery' ) as $slug ) {
+		$page = get_page_by_path( $slug );
+		if ( $page && false !== strpos( $page->post_content, 'atp-placeholder' ) ) {
+			/* translators: %s: page title */
+			$todo[] = array( sprintf( __( 'Replace the highlighted [BRACKETED] details on the %s page.', 'atp-quote' ), get_the_title( $page ) ), get_edit_post_link( $page->ID, 'raw' ) );
+		}
+	}
+	if ( function_exists( 'atp_sample_product_ids' ) && atp_sample_product_ids() ) {
+		$todo[] = array( __( 'Replace or remove the sample products.', 'atp-quote' ), admin_url( 'edit.php?post_type=atp_enquiry&page=atp-setup' ) );
+	}
+	if ( false !== strpos( home_url(), 'localhost' ) || false !== strpos( home_url(), '.local' ) || false !== strpos( home_url(), 'staging' ) ) {
+		$todo[] = array( __( 'Move the site to the live domain and update Settings → General.', 'atp-quote' ), admin_url( 'options-general.php' ) );
+	}
+	if ( '0' === get_option( 'blog_public', '1' ) ) {
+		$todo[] = array( __( 'Allow search engines (Settings → Reading) when the site goes live.', 'atp-quote' ), admin_url( 'options-reading.php' ) );
+	}
+	return $todo;
+}
+
+/**
+ * Print the checklist.
+ */
+function atp_render_launch_checklist() {
+	$todo = atp_launch_todo();
+	if ( ! $todo ) {
+		echo '<p>' . esc_html__( 'Everything on the launch checklist is done.', 'atp-quote' ) . '</p>';
+		return;
+	}
+	echo '<ol class="atp-launch-list">';
+	foreach ( $todo as $item ) {
+		echo '<li><a href="' . esc_url( $item[1] ) . '">' . esc_html( $item[0] ) . '</a></li>';
+	}
+	echo '</ol>';
+}
+
+add_action( 'admin_notices', function () {
+	$screen = get_current_screen();
+	if ( ! current_user_can( 'manage_options' ) || ! $screen || ! in_array( $screen->id, array( 'dashboard', 'edit-atp_enquiry', 'atp_enquiry_page_atp-settings' ), true ) ) {
+		return;
+	}
+	$todo = atp_launch_todo();
+	if ( ! $todo ) {
+		return;
+	}
+	echo '<div class="notice notice-warning"><p><strong>' . esc_html(
+		/* translators: %d: number of items */
+		sprintf( _n( 'Website launch checklist: %d item to finish.', 'Website launch checklist: %d items to finish.', count( $todo ), 'atp-quote' ), count( $todo ) )
+	) . '</strong> <a href="' . esc_url( admin_url( 'edit.php?post_type=atp_enquiry&page=atp-setup' ) ) . '">' . esc_html__( 'See the list', 'atp-quote' ) . '</a></p></div>';
 } );

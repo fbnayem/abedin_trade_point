@@ -2,7 +2,7 @@
 /**
  * Plugin Name: ATP Quote
  * Description: Quote list, guest quotation requests, purchase-list uploads and enquiry records for Abedin Trade Point. WooCommerce prices and checkout are switched off; every product leads to a quotation request.
- * Version: 0.1.0
+ * Version: 1.0.0
  * Author: Abedin Tech
  * Requires at least: 6.5
  * Requires PHP: 8.0
@@ -14,7 +14,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'ATP_QUOTE_VERSION', '0.1.0' );
+define( 'ATP_QUOTE_VERSION', '1.0.0' );
 define( 'ATP_QUOTE_FILE', __FILE__ );
 define( 'ATP_QUOTE_DIR', plugin_dir_path( __FILE__ ) );
 define( 'ATP_QUOTE_URL', plugin_dir_url( __FILE__ ) );
@@ -26,6 +26,9 @@ require_once ATP_QUOTE_DIR . 'includes/uploads.php';
 require_once ATP_QUOTE_DIR . 'includes/notifications.php';
 require_once ATP_QUOTE_DIR . 'includes/form.php';
 require_once ATP_QUOTE_DIR . 'includes/woocommerce.php';
+require_once ATP_QUOTE_DIR . 'includes/catalogue.php';
+require_once ATP_QUOTE_DIR . 'includes/quotation.php';
+require_once ATP_QUOTE_DIR . 'includes/seo.php';
 require_once ATP_QUOTE_DIR . 'includes/starter-content.php';
 
 register_activation_hook( __FILE__, 'atp_quote_activate' );
