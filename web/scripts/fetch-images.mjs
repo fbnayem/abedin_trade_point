@@ -28,7 +28,7 @@ const UA = "AbedinTradePointCatalogue/2.0 (website build; product photo lookup)"
 const SIZE = 900;
 // Event, people and artwork photos rarely show the product clearly.
 const PEOPLE = /\b(concert|festival|singer|band|musician|rapper|actor|actress|politician|player|match|game|protest|rally|wedding|ceremony|parade|portrait|selfie|crowd|award|premiere|conference 20\d\d|\d{4}-\d{2}-\d{2})\b/i;
-const BLOCK = /\b(logo|map|diagram|flag|coat of arms|icon|chart|poster|screenshot|svg|stamp|sign|graffiti|cartoon|drawing|illustration|patent|advert|museum|painting|portrait of|statue|banknote|coin|text|document|page|book cover|album|stadium|conference room|hackathon|battalion|regiment|soldiers?|army|police|competition|making of|covid|reception|clerk|visitors|world cup|lego|toy|toxic|blood|clouds|shown|team|squad|harry potter|wedding|funeral|church|cathedral|museum)\b/i;
+const BLOCK = /\b(logo|map|diagram|flag|coat of arms|icon|chart|poster|screenshot|svg|stamp|sign|graffiti|cartoon|drawing|illustration|patent|advert|museum|painting|portrait of|statue|banknote|coin|text|document|page|book cover|album|stadium|conference room|hackathon|battalion|regiment|soldiers?|army|police|competition|making of|covid|reception|clerk|visitors|world cup|lego|toy|toxic|blood|clouds|shown|team|squad|harry potter|wedding|funeral|church|cathedral|maps?|skateboard\w*|robot|handcuffs|guns?|hikers?|pool|specimen|casent\w*|sidewalk|trip|coupons|skin|wellcome|lilies|pond|flamingos?|birds?|booby|antarctica|machine|atoll|courtship)\b/i;
 
 // What each product photo must show: the file title has to name the product
 // type, so a search never fills the T-shirt grid with a stadium or a portrait.
@@ -67,9 +67,11 @@ const SUBS = {
   "desks-classroom-furniture": { key: /\bdesks?\b|\btables?\b|filing cabinet|bookshelf|bookcase|shelving|school bench/i, q: "office desk" },
   "medical-consumables": { key: /mask|glove|syringe|gauze|bandage|shoe cover|surgical cap|gown|thermometer|first.aid|medical supplies/i, q: "medical supplies" },
 };
+// Commons titles start with "File:" and end in ".jpg", which must not count as a match.
+const bare = (title = "") => title.replace(/^File:/i, "").replace(/\.(jpe?g|png|webp|tiff?)$/i, "");
 const fits = (p, title = "") => {
   const rule = SUBS[p.subcategory];
-  return !rule || rule.key.test(title);
+  return !rule || rule.key.test(bare(title));
 };
 
 const products = JSON.parse(await fs.readFile(path.join(ROOT, "content/products.json"), "utf8"));
@@ -160,7 +162,7 @@ function acceptable(c, p) {
     const r = c.width / c.height;
     if (r < 0.5 || r > 2.2) return false;
   }
-  if (BLOCK.test(c.title) || PEOPLE.test(c.title)) return false;
+  if (BLOCK.test(bare(c.title)) || PEOPLE.test(bare(c.title))) return false;
   return !used.has(c.source);
 }
 
@@ -206,7 +208,7 @@ async function handle(p) {
   }
   const cached = cache[p.slug];
   const wanted = o.file || null;
-  const cacheOk = cached && (!wanted || cached.title === wanted) && (wanted || (!BLOCK.test(cached.title) && !PEOPLE.test(cached.title) && fits(p, cached.title))) && !used.has(cached.source);
+  const cacheOk = cached && (!wanted || cached.title === wanted) && (wanted || (!BLOCK.test(bare(cached.title)) && !PEOPLE.test(bare(cached.title)) && fits(p, cached.title))) && !used.has(cached.source);
   if (cacheOk) used.add(cached.source);
   if (cacheOk && (await exists(path.join(CACHE_DIR, `${p.slug}.jpg`)))) {
     await fs.copyFile(path.join(CACHE_DIR, `${p.slug}.jpg`), path.join(OUT_DIR, `${p.slug}.jpg`));
