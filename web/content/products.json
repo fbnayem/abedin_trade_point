@@ -1,0 +1,5307 @@
+[
+ {
+  "slug": "round-neck-cotton-t-shirt",
+  "name": "Round Neck Cotton T-Shirt",
+  "sku": "ATP-1001",
+  "category": "garments-uniforms-workwear",
+  "subcategory": "t-shirts",
+  "unit": "piece",
+  "description": "The everyday crew neck tee in combed cotton jersey. The most requested style for events, promotions and staff wear.",
+  "specs": {
+   "Fabric": "100% combed cotton single jersey",
+   "GSM": "160 / 180 / 200",
+   "Fit": "Regular",
+   "Branding": "Screen print, DTF or embroidery"
+  },
+  "spec_prompt": "Fabric and GSM; fit; colour; quantity per size; print or embroidery position and size.",
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL",
+   "3XL"
+  ],
+  "colours": [
+   "White",
+   "Black",
+   "Navy",
+   "Royal Blue",
+   "Red",
+   "Bottle Green",
+   "Ash Grey",
+   "Maroon"
+  ],
+  "featured": true,
+  "image_query": "white crew neck t-shirt"
+ },
+ {
+  "slug": "v-neck-t-shirt",
+  "name": "V-Neck T-Shirt",
+  "sku": "ATP-1002",
+  "category": "garments-uniforms-workwear",
+  "subcategory": "t-shirts",
+  "unit": "piece",
+  "description": "A V-neck tee with a neat rib neckline, popular for retail and hospitality uniforms.",
+  "specs": {
+   "Fabric": "Cotton or cotton-spandex jersey",
+   "GSM": "160 / 180",
+   "Fit": "Regular or slim",
+   "Branding": "Screen print or embroidery"
+  },
+  "spec_prompt": "Fabric and GSM; fit; colour; quantity per size; print or embroidery position and size.",
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL",
+   "3XL"
+  ],
+  "colours": [
+   "White",
+   "Black",
+   "Navy",
+   "Royal Blue",
+   "Red",
+   "Bottle Green",
+   "Ash Grey",
+   "Maroon"
+  ],
+  "featured": false,
+  "image_query": "v-neck t-shirt"
+ },
+ {
+  "slug": "long-sleeve-t-shirt",
+  "name": "Long Sleeve T-Shirt",
+  "sku": "ATP-1003",
+  "category": "garments-uniforms-workwear",
+  "subcategory": "t-shirts",
+  "unit": "piece",
+  "description": "Full-sleeve cotton tee with rib cuffs for cooler months, outdoor teams and school wear.",
+  "specs": {
+   "Fabric": "100% cotton jersey",
+   "GSM": "180 / 200",
+   "Sleeve": "Long with rib cuff",
+   "Branding": "Chest, back and sleeve print"
+  },
+  "spec_prompt": "Fabric and GSM; fit; colour; quantity per size; print or embroidery position and size.",
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL",
+   "3XL"
+  ],
+  "colours": [
+   "White",
+   "Black",
+   "Navy",
+   "Royal Blue",
+   "Red",
+   "Bottle Green",
+   "Ash Grey",
+   "Maroon"
+  ],
+  "featured": false,
+  "image_query": "long sleeve t-shirt"
+ },
+ {
+  "slug": "henley-t-shirt",
+  "name": "Henley T-Shirt",
+  "sku": "ATP-1004",
+  "category": "garments-uniforms-workwear",
+  "subcategory": "t-shirts",
+  "unit": "piece",
+  "description": "Button placket henley tee that sits between a T-shirt and a polo for a smart casual look.",
+  "specs": {
+   "Fabric": "Cotton jersey or waffle knit",
+   "GSM": "180 / 200",
+   "Placket": "2 or 3 button",
+   "Branding": "Embroidery recommended"
+  },
+  "spec_prompt": "Fabric and GSM; fit; colour; quantity per size; print or embroidery position and size.",
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL",
+   "3XL"
+  ],
+  "colours": [
+   "White",
+   "Black",
+   "Navy",
+   "Royal Blue",
+   "Red",
+   "Bottle Green",
+   "Ash Grey",
+   "Maroon"
+  ],
+  "featured": false,
+  "image_query": "henley shirt"
+ },
+ {
+  "slug": "raglan-sleeve-t-shirt",
+  "name": "Raglan Sleeve T-Shirt",
+  "sku": "ATP-1005",
+  "category": "garments-uniforms-workwear",
+  "subcategory": "t-shirts",
+  "unit": "piece",
+  "description": "Contrast raglan sleeve tee, a sporty option for clubs, teams and youth events.",
+  "specs": {
+   "Fabric": "Cotton or poly-cotton jersey",
+   "GSM": "160 / 180",
+   "Sleeve": "Contrast raglan, short or 3/4",
+   "Branding": "Screen print or DTF"
+  },
+  "spec_prompt": "Fabric and GSM; fit; colour; quantity per size; print or embroidery position and size.",
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL",
+   "3XL"
+  ],
+  "colours": [
+   "White",
+   "Black",
+   "Navy",
+   "Royal Blue",
+   "Red",
+   "Bottle Green",
+   "Ash Grey",
+   "Maroon"
+  ],
+  "featured": false,
+  "image_query": "raglan t-shirt baseball tee"
+ },
+ {
+  "slug": "drop-shoulder-oversized-t-shirt",
+  "name": "Drop Shoulder Oversized T-Shirt",
+  "sku": "ATP-1006",
+  "category": "garments-uniforms-workwear",
+  "subcategory": "t-shirts",
+  "unit": "piece",
+  "description": "Relaxed oversized fit with dropped shoulders, the current retail and youth favourite.",
+  "specs": {
+   "Fabric": "Heavy cotton jersey",
+   "GSM": "200 / 220 / 240",
+   "Fit": "Oversized, drop shoulder",
+   "Branding": "Large front and back prints"
+  },
+  "spec_prompt": "Fabric and GSM; fit; colour; quantity per size; print or embroidery position and size.",
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL",
+   "3XL"
+  ],
+  "colours": [
+   "White",
+   "Black",
+   "Navy",
+   "Royal Blue",
+   "Red",
+   "Bottle Green",
+   "Ash Grey",
+   "Maroon"
+  ],
+  "featured": false,
+  "image_query": "oversized t-shirt"
+ },
+ {
+  "slug": "polyester-dri-fit-sports-t-shirt",
+  "name": "Polyester Dri-Fit Sports T-Shirt",
+  "sku": "ATP-1007",
+  "category": "garments-uniforms-workwear",
+  "subcategory": "t-shirts",
+  "unit": "piece",
+  "description": "Lightweight moisture-wicking tee for runs, sports days, marathons and outdoor events.",
+  "specs": {
+   "Fabric": "100% polyester micro mesh / interlock",
+   "GSM": "130 / 150",
+   "Finish": "Quick dry",
+   "Branding": "Sublimation or heat transfer"
+  },
+  "spec_prompt": "Fabric and GSM; fit; colour; quantity per size; print or embroidery position and size.",
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL",
+   "3XL"
+  ],
+  "colours": [
+   "White",
+   "Black",
+   "Navy",
+   "Royal Blue",
+   "Red",
+   "Bottle Green",
+   "Ash Grey",
+   "Maroon"
+  ],
+  "featured": false,
+  "image_query": "sports jersey polyester shirt running"
+ },
+ {
+  "slug": "pocket-t-shirt",
+  "name": "Pocket T-Shirt",
+  "sku": "ATP-1008",
+  "category": "garments-uniforms-workwear",
+  "subcategory": "t-shirts",
+  "unit": "piece",
+  "description": "Classic round neck tee with a chest pocket for work and casual uniforms.",
+  "specs": {
+   "Fabric": "100% cotton jersey",
+   "GSM": "180",
+   "Pocket": "Left chest patch pocket",
+   "Branding": "Back print or sleeve print"
+  },
+  "spec_prompt": "Fabric and GSM; fit; colour; quantity per size; print or embroidery position and size.",
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL",
+   "3XL"
+  ],
+  "colours": [
+   "White",
+   "Black",
+   "Navy",
+   "Royal Blue",
+   "Red",
+   "Bottle Green",
+   "Ash Grey",
+   "Maroon"
+  ],
+  "featured": false,
+  "image_query": "pocket t-shirt"
+ },
+ {
+  "slug": "ringer-t-shirt",
+  "name": "Ringer T-Shirt",
+  "sku": "ATP-1009",
+  "category": "garments-uniforms-workwear",
+  "subcategory": "t-shirts",
+  "unit": "piece",
+  "description": "Retro tee with contrast rib on the neck and sleeves.",
+  "specs": {
+   "Fabric": "100% cotton jersey",
+   "GSM": "160 / 180",
+   "Trim": "Contrast neck and sleeve rib",
+   "Branding": "Screen print"
+  },
+  "spec_prompt": "Fabric and GSM; fit; colour; quantity per size; print or embroidery position and size.",
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL",
+   "3XL"
+  ],
+  "colours": [
+   "White",
+   "Black",
+   "Navy",
+   "Royal Blue",
+   "Red",
+   "Bottle Green",
+   "Ash Grey",
+   "Maroon"
+  ],
+  "featured": false,
+  "image_query": "ringer t-shirt"
+ },
+ {
+  "slug": "sleeveless-tank-top",
+  "name": "Sleeveless Tank Top",
+  "sku": "ATP-1010",
+  "category": "garments-uniforms-workwear",
+  "subcategory": "t-shirts",
+  "unit": "piece",
+  "description": "Sleeveless vest top for gyms, sports teams and summer events.",
+  "specs": {
+   "Fabric": "Cotton or polyester jersey",
+   "GSM": "150 / 180",
+   "Cut": "Tank or muscle",
+   "Branding": "Screen print or sublimation"
+  },
+  "spec_prompt": "Fabric and GSM; fit; colour; quantity per size; print or embroidery position and size.",
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL",
+   "3XL"
+  ],
+  "colours": [
+   "White",
+   "Black",
+   "Navy",
+   "Royal Blue",
+   "Red",
+   "Bottle Green",
+   "Ash Grey",
+   "Maroon"
+  ],
+  "featured": false,
+  "image_query": "tank top sleeveless shirt"
+ },
+ {
+  "slug": "kids-round-neck-t-shirt",
+  "name": "Kids' Round Neck T-Shirt",
+  "sku": "ATP-1011",
+  "category": "garments-uniforms-workwear",
+  "subcategory": "t-shirts",
+  "unit": "piece",
+  "description": "Children's sizes for schools, camps, family days and charity events.",
+  "specs": {
+   "Fabric": "100% soft cotton jersey",
+   "GSM": "160",
+   "Sizes": "2 to 13 years",
+   "Branding": "Child-safe inks"
+  },
+  "spec_prompt": "Fabric and GSM; fit; colour; quantity per size; print or embroidery position and size.",
+  "sizes": [
+   "2-3Y",
+   "4-5Y",
+   "6-7Y",
+   "8-9Y",
+   "10-11Y",
+   "12-13Y"
+  ],
+  "colours": [
+   "White",
+   "Black",
+   "Navy",
+   "Royal Blue",
+   "Red",
+   "Bottle Green",
+   "Ash Grey",
+   "Maroon"
+  ],
+  "featured": false,
+  "image_query": "kids t-shirt children"
+ },
+ {
+  "slug": "organic-cotton-t-shirt",
+  "name": "Organic Cotton T-Shirt",
+  "sku": "ATP-1012",
+  "category": "garments-uniforms-workwear",
+  "subcategory": "t-shirts",
+  "unit": "piece",
+  "description": "Round neck tee in certified organic cotton for sustainability-minded campaigns.",
+  "specs": {
+   "Fabric": "Organic cotton (certificate on request)",
+   "GSM": "160 / 180",
+   "Fit": "Regular",
+   "Branding": "Water-based print"
+  },
+  "spec_prompt": "Fabric and GSM; fit; colour; quantity per size; print or embroidery position and size.",
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL",
+   "3XL"
+  ],
+  "colours": [
+   "White",
+   "Black",
+   "Navy",
+   "Royal Blue",
+   "Red",
+   "Bottle Green",
+   "Ash Grey",
+   "Maroon"
+  ],
+  "featured": false,
+  "image_query": "organic cotton t-shirt"
+ },
+ {
+  "slug": "classic-pique-polo-shirt",
+  "name": "Classic Pique Polo Shirt",
+  "sku": "ATP-1013",
+  "category": "garments-uniforms-workwear",
+  "subcategory": "polo-shirts",
+  "unit": "piece",
+  "description": "Cotton pique polo with a rib knit collar and two-button placket. The standard corporate uniform polo.",
+  "specs": {
+   "Fabric": "100% cotton or CVC pique",
+   "GSM": "200 / 220 / 240",
+   "Placket": "2 or 3 button",
+   "Branding": "Chest embroidery"
+  },
+  "spec_prompt": "Fabric (pique, jersey, polyester); GSM; collar and placket style; colours; quantity per size; logo position.",
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL",
+   "3XL"
+  ],
+  "colours": [
+   "White",
+   "Black",
+   "Navy",
+   "Royal Blue",
+   "Red",
+   "Bottle Green",
+   "Ash Grey",
+   "Maroon"
+  ],
+  "featured": true,
+  "image_query": "polo shirt pique"
+ },
+ {
+  "slug": "dri-fit-polyester-polo",
+  "name": "Dri-Fit Polyester Polo",
+  "sku": "ATP-1014",
+  "category": "garments-uniforms-workwear",
+  "subcategory": "polo-shirts",
+  "unit": "piece",
+  "description": "Breathable, quick-dry polo for outdoor staff, sports clubs and golf days.",
+  "specs": {
+   "Fabric": "100% polyester bird-eye mesh",
+   "GSM": "160 / 180",
+   "Finish": "Moisture wicking",
+   "Branding": "Embroidery or heat transfer"
+  },
+  "spec_prompt": "Fabric (pique, jersey, polyester); GSM; collar and placket style; colours; quantity per size; logo position.",
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL",
+   "3XL"
+  ],
+  "colours": [
+   "White",
+   "Black",
+   "Navy",
+   "Royal Blue",
+   "Red",
+   "Bottle Green",
+   "Ash Grey",
+   "Maroon"
+  ],
+  "featured": false,
+  "image_query": "sport polo shirt polyester golf"
+ },
+ {
+  "slug": "tipped-collar-polo",
+  "name": "Tipped Collar Polo",
+  "sku": "ATP-1015",
+  "category": "garments-uniforms-workwear",
+  "subcategory": "polo-shirts",
+  "unit": "piece",
+  "description": "Polo with contrast tipping on the collar and cuffs for a distinctive branded uniform.",
+  "specs": {
+   "Fabric": "Cotton pique",
+   "GSM": "220",
+   "Trim": "Single or double tipping",
+   "Branding": "Chest embroidery"
+  },
+  "spec_prompt": "Fabric (pique, jersey, polyester); GSM; collar and placket style; colours; quantity per size; logo position.",
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL",
+   "3XL"
+  ],
+  "colours": [
+   "White",
+   "Black",
+   "Navy",
+   "Royal Blue",
+   "Red",
+   "Bottle Green",
+   "Ash Grey",
+   "Maroon"
+  ],
+  "featured": false,
+  "image_query": "tipped collar polo shirt"
+ },
+ {
+  "slug": "long-sleeve-polo-shirt",
+  "name": "Long Sleeve Polo Shirt",
+  "sku": "ATP-1016",
+  "category": "garments-uniforms-workwear",
+  "subcategory": "polo-shirts",
+  "unit": "piece",
+  "description": "Full-sleeve polo with rib cuffs for cooler seasons and formal uniforms.",
+  "specs": {
+   "Fabric": "Cotton pique",
+   "GSM": "220 / 240",
+   "Sleeve": "Long with rib cuff",
+   "Branding": "Chest and sleeve embroidery"
+  },
+  "spec_prompt": "Fabric (pique, jersey, polyester); GSM; collar and placket style; colours; quantity per size; logo position.",
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL",
+   "3XL"
+  ],
+  "colours": [
+   "White",
+   "Black",
+   "Navy",
+   "Royal Blue",
+   "Red",
+   "Bottle Green",
+   "Ash Grey",
+   "Maroon"
+  ],
+  "featured": false,
+  "image_query": "long sleeve polo shirt"
+ },
+ {
+  "slug": "polo-with-chest-pocket",
+  "name": "Polo with Chest Pocket",
+  "sku": "ATP-1017",
+  "category": "garments-uniforms-workwear",
+  "subcategory": "polo-shirts",
+  "unit": "piece",
+  "description": "Practical polo with a chest pocket for supervisors and field teams.",
+  "specs": {
+   "Fabric": "CVC pique",
+   "GSM": "220",
+   "Pocket": "Left chest",
+   "Branding": "Embroidery above pocket or on sleeve"
+  },
+  "spec_prompt": "Fabric (pique, jersey, polyester); GSM; collar and placket style; colours; quantity per size; logo position.",
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL",
+   "3XL"
+  ],
+  "colours": [
+   "White",
+   "Black",
+   "Navy",
+   "Royal Blue",
+   "Red",
+   "Bottle Green",
+   "Ash Grey",
+   "Maroon"
+  ],
+  "featured": false,
+  "image_query": "polo shirt pocket workwear"
+ },
+ {
+  "slug": "zipper-placket-polo",
+  "name": "Zipper Placket Polo",
+  "sku": "ATP-1018",
+  "category": "garments-uniforms-workwear",
+  "subcategory": "polo-shirts",
+  "unit": "piece",
+  "description": "Modern polo with a short zip placket instead of buttons.",
+  "specs": {
+   "Fabric": "Polyester or cotton blend",
+   "GSM": "180 / 200",
+   "Placket": "Quarter zip",
+   "Branding": "Embroidery"
+  },
+  "spec_prompt": "Fabric (pique, jersey, polyester); GSM; collar and placket style; colours; quantity per size; logo position.",
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL",
+   "3XL"
+  ],
+  "colours": [
+   "White",
+   "Black",
+   "Navy",
+   "Royal Blue",
+   "Red",
+   "Bottle Green",
+   "Ash Grey",
+   "Maroon"
+  ],
+  "featured": false,
+  "image_query": "zip polo shirt"
+ },
+ {
+  "slug": "women-s-fitted-polo",
+  "name": "Women's Fitted Polo",
+  "sku": "ATP-1019",
+  "category": "garments-uniforms-workwear",
+  "subcategory": "polo-shirts",
+  "unit": "piece",
+  "description": "Tailored fit polo with a shorter placket for women's uniforms.",
+  "specs": {
+   "Fabric": "Cotton-spandex pique",
+   "GSM": "200",
+   "Fit": "Fitted",
+   "Branding": "Chest embroidery"
+  },
+  "spec_prompt": "Fabric (pique, jersey, polyester); GSM; collar and placket style; colours; quantity per size; logo position.",
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL",
+   "3XL"
+  ],
+  "colours": [
+   "White",
+   "Black",
+   "Navy",
+   "Royal Blue",
+   "Red",
+   "Bottle Green",
+   "Ash Grey",
+   "Maroon"
+  ],
+  "featured": false,
+  "image_query": "women polo shirt"
+ },
+ {
+  "slug": "kids-school-polo",
+  "name": "Kids' School Polo",
+  "sku": "ATP-1020",
+  "category": "garments-uniforms-workwear",
+  "subcategory": "polo-shirts",
+  "unit": "piece",
+  "description": "Durable polo in children's sizes for school and coaching centre uniforms.",
+  "specs": {
+   "Fabric": "Poly-cotton pique",
+   "GSM": "200",
+   "Sizes": "2 to 13 years",
+   "Branding": "Embroidered school crest"
+  },
+  "spec_prompt": "Fabric (pique, jersey, polyester); GSM; collar and placket style; colours; quantity per size; logo position.",
+  "sizes": [
+   "2-3Y",
+   "4-5Y",
+   "6-7Y",
+   "8-9Y",
+   "10-11Y",
+   "12-13Y"
+  ],
+  "colours": [
+   "White",
+   "Black",
+   "Navy",
+   "Royal Blue",
+   "Red",
+   "Bottle Green",
+   "Ash Grey",
+   "Maroon"
+  ],
+  "featured": false,
+  "image_query": "school uniform polo shirt child"
+ },
+ {
+  "slug": "long-sleeve-office-shirt",
+  "name": "Long Sleeve Office Shirt",
+  "sku": "ATP-1021",
+  "category": "garments-uniforms-workwear",
+  "subcategory": "formal-shirts",
+  "unit": "piece",
+  "description": "Plain poplin office shirt with a classic collar and button cuffs.",
+  "specs": {
+   "Fabric": "Cotton or CVC poplin",
+   "Collar": "Classic or semi-spread",
+   "Cuff": "Single button",
+   "Branding": "Small chest embroidery"
+  },
+  "spec_prompt": "Fabric and count; colour or check; collar and cuff style; sleeve length; quantity by collar size or S-XXL.",
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL",
+   "3XL"
+  ],
+  "colours": [
+   "White",
+   "Sky Blue",
+   "Light Grey",
+   "Navy",
+   "Black",
+   "Pink"
+  ],
+  "featured": false,
+  "image_query": "dress shirt white formal"
+ },
+ {
+  "slug": "short-sleeve-office-shirt",
+  "name": "Short Sleeve Office Shirt",
+  "sku": "ATP-1022",
+  "category": "garments-uniforms-workwear",
+  "subcategory": "formal-shirts",
+  "unit": "piece",
+  "description": "Half-sleeve woven shirt for warm weather office and front desk uniforms.",
+  "specs": {
+   "Fabric": "Cotton or CVC poplin",
+   "Collar": "Classic",
+   "Pocket": "Optional chest pocket",
+   "Branding": "Embroidery"
+  },
+  "spec_prompt": "Fabric and count; colour or check; collar and cuff style; sleeve length; quantity by collar size or S-XXL.",
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL",
+   "3XL"
+  ],
+  "colours": [
+   "White",
+   "Sky Blue",
+   "Light Grey",
+   "Navy",
+   "Black",
+   "Pink"
+  ],
+  "featured": false,
+  "image_query": "short sleeve dress shirt"
+ },
+ {
+  "slug": "oxford-button-down-shirt",
+  "name": "Oxford Button-Down Shirt",
+  "sku": "ATP-1023",
+  "category": "garments-uniforms-workwear",
+  "subcategory": "formal-shirts",
+  "unit": "piece",
+  "description": "Textured oxford cotton with a button-down collar, smart casual and long lasting.",
+  "specs": {
+   "Fabric": "Oxford cotton",
+   "Collar": "Button-down",
+   "Fit": "Regular or slim",
+   "Branding": "Embroidery"
+  },
+  "spec_prompt": "Fabric and count; colour or check; collar and cuff style; sleeve length; quantity by collar size or S-XXL.",
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL",
+   "3XL"
+  ],
+  "colours": [
+   "White",
+   "Sky Blue",
+   "Light Grey",
+   "Navy",
+   "Black",
+   "Pink"
+  ],
+  "featured": false,
+  "image_query": "oxford button down shirt"
+ },
+ {
+  "slug": "denim-shirt",
+  "name": "Denim Shirt",
+  "sku": "ATP-1024",
+  "category": "garments-uniforms-workwear",
+  "subcategory": "formal-shirts",
+  "unit": "piece",
+  "description": "Light or mid wash denim shirt for creative teams, events and retail staff.",
+  "specs": {
+   "Fabric": "Cotton denim or chambray",
+   "Weight": "4 to 6 oz",
+   "Closure": "Buttons or snaps",
+   "Branding": "Embroidery"
+  },
+  "spec_prompt": "Fabric and count; colour or check; collar and cuff style; sleeve length; quantity by collar size or S-XXL.",
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL",
+   "3XL"
+  ],
+  "colours": [
+   "White",
+   "Sky Blue",
+   "Light Grey",
+   "Navy",
+   "Black",
+   "Pink"
+  ],
+  "featured": false,
+  "image_query": "denim shirt"
+ },
+ {
+  "slug": "check-shirt",
+  "name": "Check Shirt",
+  "sku": "ATP-1025",
+  "category": "garments-uniforms-workwear",
+  "subcategory": "formal-shirts",
+  "unit": "piece",
+  "description": "Yarn-dyed check shirt in gingham, tattersall or flannel styles.",
+  "specs": {
+   "Fabric": "Yarn-dyed cotton",
+   "Pattern": "Gingham, tattersall or plaid",
+   "Sleeve": "Long or short",
+   "Branding": "Embroidery"
+  },
+  "spec_prompt": "Fabric and count; colour or check; collar and cuff style; sleeve length; quantity by collar size or S-XXL.",
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL",
+   "3XL"
+  ],
+  "colours": [
+   "White",
+   "Sky Blue",
+   "Light Grey",
+   "Navy",
+   "Black",
+   "Pink"
+  ],
+  "featured": false,
+  "image_query": "checked shirt plaid"
+ },
+ {
+  "slug": "school-uniform-shirt",
+  "name": "School Uniform Shirt",
+  "sku": "ATP-1026",
+  "category": "garments-uniforms-workwear",
+  "subcategory": "formal-shirts",
+  "unit": "piece",
+  "description": "Hard-wearing white or light blue shirts in school sizes.",
+  "specs": {
+   "Fabric": "Poly-cotton poplin",
+   "Sizes": "Age 4 to adult",
+   "Pocket": "Chest pocket for badge",
+   "Branding": "Embroidered badge"
+  },
+  "spec_prompt": "Fabric and count; colour or check; collar and cuff style; sleeve length; quantity by collar size or S-XXL.",
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL",
+   "3XL"
+  ],
+  "colours": [
+   "White",
+   "Sky Blue",
+   "Light Grey",
+   "Navy",
+   "Black",
+   "Pink"
+  ],
+  "featured": false,
+  "image_query": "school uniform shirt"
+ },
+ {
+  "slug": "mandarin-collar-shirt",
+  "name": "Mandarin Collar Shirt",
+  "sku": "ATP-1027",
+  "category": "garments-uniforms-workwear",
+  "subcategory": "formal-shirts",
+  "unit": "piece",
+  "description": "Band collar shirt for hospitality, events and contemporary uniforms.",
+  "specs": {
+   "Fabric": "Cotton or linen blend",
+   "Collar": "Mandarin band",
+   "Sleeve": "Long or 3/4",
+   "Branding": "Embroidery"
+  },
+  "spec_prompt": "Fabric and count; colour or check; collar and cuff style; sleeve length; quantity by collar size or S-XXL.",
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL",
+   "3XL"
+  ],
+  "colours": [
+   "White",
+   "Sky Blue",
+   "Light Grey",
+   "Navy",
+   "Black",
+   "Pink"
+  ],
+  "featured": false,
+  "image_query": "mandarin collar shirt"
+ },
+ {
+  "slug": "pullover-hoodie",
+  "name": "Pullover Hoodie",
+  "sku": "ATP-1028",
+  "category": "garments-uniforms-workwear",
+  "subcategory": "hoodies-sweatshirts",
+  "unit": "piece",
+  "description": "Classic hooded sweatshirt with a kangaroo pocket and drawcord.",
+  "specs": {
+   "Fabric": "Cotton-poly fleece",
+   "GSM": "280 / 320 / 360",
+   "Pocket": "Kangaroo",
+   "Branding": "Print or embroidery"
+  },
+  "spec_prompt": "Fabric and GSM (fleece or French terry); style; colour; quantity per size; print or embroidery positions.",
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL",
+   "3XL"
+  ],
+  "colours": [
+   "Black",
+   "Navy",
+   "Charcoal",
+   "Ash Grey",
+   "Maroon",
+   "Bottle Green"
+  ],
+  "featured": false,
+  "image_query": "hoodie sweatshirt"
+ },
+ {
+  "slug": "zip-up-hoodie",
+  "name": "Zip-Up Hoodie",
+  "sku": "ATP-1029",
+  "category": "garments-uniforms-workwear",
+  "subcategory": "hoodies-sweatshirts",
+  "unit": "piece",
+  "description": "Full zip hoodie for layering, popular for staff and university kits.",
+  "specs": {
+   "Fabric": "Cotton-poly fleece",
+   "GSM": "300 / 340",
+   "Zip": "Metal or nylon full zip",
+   "Branding": "Chest and back print"
+  },
+  "spec_prompt": "Fabric and GSM (fleece or French terry); style; colour; quantity per size; print or embroidery positions.",
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL",
+   "3XL"
+  ],
+  "colours": [
+   "Black",
+   "Navy",
+   "Charcoal",
+   "Ash Grey",
+   "Maroon",
+   "Bottle Green"
+  ],
+  "featured": false,
+  "image_query": "zip up hoodie"
+ },
+ {
+  "slug": "crew-neck-sweatshirt",
+  "name": "Crew Neck Sweatshirt",
+  "sku": "ATP-1030",
+  "category": "garments-uniforms-workwear",
+  "subcategory": "hoodies-sweatshirts",
+  "unit": "piece",
+  "description": "Round neck sweatshirt with rib cuffs and hem.",
+  "specs": {
+   "Fabric": "Fleece or French terry",
+   "GSM": "280 / 320",
+   "Trim": "1x1 rib",
+   "Branding": "Print or embroidery"
+  },
+  "spec_prompt": "Fabric and GSM (fleece or French terry); style; colour; quantity per size; print or embroidery positions.",
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL",
+   "3XL"
+  ],
+  "colours": [
+   "Black",
+   "Navy",
+   "Charcoal",
+   "Ash Grey",
+   "Maroon",
+   "Bottle Green"
+  ],
+  "featured": false,
+  "image_query": "crew neck sweatshirt"
+ },
+ {
+  "slug": "quarter-zip-sweatshirt",
+  "name": "Quarter Zip Sweatshirt",
+  "sku": "ATP-1031",
+  "category": "garments-uniforms-workwear",
+  "subcategory": "hoodies-sweatshirts",
+  "unit": "piece",
+  "description": "Quarter zip pullover for smart casual corporate winter wear.",
+  "specs": {
+   "Fabric": "Brushed fleece or poly knit",
+   "GSM": "280",
+   "Collar": "Stand collar with zip",
+   "Branding": "Chest embroidery"
+  },
+  "spec_prompt": "Fabric and GSM (fleece or French terry); style; colour; quantity per size; print or embroidery positions.",
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL",
+   "3XL"
+  ],
+  "colours": [
+   "Black",
+   "Navy",
+   "Charcoal",
+   "Ash Grey",
+   "Maroon",
+   "Bottle Green"
+  ],
+  "featured": false,
+  "image_query": "quarter zip pullover"
+ },
+ {
+  "slug": "varsity-jacket",
+  "name": "Varsity Jacket",
+  "sku": "ATP-1032",
+  "category": "garments-uniforms-workwear",
+  "subcategory": "hoodies-sweatshirts",
+  "unit": "piece",
+  "description": "Baseball-style varsity jacket with contrast sleeves and snap buttons.",
+  "specs": {
+   "Fabric": "Fleece or melton body, PU sleeves option",
+   "Lining": "Quilted",
+   "Closure": "Snap buttons",
+   "Branding": "Chenille or embroidered patches"
+  },
+  "spec_prompt": "Fabric and GSM (fleece or French terry); style; colour; quantity per size; print or embroidery positions.",
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL",
+   "3XL"
+  ],
+  "colours": [
+   "Black",
+   "Navy",
+   "Charcoal",
+   "Ash Grey",
+   "Maroon",
+   "Bottle Green"
+  ],
+  "featured": false,
+  "image_query": "varsity jacket"
+ },
+ {
+  "slug": "fleece-jacket",
+  "name": "Fleece Jacket",
+  "sku": "ATP-1033",
+  "category": "garments-uniforms-workwear",
+  "subcategory": "hoodies-sweatshirts",
+  "unit": "piece",
+  "description": "Polar fleece jacket for outdoor teams, tours and cold storage staff.",
+  "specs": {
+   "Fabric": "Anti-pill polar fleece",
+   "GSM": "280 / 320",
+   "Zip": "Full zip with pockets",
+   "Branding": "Embroidery"
+  },
+  "spec_prompt": "Fabric and GSM (fleece or French terry); style; colour; quantity per size; print or embroidery positions.",
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL",
+   "3XL"
+  ],
+  "colours": [
+   "Black",
+   "Navy",
+   "Charcoal",
+   "Ash Grey",
+   "Maroon",
+   "Bottle Green"
+  ],
+  "featured": false,
+  "image_query": "polar fleece jacket"
+ },
+ {
+  "slug": "sleeveless-gilet",
+  "name": "Sleeveless Gilet",
+  "sku": "ATP-1034",
+  "category": "garments-uniforms-workwear",
+  "subcategory": "hoodies-sweatshirts",
+  "unit": "piece",
+  "description": "Padded or fleece vest for field staff and layering.",
+  "specs": {
+   "Fabric": "Polyester shell with padding",
+   "Closure": "Full zip",
+   "Pockets": "Two side pockets",
+   "Branding": "Embroidery or print"
+  },
+  "spec_prompt": "Fabric and GSM (fleece or French terry); style; colour; quantity per size; print or embroidery positions.",
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL",
+   "3XL"
+  ],
+  "colours": [
+   "Black",
+   "Navy",
+   "Charcoal",
+   "Ash Grey",
+   "Maroon",
+   "Bottle Green"
+  ],
+  "featured": false,
+  "image_query": "padded vest gilet"
+ },
+ {
+  "slug": "windbreaker-jacket",
+  "name": "Windbreaker Jacket",
+  "sku": "ATP-1035",
+  "category": "garments-uniforms-workwear",
+  "subcategory": "hoodies-sweatshirts",
+  "unit": "piece",
+  "description": "Lightweight water-resistant jacket for events, outdoor teams and travel.",
+  "specs": {
+   "Fabric": "Polyester taffeta or nylon",
+   "Finish": "Water resistant",
+   "Hood": "Optional packable hood",
+   "Branding": "Print or embroidery"
+  },
+  "spec_prompt": "Fabric and GSM (fleece or French terry); style; colour; quantity per size; print or embroidery positions.",
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL",
+   "3XL"
+  ],
+  "colours": [
+   "Black",
+   "Navy",
+   "Charcoal",
+   "Ash Grey",
+   "Maroon",
+   "Bottle Green"
+  ],
+  "featured": false,
+  "image_query": "windbreaker jacket"
+ },
+ {
+  "slug": "coverall-boiler-suit",
+  "name": "Coverall Boiler Suit",
+  "sku": "ATP-1036",
+  "category": "garments-uniforms-workwear",
+  "subcategory": "workwear-uniforms",
+  "unit": "piece",
+  "description": "One-piece coverall for factories, workshops and engineering teams.",
+  "specs": {
+   "Fabric": "Twill cotton or poly-cotton",
+   "GSM": "200 / 240",
+   "Features": "Zip front, multi pockets",
+   "Options": "Reflective tape"
+  },
+  "spec_prompt": "Garment type; fabric and colour; reflective or safety requirements; size breakdown; logo and name tag details.",
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL",
+   "3XL"
+  ],
+  "colours": [
+   "Navy",
+   "Black",
+   "Khaki",
+   "Grey",
+   "White",
+   "Royal Blue"
+  ],
+  "featured": false,
+  "image_query": "coverall boilersuit work"
+ },
+ {
+  "slug": "work-shirt-and-trouser-set",
+  "name": "Work Shirt and Trouser Set",
+  "sku": "ATP-1037",
+  "category": "garments-uniforms-workwear",
+  "subcategory": "workwear-uniforms",
+  "unit": "piece",
+  "description": "Matching twill shirt and trouser set for production and maintenance teams.",
+  "specs": {
+   "Fabric": "Poly-cotton twill",
+   "GSM": "200 / 220",
+   "Pockets": "Cargo and chest pockets",
+   "Branding": "Embroidered logo"
+  },
+  "spec_prompt": "Garment type; fabric and colour; reflective or safety requirements; size breakdown; logo and name tag details.",
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL",
+   "3XL"
+  ],
+  "colours": [
+   "Navy",
+   "Black",
+   "Khaki",
+   "Grey",
+   "White",
+   "Royal Blue"
+  ],
+  "featured": false,
+  "image_query": "work uniform workwear"
+ },
+ {
+  "slug": "hi-vis-safety-vest",
+  "name": "Hi-Vis Safety Vest",
+  "sku": "ATP-1038",
+  "category": "garments-uniforms-workwear",
+  "subcategory": "workwear-uniforms",
+  "unit": "piece",
+  "description": "Fluorescent vest with reflective tape for sites, traffic and events.",
+  "specs": {
+   "Fabric": "Polyester mesh or knit",
+   "Colour": "Fluorescent yellow or orange",
+   "Tape": "2 inch reflective",
+   "Branding": "Back print"
+  },
+  "spec_prompt": "Garment type; fabric and colour; reflective or safety requirements; size breakdown; logo and name tag details.",
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL",
+   "3XL"
+  ],
+  "colours": [
+   "Navy",
+   "Black",
+   "Khaki",
+   "Grey",
+   "White",
+   "Royal Blue"
+  ],
+  "featured": false,
+  "image_query": "high visibility vest"
+ },
+ {
+  "slug": "medical-scrubs-set",
+  "name": "Medical Scrubs Set",
+  "sku": "ATP-1039",
+  "category": "garments-uniforms-workwear",
+  "subcategory": "workwear-uniforms",
+  "unit": "piece",
+  "description": "Top and trouser scrub set for hospitals, clinics and laboratories.",
+  "specs": {
+   "Fabric": "Poly-cotton or poly-rayon-spandex",
+   "Style": "V-neck top, drawstring trouser",
+   "Colours": "Blue, green, navy, wine",
+   "Branding": "Embroidery"
+  },
+  "spec_prompt": "Garment type; fabric and colour; reflective or safety requirements; size breakdown; logo and name tag details.",
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL",
+   "3XL"
+  ],
+  "colours": [
+   "Navy",
+   "Black",
+   "Khaki",
+   "Grey",
+   "White",
+   "Royal Blue"
+  ],
+  "featured": false,
+  "image_query": "medical scrubs"
+ },
+ {
+  "slug": "doctor-s-lab-coat",
+  "name": "Doctor's Lab Coat",
+  "sku": "ATP-1040",
+  "category": "garments-uniforms-workwear",
+  "subcategory": "workwear-uniforms",
+  "unit": "piece",
+  "description": "Long white coat for doctors, pharmacists and laboratory staff.",
+  "specs": {
+   "Fabric": "Poly-cotton twill",
+   "Length": "Knee length",
+   "Pockets": "3 pockets",
+   "Branding": "Name embroidery"
+  },
+  "spec_prompt": "Garment type; fabric and colour; reflective or safety requirements; size breakdown; logo and name tag details.",
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL",
+   "3XL"
+  ],
+  "colours": [
+   "Navy",
+   "Black",
+   "Khaki",
+   "Grey",
+   "White",
+   "Royal Blue"
+  ],
+  "featured": false,
+  "image_query": "white lab coat"
+ },
+ {
+  "slug": "chef-coat",
+  "name": "Chef Coat",
+  "sku": "ATP-1041",
+  "category": "garments-uniforms-workwear",
+  "subcategory": "workwear-uniforms",
+  "unit": "piece",
+  "description": "Double-breasted chef jacket for hotel and restaurant kitchens.",
+  "specs": {
+   "Fabric": "Cotton or poly-cotton twill",
+   "Closure": "Buttons or studs",
+   "Sleeve": "Long or short",
+   "Branding": "Embroidery"
+  },
+  "spec_prompt": "Garment type; fabric and colour; reflective or safety requirements; size breakdown; logo and name tag details.",
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL",
+   "3XL"
+  ],
+  "colours": [
+   "Navy",
+   "Black",
+   "Khaki",
+   "Grey",
+   "White",
+   "Royal Blue"
+  ],
+  "featured": false,
+  "image_query": "chef jacket"
+ },
+ {
+  "slug": "kitchen-and-service-apron",
+  "name": "Kitchen and Service Apron",
+  "sku": "ATP-1042",
+  "category": "garments-uniforms-workwear",
+  "subcategory": "workwear-uniforms",
+  "unit": "piece",
+  "description": "Bib or waist aprons for kitchens, cafés, retail counters and workshops.",
+  "specs": {
+   "Fabric": "Canvas or poly-cotton twill",
+   "Style": "Bib or waist",
+   "Pockets": "Front pockets",
+   "Branding": "Print or embroidery"
+  },
+  "spec_prompt": "Garment type; fabric and colour; reflective or safety requirements; size breakdown; logo and name tag details.",
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL",
+   "3XL"
+  ],
+  "colours": [
+   "Navy",
+   "Black",
+   "Khaki",
+   "Grey",
+   "White",
+   "Royal Blue"
+  ],
+  "featured": false,
+  "image_query": "apron chef"
+ },
+ {
+  "slug": "security-guard-uniform",
+  "name": "Security Guard Uniform",
+  "sku": "ATP-1043",
+  "category": "garments-uniforms-workwear",
+  "subcategory": "workwear-uniforms",
+  "unit": "piece",
+  "description": "Shirt, trouser and accessories for security teams.",
+  "specs": {
+   "Fabric": "Poly-viscose or twill",
+   "Includes": "Shirt, trouser, cap, badge",
+   "Options": "Epaulettes, whistle cord",
+   "Branding": "Embroidered shoulder badge"
+  },
+  "spec_prompt": "Garment type; fabric and colour; reflective or safety requirements; size breakdown; logo and name tag details.",
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL",
+   "3XL"
+  ],
+  "colours": [
+   "Navy",
+   "Black",
+   "Khaki",
+   "Grey",
+   "White",
+   "Royal Blue"
+  ],
+  "featured": false,
+  "image_query": "security guard uniform"
+ },
+ {
+  "slug": "housekeeping-uniform",
+  "name": "Housekeeping Uniform",
+  "sku": "ATP-1044",
+  "category": "garments-uniforms-workwear",
+  "subcategory": "workwear-uniforms",
+  "unit": "piece",
+  "description": "Tunic or shirt sets for hotels, hospitals and facility management staff.",
+  "specs": {
+   "Fabric": "Poly-cotton",
+   "Style": "Tunic or shirt with trouser",
+   "Colours": "As per brand",
+   "Branding": "Embroidery"
+  },
+  "spec_prompt": "Garment type; fabric and colour; reflective or safety requirements; size breakdown; logo and name tag details.",
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL",
+   "3XL"
+  ],
+  "colours": [
+   "Navy",
+   "Black",
+   "Khaki",
+   "Grey",
+   "White",
+   "Royal Blue"
+  ],
+  "featured": false,
+  "image_query": "housekeeping uniform hotel"
+ },
+ {
+  "slug": "cargo-work-trousers",
+  "name": "Cargo Work Trousers",
+  "sku": "ATP-1045",
+  "category": "garments-uniforms-workwear",
+  "subcategory": "workwear-uniforms",
+  "unit": "piece",
+  "description": "Heavy-duty trousers with cargo and knee pockets.",
+  "specs": {
+   "Fabric": "Cotton or poly-cotton twill",
+   "GSM": "240 / 280",
+   "Pockets": "Cargo, back and knee pad pockets",
+   "Sizes": "Waist 28 to 44"
+  },
+  "spec_prompt": "Garment type; fabric and colour; reflective or safety requirements; size breakdown; logo and name tag details.",
+  "sizes": [
+   "XS",
+   "S",
+   "M",
+   "L",
+   "XL",
+   "XXL",
+   "3XL"
+  ],
+  "colours": [
+   "Navy",
+   "Black",
+   "Khaki",
+   "Grey",
+   "White",
+   "Royal Blue"
+  ],
+  "featured": false,
+  "image_query": "cargo work trousers"
+ },
+ {
+  "slug": "jute-tote-bag-with-cotton-handles",
+  "name": "Jute Tote Bag with Cotton Handles",
+  "sku": "ATP-1046",
+  "category": "bags-backpacks",
+  "subcategory": "jute-bags",
+  "unit": "piece",
+  "description": "Classic jute shopper with padded cotton web handles.",
+  "specs": {
+   "Fabric": "Hessian jute, optional lamination",
+   "Size": "e.g. 40 x 35 x 12 cm",
+   "Handle": "Padded cotton web",
+   "Branding": "Screen print"
+  },
+  "spec_prompt": "Bag dimensions; jute or juco fabric; lamination; handle type; gusset; print area and colours; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": true,
+  "image_query": "jute bag"
+ },
+ {
+  "slug": "juco-bag",
+  "name": "Juco Bag",
+  "sku": "ATP-1047",
+  "category": "bags-backpacks",
+  "subcategory": "jute-bags",
+  "unit": "piece",
+  "description": "Jute-cotton blend bag with a smoother print surface.",
+  "specs": {
+   "Fabric": "Juco (jute + cotton)",
+   "Size": "e.g. 38 x 42 x 12 cm",
+   "Handle": "Cotton web",
+   "Branding": "Detailed screen print"
+  },
+  "spec_prompt": "Bag dimensions; jute or juco fabric; lamination; handle type; gusset; print area and colours; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "jute cotton tote bag"
+ },
+ {
+  "slug": "jute-wine-bottle-bag",
+  "name": "Jute Wine Bottle Bag",
+  "sku": "ATP-1048",
+  "category": "bags-backpacks",
+  "subcategory": "jute-bags",
+  "unit": "piece",
+  "description": "Single or double bottle bag for gifting.",
+  "specs": {
+   "Fabric": "Jute with window option",
+   "Size": "Fits 750 ml bottle",
+   "Handle": "Jute rope or cotton",
+   "Branding": "Print or label"
+  },
+  "spec_prompt": "Bag dimensions; jute or juco fabric; lamination; handle type; gusset; print area and colours; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "jute bottle bag"
+ },
+ {
+  "slug": "jute-drawstring-pouch",
+  "name": "Jute Drawstring Pouch",
+  "sku": "ATP-1049",
+  "category": "bags-backpacks",
+  "subcategory": "jute-bags",
+  "unit": "piece",
+  "description": "Small jute pouch for gift sets, samples and packaging.",
+  "specs": {
+   "Fabric": "Hessian jute",
+   "Size": "10 x 15 cm to 25 x 30 cm",
+   "Closure": "Drawstring",
+   "Branding": "Print or tag"
+  },
+  "spec_prompt": "Bag dimensions; jute or juco fabric; lamination; handle type; gusset; print area and colours; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "jute pouch drawstring"
+ },
+ {
+  "slug": "jute-conference-bag",
+  "name": "Jute Conference Bag",
+  "sku": "ATP-1050",
+  "category": "bags-backpacks",
+  "subcategory": "jute-bags",
+  "unit": "piece",
+  "description": "Jute folder bag with zip and handles for seminars and conferences.",
+  "specs": {
+   "Fabric": "Laminated jute",
+   "Size": "A4 file size",
+   "Closure": "Zip",
+   "Branding": "Screen print"
+  },
+  "spec_prompt": "Bag dimensions; jute or juco fabric; lamination; handle type; gusset; print area and colours; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "jute file bag"
+ },
+ {
+  "slug": "jute-shopping-bag-with-rope-handle",
+  "name": "Jute Shopping Bag with Rope Handle",
+  "sku": "ATP-1051",
+  "category": "bags-backpacks",
+  "subcategory": "jute-bags",
+  "unit": "piece",
+  "description": "Sturdy shopper with thick jute rope handles.",
+  "specs": {
+   "Fabric": "Heavy hessian jute",
+   "Size": "e.g. 45 x 38 x 15 cm",
+   "Handle": "Rope",
+   "Branding": "Screen print"
+  },
+  "spec_prompt": "Bag dimensions; jute or juco fabric; lamination; handle type; gusset; print area and colours; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "jute shopping bag rope"
+ },
+ {
+  "slug": "jute-lunch-bag",
+  "name": "Jute Lunch Bag",
+  "sku": "ATP-1052",
+  "category": "bags-backpacks",
+  "subcategory": "jute-bags",
+  "unit": "piece",
+  "description": "Compact jute lunch tote with a wide gusset.",
+  "specs": {
+   "Fabric": "Laminated jute",
+   "Size": "e.g. 30 x 25 x 18 cm",
+   "Closure": "Zip or open",
+   "Branding": "Screen print"
+  },
+  "spec_prompt": "Bag dimensions; jute or juco fabric; lamination; handle type; gusset; print area and colours; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "jute lunch bag"
+ },
+ {
+  "slug": "plain-cotton-tote-bag",
+  "name": "Plain Cotton Tote Bag",
+  "sku": "ATP-1053",
+  "category": "bags-backpacks",
+  "subcategory": "cotton-canvas-tote-bags",
+  "unit": "piece",
+  "description": "Lightweight calico tote, the most affordable branded bag.",
+  "specs": {
+   "Fabric": "Cotton calico",
+   "Weight": "4 / 5 oz",
+   "Size": "38 x 42 cm",
+   "Branding": "1 to 4 colour print"
+  },
+  "spec_prompt": "Fabric and weight (oz); size; gusset; handle length; print colours and area; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "cotton tote bag"
+ },
+ {
+  "slug": "heavy-canvas-tote-bag",
+  "name": "Heavy Canvas Tote Bag",
+  "sku": "ATP-1054",
+  "category": "bags-backpacks",
+  "subcategory": "cotton-canvas-tote-bags",
+  "unit": "piece",
+  "description": "Durable canvas shopper for retail and long-term use.",
+  "specs": {
+   "Fabric": "Cotton canvas",
+   "Weight": "10 / 12 oz",
+   "Gusset": "Optional bottom gusset",
+   "Branding": "Print or embroidery"
+  },
+  "spec_prompt": "Fabric and weight (oz); size; gusset; handle length; print colours and area; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "canvas tote bag"
+ },
+ {
+  "slug": "canvas-tote-with-zip",
+  "name": "Canvas Tote with Zip",
+  "sku": "ATP-1055",
+  "category": "bags-backpacks",
+  "subcategory": "cotton-canvas-tote-bags",
+  "unit": "piece",
+  "description": "Zip-top canvas tote with inside pocket.",
+  "specs": {
+   "Fabric": "Cotton canvas",
+   "Weight": "10 / 12 oz",
+   "Closure": "Zip",
+   "Branding": "Print"
+  },
+  "spec_prompt": "Fabric and weight (oz); size; gusset; handle length; print colours and area; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "canvas zipper tote"
+ },
+ {
+  "slug": "long-handle-shopper",
+  "name": "Long Handle Shopper",
+  "sku": "ATP-1056",
+  "category": "bags-backpacks",
+  "subcategory": "cotton-canvas-tote-bags",
+  "unit": "piece",
+  "description": "Shoulder-length handles for comfortable carrying.",
+  "specs": {
+   "Fabric": "Cotton",
+   "Weight": "5 / 8 oz",
+   "Handle": "65 cm shoulder",
+   "Branding": "Print"
+  },
+  "spec_prompt": "Fabric and weight (oz); size; gusset; handle length; print colours and area; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "shopping tote bag long handle"
+ },
+ {
+  "slug": "non-woven-bag",
+  "name": "Non-Woven Bag",
+  "sku": "ATP-1057",
+  "category": "bags-backpacks",
+  "subcategory": "cotton-canvas-tote-bags",
+  "unit": "piece",
+  "description": "Low-cost non-woven polypropylene bag for fairs and retail.",
+  "specs": {
+   "Fabric": "Non-woven PP",
+   "GSM": "70 / 80 / 100",
+   "Style": "D-cut or loop handle",
+   "Branding": "Screen print"
+  },
+  "spec_prompt": "Fabric and weight (oz); size; gusset; handle length; print colours and area; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "non woven bag"
+ },
+ {
+  "slug": "foldable-polyester-shopping-bag",
+  "name": "Foldable Polyester Shopping Bag",
+  "sku": "ATP-1058",
+  "category": "bags-backpacks",
+  "subcategory": "cotton-canvas-tote-bags",
+  "unit": "piece",
+  "description": "Fold-into-pouch reusable shopping bag.",
+  "specs": {
+   "Fabric": "190T / 210D polyester",
+   "Feature": "Folds into own pouch",
+   "Size": "e.g. 40 x 38 cm",
+   "Branding": "Print"
+  },
+  "spec_prompt": "Fabric and weight (oz); size; gusset; handle length; print colours and area; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "foldable shopping bag"
+ },
+ {
+  "slug": "laptop-backpack",
+  "name": "Laptop Backpack",
+  "sku": "ATP-1059",
+  "category": "bags-backpacks",
+  "subcategory": "backpacks",
+  "unit": "piece",
+  "description": "Padded laptop compartment with organiser pockets for office and travel.",
+  "specs": {
+   "Fabric": "600D / 900D polyester",
+   "Laptop": "Up to 15.6 inch",
+   "Features": "Padded straps, bottle pocket",
+   "Branding": "Embroidery or rubber patch"
+  },
+  "spec_prompt": "Style; capacity; fabric (polyester, nylon, canvas); laptop size; colours; logo position and method.",
+  "sizes": [],
+  "colours": [
+   "Black",
+   "Navy",
+   "Grey",
+   "Red",
+   "Royal Blue"
+  ],
+  "featured": true,
+  "image_query": "laptop backpack"
+ },
+ {
+  "slug": "school-backpack",
+  "name": "School Backpack",
+  "sku": "ATP-1060",
+  "category": "bags-backpacks",
+  "subcategory": "backpacks",
+  "unit": "piece",
+  "description": "Durable school bag with multiple compartments.",
+  "specs": {
+   "Fabric": "Polyester",
+   "Capacity": "20 to 30 L",
+   "Features": "Reflective trim, padded back",
+   "Branding": "Print or patch"
+  },
+  "spec_prompt": "Style; capacity; fabric (polyester, nylon, canvas); laptop size; colours; logo position and method.",
+  "sizes": [],
+  "colours": [
+   "Black",
+   "Navy",
+   "Grey",
+   "Red",
+   "Royal Blue"
+  ],
+  "featured": false,
+  "image_query": "school backpack"
+ },
+ {
+  "slug": "anti-theft-backpack",
+  "name": "Anti-Theft Backpack",
+  "sku": "ATP-1061",
+  "category": "bags-backpacks",
+  "subcategory": "backpacks",
+  "unit": "piece",
+  "description": "Hidden zip backpack with USB port for commuters.",
+  "specs": {
+   "Fabric": "Water-resistant polyester",
+   "Laptop": "Up to 15.6 inch",
+   "Features": "Hidden zips, USB port",
+   "Branding": "Embroidery"
+  },
+  "spec_prompt": "Style; capacity; fabric (polyester, nylon, canvas); laptop size; colours; logo position and method.",
+  "sizes": [],
+  "colours": [
+   "Black",
+   "Navy",
+   "Grey",
+   "Red",
+   "Royal Blue"
+  ],
+  "featured": false,
+  "image_query": "anti theft backpack"
+ },
+ {
+  "slug": "travel-backpack",
+  "name": "Travel Backpack",
+  "sku": "ATP-1062",
+  "category": "bags-backpacks",
+  "subcategory": "backpacks",
+  "unit": "piece",
+  "description": "Larger backpack with expandable main compartment.",
+  "specs": {
+   "Fabric": "Nylon or polyester",
+   "Capacity": "35 to 45 L",
+   "Features": "Compression straps",
+   "Branding": "Embroidery"
+  },
+  "spec_prompt": "Style; capacity; fabric (polyester, nylon, canvas); laptop size; colours; logo position and method.",
+  "sizes": [],
+  "colours": [
+   "Black",
+   "Navy",
+   "Grey",
+   "Red",
+   "Royal Blue"
+  ],
+  "featured": false,
+  "image_query": "travel backpack rucksack"
+ },
+ {
+  "slug": "hiking-daypack",
+  "name": "Hiking Daypack",
+  "sku": "ATP-1063",
+  "category": "bags-backpacks",
+  "subcategory": "backpacks",
+  "unit": "piece",
+  "description": "Light daypack for outdoor events and field teams.",
+  "specs": {
+   "Fabric": "Ripstop nylon",
+   "Capacity": "20 to 30 L",
+   "Features": "Hydration sleeve, chest strap",
+   "Branding": "Print or patch"
+  },
+  "spec_prompt": "Style; capacity; fabric (polyester, nylon, canvas); laptop size; colours; logo position and method.",
+  "sizes": [],
+  "colours": [
+   "Black",
+   "Navy",
+   "Grey",
+   "Red",
+   "Royal Blue"
+  ],
+  "featured": false,
+  "image_query": "hiking daypack"
+ },
+ {
+  "slug": "canvas-rucksack",
+  "name": "Canvas Rucksack",
+  "sku": "ATP-1064",
+  "category": "bags-backpacks",
+  "subcategory": "backpacks",
+  "unit": "piece",
+  "description": "Casual canvas backpack with drawstring and flap.",
+  "specs": {
+   "Fabric": "Washed canvas",
+   "Capacity": "20 L",
+   "Closure": "Flap with buckles",
+   "Branding": "Leather or woven patch"
+  },
+  "spec_prompt": "Style; capacity; fabric (polyester, nylon, canvas); laptop size; colours; logo position and method.",
+  "sizes": [],
+  "colours": [
+   "Black",
+   "Navy",
+   "Grey",
+   "Red",
+   "Royal Blue"
+  ],
+  "featured": false,
+  "image_query": "canvas rucksack"
+ },
+ {
+  "slug": "kids-backpack",
+  "name": "Kids' Backpack",
+  "sku": "ATP-1065",
+  "category": "bags-backpacks",
+  "subcategory": "backpacks",
+  "unit": "piece",
+  "description": "Small backpack for pre-school and junior students.",
+  "specs": {
+   "Fabric": "Polyester",
+   "Capacity": "8 to 12 L",
+   "Features": "Light, padded straps",
+   "Branding": "Full colour print"
+  },
+  "spec_prompt": "Style; capacity; fabric (polyester, nylon, canvas); laptop size; colours; logo position and method.",
+  "sizes": [],
+  "colours": [
+   "Black",
+   "Navy",
+   "Grey",
+   "Red",
+   "Royal Blue"
+  ],
+  "featured": false,
+  "image_query": "kids backpack"
+ },
+ {
+  "slug": "conference-folder-bag",
+  "name": "Conference Folder Bag",
+  "sku": "ATP-1066",
+  "category": "bags-backpacks",
+  "subcategory": "document-conference-bags",
+  "unit": "piece",
+  "description": "Zip folder with handles for seminar kits.",
+  "specs": {
+   "Fabric": "600D polyester",
+   "Size": "A4 / foolscap",
+   "Closure": "Zip",
+   "Branding": "Screen print"
+  },
+  "spec_prompt": "Style; size (A4, foolscap or laptop); material; closure; print or embroidery details; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "conference document bag"
+ },
+ {
+  "slug": "messenger-bag",
+  "name": "Messenger Bag",
+  "sku": "ATP-1067",
+  "category": "bags-backpacks",
+  "subcategory": "document-conference-bags",
+  "unit": "piece",
+  "description": "Shoulder messenger with flap and laptop sleeve.",
+  "specs": {
+   "Fabric": "Polyester or canvas",
+   "Laptop": "Up to 15 inch",
+   "Strap": "Adjustable shoulder",
+   "Branding": "Embroidery"
+  },
+  "spec_prompt": "Style; size (A4, foolscap or laptop); material; closure; print or embroidery details; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "messenger bag"
+ },
+ {
+  "slug": "laptop-sleeve",
+  "name": "Laptop Sleeve",
+  "sku": "ATP-1068",
+  "category": "bags-backpacks",
+  "subcategory": "document-conference-bags",
+  "unit": "piece",
+  "description": "Padded slim laptop sleeve.",
+  "specs": {
+   "Fabric": "Neoprene or polyester foam",
+   "Size": "13 / 14 / 15.6 inch",
+   "Closure": "Zip",
+   "Branding": "Print"
+  },
+  "spec_prompt": "Style; size (A4, foolscap or laptop); material; closure; print or embroidery details; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "laptop sleeve"
+ },
+ {
+  "slug": "executive-briefcase",
+  "name": "Executive Briefcase",
+  "sku": "ATP-1069",
+  "category": "bags-backpacks",
+  "subcategory": "document-conference-bags",
+  "unit": "piece",
+  "description": "Structured briefcase for corporate gifting.",
+  "specs": {
+   "Material": "PU leather or ballistic nylon",
+   "Size": "15 inch",
+   "Features": "Organiser, shoulder strap",
+   "Branding": "Debossed logo"
+  },
+  "spec_prompt": "Style; size (A4, foolscap or laptop); material; closure; print or embroidery details; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "briefcase"
+ },
+ {
+  "slug": "clear-document-pouch",
+  "name": "Clear Document Pouch",
+  "sku": "ATP-1070",
+  "category": "bags-backpacks",
+  "subcategory": "document-conference-bags",
+  "unit": "piece",
+  "description": "Transparent zip pouch for exam halls and document handling.",
+  "specs": {
+   "Material": "PVC or PP",
+   "Size": "A4 / A5",
+   "Closure": "Zip",
+   "Branding": "Print"
+  },
+  "spec_prompt": "Style; size (A4, foolscap or laptop); material; closure; print or embroidery details; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "zipper document pouch"
+ },
+ {
+  "slug": "office-tote-with-laptop-sleeve",
+  "name": "Office Tote with Laptop Sleeve",
+  "sku": "ATP-1071",
+  "category": "bags-backpacks",
+  "subcategory": "document-conference-bags",
+  "unit": "piece",
+  "description": "Structured tote with inside laptop compartment.",
+  "specs": {
+   "Fabric": "Canvas or polyester",
+   "Laptop": "Up to 14 inch",
+   "Handle": "Shoulder",
+   "Branding": "Embroidery"
+  },
+  "spec_prompt": "Style; size (A4, foolscap or laptop); material; closure; print or embroidery details; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "laptop tote bag"
+ },
+ {
+  "slug": "polyester-drawstring-bag",
+  "name": "Polyester Drawstring Bag",
+  "sku": "ATP-1072",
+  "category": "bags-backpacks",
+  "subcategory": "drawstring-duffel-bags",
+  "unit": "piece",
+  "description": "Light drawstring bag for event giveaways.",
+  "specs": {
+   "Fabric": "210D polyester",
+   "Size": "35 x 45 cm",
+   "Cord": "Polyester cord",
+   "Branding": "Print"
+  },
+  "spec_prompt": "Style; size; fabric; cord type; colours; print details; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "drawstring bag"
+ },
+ {
+  "slug": "cotton-drawstring-bag",
+  "name": "Cotton Drawstring Bag",
+  "sku": "ATP-1073",
+  "category": "bags-backpacks",
+  "subcategory": "drawstring-duffel-bags",
+  "unit": "piece",
+  "description": "Natural cotton drawstring backpack.",
+  "specs": {
+   "Fabric": "Cotton calico or canvas",
+   "Size": "37 x 46 cm",
+   "Cord": "Cotton cord",
+   "Branding": "Print"
+  },
+  "spec_prompt": "Style; size; fabric; cord type; colours; print details; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "cotton drawstring backpack"
+ },
+ {
+  "slug": "sports-gym-bag",
+  "name": "Sports Gym Bag",
+  "sku": "ATP-1074",
+  "category": "bags-backpacks",
+  "subcategory": "drawstring-duffel-bags",
+  "unit": "piece",
+  "description": "Duffel with shoe compartment for clubs and fitness centres.",
+  "specs": {
+   "Fabric": "600D polyester",
+   "Capacity": "30 to 40 L",
+   "Features": "Shoe pocket, shoulder strap",
+   "Branding": "Embroidery or print"
+  },
+  "spec_prompt": "Style; size; fabric; cord type; colours; print details; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "gym duffel bag"
+ },
+ {
+  "slug": "travel-duffel-bag",
+  "name": "Travel Duffel Bag",
+  "sku": "ATP-1075",
+  "category": "bags-backpacks",
+  "subcategory": "drawstring-duffel-bags",
+  "unit": "piece",
+  "description": "Large duffel for travel and staff tours.",
+  "specs": {
+   "Fabric": "Polyester or canvas",
+   "Capacity": "50 L",
+   "Features": "Detachable strap",
+   "Branding": "Embroidery"
+  },
+  "spec_prompt": "Style; size; fabric; cord type; colours; print details; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "travel duffel bag"
+ },
+ {
+  "slug": "shoe-bag",
+  "name": "Shoe Bag",
+  "sku": "ATP-1076",
+  "category": "bags-backpacks",
+  "subcategory": "drawstring-duffel-bags",
+  "unit": "piece",
+  "description": "Drawstring shoe pouch for footwear brands and gyms.",
+  "specs": {
+   "Fabric": "Non-woven or cotton",
+   "Size": "Fits one pair",
+   "Closure": "Drawstring",
+   "Branding": "Print"
+  },
+  "spec_prompt": "Style; size; fabric; cord type; colours; print details; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "shoe bag drawstring"
+ },
+ {
+  "slug": "school-exercise-book",
+  "name": "School Exercise Book",
+  "sku": "ATP-1077",
+  "category": "stationery-office-supplies",
+  "subcategory": "notebooks-exercise-books",
+  "unit": "piece",
+  "description": "Stapled exercise books for schools and coaching centres.",
+  "specs": {
+   "Size": "A5 / foolscap",
+   "Pages": "80 / 120 / 200",
+   "Paper": "60 / 70 GSM",
+   "Ruling": "Ruled, square or plain"
+  },
+  "spec_prompt": "Size; page count; paper GSM; ruling; cover type; binding; printing on cover or inside pages; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": true,
+  "image_query": "exercise book school"
+ },
+ {
+  "slug": "spiral-notebook",
+  "name": "Spiral Notebook",
+  "sku": "ATP-1078",
+  "category": "stationery-office-supplies",
+  "subcategory": "notebooks-exercise-books",
+  "unit": "piece",
+  "description": "Wire-bound notebook for students and staff.",
+  "specs": {
+   "Size": "A4 / A5",
+   "Pages": "100 / 160 / 200",
+   "Paper": "70 / 80 GSM",
+   "Cover": "PP or printed board"
+  },
+  "spec_prompt": "Size; page count; paper GSM; ruling; cover type; binding; printing on cover or inside pages; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "spiral notebook"
+ },
+ {
+  "slug": "hardcover-office-notebook",
+  "name": "Hardcover Office Notebook",
+  "sku": "ATP-1079",
+  "category": "stationery-office-supplies",
+  "subcategory": "notebooks-exercise-books",
+  "unit": "piece",
+  "description": "Case-bound notebook for office and meeting notes.",
+  "specs": {
+   "Size": "A5 / B5",
+   "Pages": "192",
+   "Paper": "80 GSM",
+   "Cover": "Laminated hard board"
+  },
+  "spec_prompt": "Size; page count; paper GSM; ruling; cover type; binding; printing on cover or inside pages; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "hardcover notebook"
+ },
+ {
+  "slug": "pu-leather-diary-with-elastic",
+  "name": "PU Leather Diary with Elastic",
+  "sku": "ATP-1080",
+  "category": "stationery-office-supplies",
+  "subcategory": "notebooks-exercise-books",
+  "unit": "piece",
+  "description": "Premium diary with ribbon marker and elastic band.",
+  "specs": {
+   "Size": "A5",
+   "Pages": "160 / 192",
+   "Paper": "80 GSM cream",
+   "Branding": "Debossed logo"
+  },
+  "spec_prompt": "Size; page count; paper GSM; ruling; cover type; binding; printing on cover or inside pages; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "leather notebook journal"
+ },
+ {
+  "slug": "annual-planner-diary",
+  "name": "Annual Planner Diary",
+  "sku": "ATP-1081",
+  "category": "stationery-office-supplies",
+  "subcategory": "notebooks-exercise-books",
+  "unit": "piece",
+  "description": "Dated diary for the year with planning pages.",
+  "specs": {
+   "Size": "A5 / B5",
+   "Layout": "Day or week per page",
+   "Cover": "PU or printed",
+   "Branding": "Company inserts"
+  },
+  "spec_prompt": "Size; page count; paper GSM; ruling; cover type; binding; printing on cover or inside pages; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "planner diary"
+ },
+ {
+  "slug": "pocket-notebook",
+  "name": "Pocket Notebook",
+  "sku": "ATP-1082",
+  "category": "stationery-office-supplies",
+  "subcategory": "notebooks-exercise-books",
+  "unit": "piece",
+  "description": "Small notebook for field staff and events.",
+  "specs": {
+   "Size": "A6",
+   "Pages": "80 / 96",
+   "Binding": "Stitched or spiral",
+   "Branding": "Printed cover"
+  },
+  "spec_prompt": "Size; page count; paper GSM; ruling; cover type; binding; printing on cover or inside pages; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "pocket notebook"
+ },
+ {
+  "slug": "drawing-book",
+  "name": "Drawing Book",
+  "sku": "ATP-1083",
+  "category": "stationery-office-supplies",
+  "subcategory": "notebooks-exercise-books",
+  "unit": "piece",
+  "description": "Art paper drawing book for schools.",
+  "specs": {
+   "Size": "A4 / A3",
+   "Pages": "20 / 40",
+   "Paper": "100 / 120 GSM",
+   "Binding": "Staple or spiral"
+  },
+  "spec_prompt": "Size; page count; paper GSM; ruling; cover type; binding; printing on cover or inside pages; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "sketchbook drawing"
+ },
+ {
+  "slug": "eco-kraft-notebook",
+  "name": "Eco Kraft Notebook",
+  "sku": "ATP-1084",
+  "category": "stationery-office-supplies",
+  "subcategory": "notebooks-exercise-books",
+  "unit": "piece",
+  "description": "Kraft cover notebook with recycled paper.",
+  "specs": {
+   "Size": "A5",
+   "Pages": "80 / 100",
+   "Paper": "Recycled",
+   "Branding": "One colour cover print"
+  },
+  "spec_prompt": "Size; page count; paper GSM; ruling; cover type; binding; printing on cover or inside pages; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "kraft notebook"
+ },
+ {
+  "slug": "ballpoint-pen",
+  "name": "Ballpoint Pen",
+  "sku": "ATP-1085",
+  "category": "stationery-office-supplies",
+  "subcategory": "pens-markers",
+  "unit": "piece",
+  "description": "Everyday click or cap ballpoint pen.",
+  "specs": {
+   "Tip": "0.7 / 1.0 mm",
+   "Ink": "Blue, black, red",
+   "Body": "Plastic",
+   "Pack": "Box of 10 / 50"
+  },
+  "spec_prompt": "Pen type; ink colour; tip size; body colour; branding method; pack size; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": true,
+  "image_query": "ballpoint pen"
+ },
+ {
+  "slug": "gel-pen",
+  "name": "Gel Pen",
+  "sku": "ATP-1086",
+  "category": "stationery-office-supplies",
+  "subcategory": "pens-markers",
+  "unit": "piece",
+  "description": "Smooth gel ink pen for writing and exams.",
+  "specs": {
+   "Tip": "0.5 / 0.7 mm",
+   "Ink": "Blue, black, red",
+   "Grip": "Rubber grip",
+   "Pack": "Box of 12"
+  },
+  "spec_prompt": "Pen type; ink colour; tip size; body colour; branding method; pack size; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "gel pen"
+ },
+ {
+  "slug": "whiteboard-marker",
+  "name": "Whiteboard Marker",
+  "sku": "ATP-1087",
+  "category": "stationery-office-supplies",
+  "subcategory": "pens-markers",
+  "unit": "piece",
+  "description": "Dry-erase marker for classrooms and meeting rooms.",
+  "specs": {
+   "Tip": "Bullet or chisel",
+   "Ink": "Black, blue, red, green",
+   "Refill": "Refillable option",
+   "Pack": "Box of 10"
+  },
+  "spec_prompt": "Pen type; ink colour; tip size; body colour; branding method; pack size; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "whiteboard marker"
+ },
+ {
+  "slug": "permanent-marker",
+  "name": "Permanent Marker",
+  "sku": "ATP-1088",
+  "category": "stationery-office-supplies",
+  "subcategory": "pens-markers",
+  "unit": "piece",
+  "description": "Waterproof marker for cartons, labels and fieldwork.",
+  "specs": {
+   "Tip": "Bullet or chisel",
+   "Ink": "Black, blue, red",
+   "Use": "Cartons, plastic, metal",
+   "Pack": "Box of 10"
+  },
+  "spec_prompt": "Pen type; ink colour; tip size; body colour; branding method; pack size; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "permanent marker"
+ },
+ {
+  "slug": "highlighter-pen",
+  "name": "Highlighter Pen",
+  "sku": "ATP-1089",
+  "category": "stationery-office-supplies",
+  "subcategory": "pens-markers",
+  "unit": "piece",
+  "description": "Fluorescent highlighters in assorted colours.",
+  "specs": {
+   "Tip": "Chisel",
+   "Colours": "Yellow, green, pink, orange",
+   "Pack": "Set of 4 / box of 10",
+   "Ink": "Water based"
+  },
+  "spec_prompt": "Pen type; ink colour; tip size; body colour; branding method; pack size; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "highlighter pens"
+ },
+ {
+  "slug": "fountain-pen",
+  "name": "Fountain Pen",
+  "sku": "ATP-1090",
+  "category": "stationery-office-supplies",
+  "subcategory": "pens-markers",
+  "unit": "piece",
+  "description": "Refillable fountain pen for executives and gifting.",
+  "specs": {
+   "Nib": "Fine / medium",
+   "Filling": "Cartridge or converter",
+   "Body": "Metal",
+   "Branding": "Engraving"
+  },
+  "spec_prompt": "Pen type; ink colour; tip size; body colour; branding method; pack size; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "fountain pen"
+ },
+ {
+  "slug": "sign-pen",
+  "name": "Sign Pen",
+  "sku": "ATP-1091",
+  "category": "stationery-office-supplies",
+  "subcategory": "pens-markers",
+  "unit": "piece",
+  "description": "Felt tip sign pen for signatures and notes.",
+  "specs": {
+   "Tip": "0.8 mm felt",
+   "Ink": "Blue, black",
+   "Body": "Plastic",
+   "Pack": "Box of 10"
+  },
+  "spec_prompt": "Pen type; ink colour; tip size; body colour; branding method; pack size; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "felt tip pen"
+ },
+ {
+  "slug": "hb-graphite-pencil",
+  "name": "HB Graphite Pencil",
+  "sku": "ATP-1092",
+  "category": "stationery-office-supplies",
+  "subcategory": "pencils-erasers",
+  "unit": "piece",
+  "description": "Standard HB pencil with or without eraser tip.",
+  "specs": {
+   "Grade": "HB / 2B",
+   "Body": "Wood, hexagonal",
+   "Tip": "With or without eraser",
+   "Pack": "Box of 12"
+  },
+  "spec_prompt": "Item type; grade or colour count; pack size; branding; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "pencils hb"
+ },
+ {
+  "slug": "mechanical-pencil",
+  "name": "Mechanical Pencil",
+  "sku": "ATP-1093",
+  "category": "stationery-office-supplies",
+  "subcategory": "pencils-erasers",
+  "unit": "piece",
+  "description": "Refillable lead pencil for students and engineers.",
+  "specs": {
+   "Lead": "0.5 / 0.7 mm",
+   "Body": "Plastic or metal",
+   "Grip": "Rubber",
+   "Branding": "Print"
+  },
+  "spec_prompt": "Item type; grade or colour count; pack size; branding; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "mechanical pencil"
+ },
+ {
+  "slug": "colour-pencil-set",
+  "name": "Colour Pencil Set",
+  "sku": "ATP-1094",
+  "category": "stationery-office-supplies",
+  "subcategory": "pencils-erasers",
+  "unit": "piece",
+  "description": "Colour pencils in boxes of 12, 24 or 36.",
+  "specs": {
+   "Colours": "12 / 24 / 36",
+   "Body": "Wood",
+   "Packing": "Card box or tin",
+   "Use": "Schools, art classes"
+  },
+  "spec_prompt": "Item type; grade or colour count; pack size; branding; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "colored pencils"
+ },
+ {
+  "slug": "eraser",
+  "name": "Eraser",
+  "sku": "ATP-1095",
+  "category": "stationery-office-supplies",
+  "subcategory": "pencils-erasers",
+  "unit": "piece",
+  "description": "Dust-free white eraser.",
+  "specs": {
+   "Material": "PVC-free vinyl",
+   "Size": "Small / large",
+   "Pack": "Box of 20 / 40",
+   "Branding": "Printed sleeve"
+  },
+  "spec_prompt": "Item type; grade or colour count; pack size; branding; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "eraser rubber"
+ },
+ {
+  "slug": "pencil-sharpener",
+  "name": "Pencil Sharpener",
+  "sku": "ATP-1096",
+  "category": "stationery-office-supplies",
+  "subcategory": "pencils-erasers",
+  "unit": "piece",
+  "description": "Single or double hole sharpeners.",
+  "specs": {
+   "Type": "Manual, with or without box",
+   "Holes": "Single / double",
+   "Pack": "Box of 20",
+   "Branding": "Print"
+  },
+  "spec_prompt": "Item type; grade or colour count; pack size; branding; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "pencil sharpener"
+ },
+ {
+  "slug": "wax-crayons",
+  "name": "Wax Crayons",
+  "sku": "ATP-1097",
+  "category": "stationery-office-supplies",
+  "subcategory": "pencils-erasers",
+  "unit": "piece",
+  "description": "Crayon boxes for pre-school and junior classes.",
+  "specs": {
+   "Colours": "12 / 24",
+   "Type": "Wax or oil pastel",
+   "Packing": "Card box",
+   "Use": "Children's art"
+  },
+  "spec_prompt": "Item type; grade or colour count; pack size; branding; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "crayons"
+ },
+ {
+  "slug": "box-file",
+  "name": "Box File",
+  "sku": "ATP-1098",
+  "category": "stationery-office-supplies",
+  "subcategory": "files-folders",
+  "unit": "piece",
+  "description": "Lever arch or box file for archives.",
+  "specs": {
+   "Size": "A4 / foolscap",
+   "Spine": "50 / 75 mm",
+   "Material": "Board or PP",
+   "Branding": "Printed label"
+  },
+  "spec_prompt": "File type; size (A4 or foolscap); material; colour; printing; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "box file folder"
+ },
+ {
+  "slug": "clip-file",
+  "name": "Clip File",
+  "sku": "ATP-1099",
+  "category": "stationery-office-supplies",
+  "subcategory": "files-folders",
+  "unit": "piece",
+  "description": "Plastic clip file for documents.",
+  "specs": {
+   "Size": "A4 / foolscap",
+   "Material": "PP",
+   "Colours": "Assorted",
+   "Pack": "Pack of 12"
+  },
+  "spec_prompt": "File type; size (A4 or foolscap); material; colour; printing; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "clipboard folder file"
+ },
+ {
+  "slug": "ring-binder",
+  "name": "Ring Binder",
+  "sku": "ATP-1100",
+  "category": "stationery-office-supplies",
+  "subcategory": "files-folders",
+  "unit": "piece",
+  "description": "2 or 4 ring binder for manuals and training kits.",
+  "specs": {
+   "Size": "A4",
+   "Rings": "2D / 4D",
+   "Cover": "PVC with clear pocket",
+   "Branding": "Insert print"
+  },
+  "spec_prompt": "File type; size (A4 or foolscap); material; colour; printing; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "ring binder"
+ },
+ {
+  "slug": "document-envelope-folder",
+  "name": "Document Envelope Folder",
+  "sku": "ATP-1101",
+  "category": "stationery-office-supplies",
+  "subcategory": "files-folders",
+  "unit": "piece",
+  "description": "Button or zip envelope folder.",
+  "specs": {
+   "Size": "A4 / foolscap",
+   "Material": "PP",
+   "Closure": "Button / zip",
+   "Colours": "Assorted"
+  },
+  "spec_prompt": "File type; size (A4 or foolscap); material; colour; printing; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "plastic envelope folder"
+ },
+ {
+  "slug": "presentation-folder",
+  "name": "Presentation Folder",
+  "sku": "ATP-1102",
+  "category": "stationery-office-supplies",
+  "subcategory": "files-folders",
+  "unit": "piece",
+  "description": "Printed board folder with pockets for corporate kits.",
+  "specs": {
+   "Size": "A4",
+   "Board": "300 / 350 GSM",
+   "Finish": "Matt or gloss lamination",
+   "Branding": "Full colour print"
+  },
+  "spec_prompt": "File type; size (A4 or foolscap); material; colour; printing; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "presentation folder"
+ },
+ {
+  "slug": "display-book",
+  "name": "Display Book",
+  "sku": "ATP-1103",
+  "category": "stationery-office-supplies",
+  "subcategory": "files-folders",
+  "unit": "piece",
+  "description": "Folder with clear sleeves for certificates and portfolios.",
+  "specs": {
+   "Size": "A4",
+   "Pockets": "20 / 40 / 60",
+   "Cover": "PP",
+   "Colours": "Assorted"
+  },
+  "spec_prompt": "File type; size (A4 or foolscap); material; colour; printing; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "display book clear pocket folder"
+ },
+ {
+  "slug": "clipboard",
+  "name": "Clipboard",
+  "sku": "ATP-1104",
+  "category": "stationery-office-supplies",
+  "subcategory": "files-folders",
+  "unit": "piece",
+  "description": "Writing board with metal clip.",
+  "specs": {
+   "Size": "A4 / foolscap",
+   "Material": "Hardboard, PP or acrylic",
+   "Clip": "Metal",
+   "Branding": "Print"
+  },
+  "spec_prompt": "File type; size (A4 or foolscap); material; colour; printing; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "clipboard"
+ },
+ {
+  "slug": "stapler-and-staple-pins",
+  "name": "Stapler and Staple Pins",
+  "sku": "ATP-1105",
+  "category": "stationery-office-supplies",
+  "subcategory": "desk-supplies",
+  "unit": "piece",
+  "description": "Desk staplers with matching staple pins.",
+  "specs": {
+   "Capacity": "20 / 50 sheets",
+   "Pins": "No.10 / 24-6",
+   "Body": "Metal",
+   "Pack": "Stapler or box of pins"
+  },
+  "spec_prompt": "Items; sizes; quantities; brand preferences.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "stapler"
+ },
+ {
+  "slug": "paper-punch",
+  "name": "Paper Punch",
+  "sku": "ATP-1106",
+  "category": "stationery-office-supplies",
+  "subcategory": "desk-supplies",
+  "unit": "piece",
+  "description": "Two-hole punch for filing.",
+  "specs": {
+   "Capacity": "20 / 40 sheets",
+   "Holes": "2",
+   "Body": "Metal",
+   "Guide": "Paper guide"
+  },
+  "spec_prompt": "Items; sizes; quantities; brand preferences.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "hole punch"
+ },
+ {
+  "slug": "scissors",
+  "name": "Scissors",
+  "sku": "ATP-1107",
+  "category": "stationery-office-supplies",
+  "subcategory": "desk-supplies",
+  "unit": "piece",
+  "description": "Office scissors with comfort grip.",
+  "specs": {
+   "Size": "6 / 8 inch",
+   "Blade": "Stainless steel",
+   "Handle": "Plastic",
+   "Pack": "Each"
+  },
+  "spec_prompt": "Items; sizes; quantities; brand preferences.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "scissors office"
+ },
+ {
+  "slug": "sticky-notes",
+  "name": "Sticky Notes",
+  "sku": "ATP-1108",
+  "category": "stationery-office-supplies",
+  "subcategory": "desk-supplies",
+  "unit": "piece",
+  "description": "Self-adhesive notes in standard sizes.",
+  "specs": {
+   "Size": "3 x 3 inch / 3 x 5 inch",
+   "Sheets": "100 per pad",
+   "Colours": "Yellow or neon",
+   "Branding": "Printed pads"
+  },
+  "spec_prompt": "Items; sizes; quantities; brand preferences.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "sticky notes"
+ },
+ {
+  "slug": "desk-organiser",
+  "name": "Desk Organiser",
+  "sku": "ATP-1109",
+  "category": "stationery-office-supplies",
+  "subcategory": "desk-supplies",
+  "unit": "piece",
+  "description": "Pen stand and tray organiser.",
+  "specs": {
+   "Material": "Mesh metal, plastic or wood",
+   "Compartments": "3 to 6",
+   "Colour": "Black / silver",
+   "Branding": "Engraving"
+  },
+  "spec_prompt": "Items; sizes; quantities; brand preferences.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "desk organizer"
+ },
+ {
+  "slug": "calculator",
+  "name": "Calculator",
+  "sku": "ATP-1110",
+  "category": "stationery-office-supplies",
+  "subcategory": "desk-supplies",
+  "unit": "piece",
+  "description": "Desktop or scientific calculator.",
+  "specs": {
+   "Type": "12 digit desktop / scientific",
+   "Power": "Solar and battery",
+   "Body": "Plastic",
+   "Branding": "Print"
+  },
+  "spec_prompt": "Items; sizes; quantities; brand preferences.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "calculator"
+ },
+ {
+  "slug": "glue-stick-and-adhesive-tape",
+  "name": "Glue Stick and Adhesive Tape",
+  "sku": "ATP-1111",
+  "category": "stationery-office-supplies",
+  "subcategory": "desk-supplies",
+  "unit": "piece",
+  "description": "Glue sticks and clear tape for office and school.",
+  "specs": {
+   "Glue": "8 / 15 / 21 g",
+   "Tape": "12 / 18 / 24 mm",
+   "Pack": "Box of 12",
+   "Use": "Paper and card"
+  },
+  "spec_prompt": "Items; sizes; quantities; brand preferences.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "glue stick"
+ },
+ {
+  "slug": "paper-clips-and-binder-clips",
+  "name": "Paper Clips and Binder Clips",
+  "sku": "ATP-1112",
+  "category": "stationery-office-supplies",
+  "subcategory": "desk-supplies",
+  "unit": "piece",
+  "description": "Clips for documents in assorted sizes.",
+  "specs": {
+   "Type": "Paper clip / binder clip",
+   "Size": "Small to large",
+   "Finish": "Metal or coloured",
+   "Pack": "Box of 100 / 12"
+  },
+  "spec_prompt": "Items; sizes; quantities; brand preferences.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "binder clips"
+ },
+ {
+  "slug": "a4-copy-paper-80-gsm",
+  "name": "A4 Copy Paper 80 GSM",
+  "sku": "ATP-1113",
+  "category": "paper-printing",
+  "subcategory": "office-paper",
+  "unit": "ream",
+  "description": "Standard A4 paper for laser and inkjet printers.",
+  "specs": {
+   "Size": "A4 (210 x 297 mm)",
+   "GSM": "80",
+   "Sheets": "500 per ream",
+   "Carton": "5 reams"
+  },
+  "spec_prompt": "Size; GSM; brightness; quantity in reams or cartons; brand preference.",
+  "sizes": [],
+  "colours": [],
+  "featured": true,
+  "image_query": "a4 paper ream"
+ },
+ {
+  "slug": "a4-copy-paper-70-gsm",
+  "name": "A4 Copy Paper 70 GSM",
+  "sku": "ATP-1114",
+  "category": "paper-printing",
+  "subcategory": "office-paper",
+  "unit": "ream",
+  "description": "Economy A4 paper for internal printing.",
+  "specs": {
+   "Size": "A4",
+   "GSM": "70",
+   "Sheets": "500 per ream",
+   "Carton": "5 reams"
+  },
+  "spec_prompt": "Size; GSM; brightness; quantity in reams or cartons; brand preference.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "copy paper stack"
+ },
+ {
+  "slug": "legal-size-paper",
+  "name": "Legal Size Paper",
+  "sku": "ATP-1115",
+  "category": "paper-printing",
+  "subcategory": "office-paper",
+  "unit": "ream",
+  "description": "Legal / foolscap paper for documents.",
+  "specs": {
+   "Size": "Legal (8.5 x 14 inch)",
+   "GSM": "70 / 80",
+   "Sheets": "500 per ream",
+   "Carton": "5 reams"
+  },
+  "spec_prompt": "Size; GSM; brightness; quantity in reams or cartons; brand preference.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "printer paper"
+ },
+ {
+  "slug": "a3-paper",
+  "name": "A3 Paper",
+  "sku": "ATP-1116",
+  "category": "paper-printing",
+  "subcategory": "office-paper",
+  "unit": "ream",
+  "description": "A3 copy paper for drawings and charts.",
+  "specs": {
+   "Size": "A3",
+   "GSM": "80",
+   "Sheets": "500 per ream",
+   "Carton": "5 reams"
+  },
+  "spec_prompt": "Size; GSM; brightness; quantity in reams or cartons; brand preference.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "paper sheets white"
+ },
+ {
+  "slug": "coloured-copy-paper",
+  "name": "Coloured Copy Paper",
+  "sku": "ATP-1117",
+  "category": "paper-printing",
+  "subcategory": "office-paper",
+  "unit": "ream",
+  "description": "Tinted paper for forms and notices.",
+  "specs": {
+   "Size": "A4",
+   "GSM": "75 / 80",
+   "Colours": "Pastel or bright",
+   "Sheets": "500 per ream"
+  },
+  "spec_prompt": "Size; GSM; brightness; quantity in reams or cartons; brand preference.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "colored paper"
+ },
+ {
+  "slug": "art-card-and-board",
+  "name": "Art Card and Board",
+  "sku": "ATP-1118",
+  "category": "paper-printing",
+  "subcategory": "office-paper",
+  "unit": "ream",
+  "description": "Card stock for certificates, ID cards and covers.",
+  "specs": {
+   "Size": "A4 / A3 / full sheet",
+   "GSM": "200 / 250 / 300",
+   "Finish": "Matt or gloss",
+   "Pack": "100 / 250 sheets"
+  },
+  "spec_prompt": "Size; GSM; brightness; quantity in reams or cartons; brand preference.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "card stock paper"
+ },
+ {
+  "slug": "computer-continuous-paper",
+  "name": "Computer Continuous Paper",
+  "sku": "ATP-1119",
+  "category": "paper-printing",
+  "subcategory": "office-paper",
+  "unit": "ream",
+  "description": "Continuous form paper for dot matrix printers.",
+  "specs": {
+   "Size": "9.5 x 11 / 15 x 11 inch",
+   "Ply": "1 / 2 / 3 ply",
+   "Pack": "Box",
+   "Use": "Invoices, reports"
+  },
+  "spec_prompt": "Size; GSM; brightness; quantity in reams or cartons; brand preference.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "continuous form paper"
+ },
+ {
+  "slug": "saddle-stitch-booklet",
+  "name": "Saddle Stitch Booklet",
+  "sku": "ATP-1120",
+  "category": "paper-printing",
+  "subcategory": "printed-booklets-manuals",
+  "unit": "piece",
+  "description": "Stapled booklet for programmes and guides.",
+  "specs": {
+   "Size": "A4 / A5",
+   "Pages": "8 to 64",
+   "Paper": "Art paper or offset",
+   "Binding": "Saddle stitch"
+  },
+  "spec_prompt": "Size; page count; paper; colour; binding; quantity; artwork status.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "booklet printing"
+ },
+ {
+  "slug": "perfect-bound-manual",
+  "name": "Perfect Bound Manual",
+  "sku": "ATP-1121",
+  "category": "paper-printing",
+  "subcategory": "printed-booklets-manuals",
+  "unit": "piece",
+  "description": "Glued spine manual for training and reports.",
+  "specs": {
+   "Size": "A4 / A5",
+   "Pages": "48 to 300",
+   "Cover": "250 / 300 GSM",
+   "Binding": "Perfect bound"
+  },
+  "spec_prompt": "Size; page count; paper; colour; binding; quantity; artwork status.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "book printing"
+ },
+ {
+  "slug": "tri-fold-brochure",
+  "name": "Tri-Fold Brochure",
+  "sku": "ATP-1122",
+  "category": "paper-printing",
+  "subcategory": "printed-booklets-manuals",
+  "unit": "piece",
+  "description": "Folded leaflet for marketing and awareness.",
+  "specs": {
+   "Size": "A4 folded to DL",
+   "Paper": "130 / 170 GSM art",
+   "Print": "Full colour both sides",
+   "Finish": "Matt or gloss"
+  },
+  "spec_prompt": "Size; page count; paper; colour; binding; quantity; artwork status.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "brochure"
+ },
+ {
+  "slug": "flyer-and-leaflet",
+  "name": "Flyer and Leaflet",
+  "sku": "ATP-1123",
+  "category": "paper-printing",
+  "subcategory": "printed-booklets-manuals",
+  "unit": "piece",
+  "description": "Single sheet flyers for campaigns.",
+  "specs": {
+   "Size": "A5 / A4",
+   "Paper": "100 / 130 GSM",
+   "Print": "One or both sides",
+   "Quantity": "500+"
+  },
+  "spec_prompt": "Size; page count; paper; colour; binding; quantity; artwork status.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "flyer leaflet"
+ },
+ {
+  "slug": "annual-report",
+  "name": "Annual Report",
+  "sku": "ATP-1124",
+  "category": "paper-printing",
+  "subcategory": "printed-booklets-manuals",
+  "unit": "piece",
+  "description": "Premium report with cover finishes.",
+  "specs": {
+   "Size": "A4",
+   "Pages": "40 to 120",
+   "Cover": "Spot UV or foil option",
+   "Binding": "Perfect bound"
+  },
+  "spec_prompt": "Size; page count; paper; colour; binding; quantity; artwork status.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "annual report print"
+ },
+ {
+  "slug": "wire-o-bound-manual",
+  "name": "Wire-O Bound Manual",
+  "sku": "ATP-1125",
+  "category": "paper-printing",
+  "subcategory": "printed-booklets-manuals",
+  "unit": "piece",
+  "description": "Lay-flat wire bound manual or calendar.",
+  "specs": {
+   "Size": "A4 / A5",
+   "Pages": "20 to 200",
+   "Binding": "Wire-O",
+   "Cover": "Laminated"
+  },
+  "spec_prompt": "Size; page count; paper; colour; binding; quantity; artwork status.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "spiral bound book"
+ },
+ {
+  "slug": "carbonless-receipt-book",
+  "name": "Carbonless Receipt Book",
+  "sku": "ATP-1126",
+  "category": "paper-printing",
+  "subcategory": "printed-forms-pads",
+  "unit": "pad",
+  "description": "Numbered duplicate or triplicate receipt books.",
+  "specs": {
+   "Size": "A5 / A6",
+   "Ply": "2 / 3 NCR",
+   "Numbering": "Sequential",
+   "Binding": "Pad with cover"
+  },
+  "spec_prompt": "Form type; size; number of copies (ply); numbering; quantity; artwork.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "receipt book"
+ },
+ {
+  "slug": "letterhead",
+  "name": "Letterhead",
+  "sku": "ATP-1127",
+  "category": "paper-printing",
+  "subcategory": "printed-forms-pads",
+  "unit": "pad",
+  "description": "Printed company letterheads.",
+  "specs": {
+   "Size": "A4",
+   "Paper": "100 / 120 GSM bond",
+   "Print": "Full colour",
+   "Pack": "Ream"
+  },
+  "spec_prompt": "Form type; size; number of copies (ply); numbering; quantity; artwork.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "letterhead stationery"
+ },
+ {
+  "slug": "envelopes",
+  "name": "Envelopes",
+  "sku": "ATP-1128",
+  "category": "paper-printing",
+  "subcategory": "printed-forms-pads",
+  "unit": "pad",
+  "description": "Printed envelopes in standard sizes.",
+  "specs": {
+   "Size": "DL / C5 / C4 / A4",
+   "Paper": "100 / 120 GSM",
+   "Window": "With or without",
+   "Print": "Logo and address"
+  },
+  "spec_prompt": "Form type; size; number of copies (ply); numbering; quantity; artwork.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "envelopes"
+ },
+ {
+  "slug": "notepad",
+  "name": "Notepad",
+  "sku": "ATP-1129",
+  "category": "paper-printing",
+  "subcategory": "printed-forms-pads",
+  "unit": "pad",
+  "description": "Branded tear-off notepads.",
+  "specs": {
+   "Size": "A5 / A6",
+   "Sheets": "50 / 100",
+   "Paper": "70 / 80 GSM",
+   "Print": "Full colour"
+  },
+  "spec_prompt": "Form type; size; number of copies (ply); numbering; quantity; artwork.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "notepad"
+ },
+ {
+  "slug": "visiting-card",
+  "name": "Visiting Card",
+  "sku": "ATP-1130",
+  "category": "paper-printing",
+  "subcategory": "printed-forms-pads",
+  "unit": "pad",
+  "description": "Business cards with premium finishes.",
+  "specs": {
+   "Size": "3.5 x 2 inch",
+   "Card": "300 / 350 GSM",
+   "Finish": "Matt, gloss, spot UV",
+   "Pack": "Box of 100"
+  },
+  "spec_prompt": "Form type; size; number of copies (ply); numbering; quantity; artwork.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "business cards"
+ },
+ {
+  "slug": "challan-and-invoice-book",
+  "name": "Challan and Invoice Book",
+  "sku": "ATP-1131",
+  "category": "paper-printing",
+  "subcategory": "printed-forms-pads",
+  "unit": "pad",
+  "description": "Delivery challan and invoice books.",
+  "specs": {
+   "Size": "A4 / A5",
+   "Ply": "2 / 3 NCR",
+   "Numbering": "Sequential",
+   "Binding": "Book"
+  },
+  "spec_prompt": "Form type; size; number of copies (ply); numbering; quantity; artwork.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "invoice book"
+ },
+ {
+  "slug": "metal-twist-pen",
+  "name": "Metal Twist Pen",
+  "sku": "ATP-1132",
+  "category": "corporate-gifts",
+  "subcategory": "branded-pens",
+  "unit": "piece",
+  "description": "Slim metal pen with laser engraved logo.",
+  "specs": {
+   "Body": "Metal",
+   "Mechanism": "Twist",
+   "Branding": "Laser engraving",
+   "Packing": "Sleeve or box"
+  },
+  "spec_prompt": "Pen style; body colour; ink; logo method (print or engraving); quantity; packaging.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "metal pen"
+ },
+ {
+  "slug": "plastic-click-pen",
+  "name": "Plastic Click Pen",
+  "sku": "ATP-1133",
+  "category": "corporate-gifts",
+  "subcategory": "branded-pens",
+  "unit": "piece",
+  "description": "Economy branded click pen for giveaways.",
+  "specs": {
+   "Body": "Plastic",
+   "Mechanism": "Click",
+   "Branding": "Pad or screen print",
+   "Colours": "Assorted"
+  },
+  "spec_prompt": "Pen style; body colour; ink; logo method (print or engraving); quantity; packaging.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "promotional pen"
+ },
+ {
+  "slug": "stylus-pen",
+  "name": "Stylus Pen",
+  "sku": "ATP-1134",
+  "category": "corporate-gifts",
+  "subcategory": "branded-pens",
+  "unit": "piece",
+  "description": "Ballpoint with touchscreen stylus tip.",
+  "specs": {
+   "Body": "Metal or plastic",
+   "Tip": "Rubber stylus",
+   "Branding": "Engraving or print",
+   "Ink": "Blue / black"
+  },
+  "spec_prompt": "Pen style; body colour; ink; logo method (print or engraving); quantity; packaging.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "stylus pen"
+ },
+ {
+  "slug": "pen-gift-set",
+  "name": "Pen Gift Set",
+  "sku": "ATP-1135",
+  "category": "corporate-gifts",
+  "subcategory": "branded-pens",
+  "unit": "piece",
+  "description": "Pen and pencil or pen and roller set in a box.",
+  "specs": {
+   "Contents": "2 pens",
+   "Box": "Metal or leatherette",
+   "Branding": "Engraving on pen and box",
+   "Ink": "Blue / black"
+  },
+  "spec_prompt": "Pen style; body colour; ink; logo method (print or engraving); quantity; packaging.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "pen gift set"
+ },
+ {
+  "slug": "eco-bamboo-pen",
+  "name": "Eco Bamboo Pen",
+  "sku": "ATP-1136",
+  "category": "corporate-gifts",
+  "subcategory": "branded-pens",
+  "unit": "piece",
+  "description": "Bamboo body pen for eco-friendly campaigns.",
+  "specs": {
+   "Body": "Bamboo",
+   "Mechanism": "Click",
+   "Branding": "Laser engraving",
+   "Ink": "Blue"
+  },
+  "spec_prompt": "Pen style; body colour; ink; logo method (print or engraving); quantity; packaging.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "bamboo pen"
+ },
+ {
+  "slug": "ceramic-coffee-mug",
+  "name": "Ceramic Coffee Mug",
+  "sku": "ATP-1137",
+  "category": "corporate-gifts",
+  "subcategory": "mugs-drinkware",
+  "unit": "piece",
+  "description": "Classic 11 oz mug with full colour print.",
+  "specs": {
+   "Capacity": "11 oz / 325 ml",
+   "Material": "Ceramic",
+   "Print": "Sublimation",
+   "Box": "Individual box"
+  },
+  "spec_prompt": "Item; capacity; colour; print method; individual box; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "white ceramic mug"
+ },
+ {
+  "slug": "magic-colour-changing-mug",
+  "name": "Magic Colour-Changing Mug",
+  "sku": "ATP-1138",
+  "category": "corporate-gifts",
+  "subcategory": "mugs-drinkware",
+  "unit": "piece",
+  "description": "Black mug that reveals print when filled with hot drink.",
+  "specs": {
+   "Capacity": "11 oz",
+   "Material": "Ceramic",
+   "Print": "Sublimation",
+   "Box": "Individual box"
+  },
+  "spec_prompt": "Item; capacity; colour; print method; individual box; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "black coffee mug"
+ },
+ {
+  "slug": "stainless-steel-water-bottle",
+  "name": "Stainless Steel Water Bottle",
+  "sku": "ATP-1139",
+  "category": "corporate-gifts",
+  "subcategory": "mugs-drinkware",
+  "unit": "piece",
+  "description": "Insulated bottle that keeps drinks hot or cold.",
+  "specs": {
+   "Capacity": "500 / 750 ml",
+   "Material": "Double wall steel",
+   "Branding": "Laser engraving",
+   "Colours": "Assorted"
+  },
+  "spec_prompt": "Item; capacity; colour; print method; individual box; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "stainless steel water bottle"
+ },
+ {
+  "slug": "travel-tumbler",
+  "name": "Travel Tumbler",
+  "sku": "ATP-1140",
+  "category": "corporate-gifts",
+  "subcategory": "mugs-drinkware",
+  "unit": "piece",
+  "description": "Insulated tumbler with lid for commuters.",
+  "specs": {
+   "Capacity": "350 / 500 ml",
+   "Material": "Steel",
+   "Lid": "Sliding lid",
+   "Branding": "Engraving or print"
+  },
+  "spec_prompt": "Item; capacity; colour; print method; individual box; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "travel mug tumbler"
+ },
+ {
+  "slug": "glass-water-bottle",
+  "name": "Glass Water Bottle",
+  "sku": "ATP-1141",
+  "category": "corporate-gifts",
+  "subcategory": "mugs-drinkware",
+  "unit": "piece",
+  "description": "Glass bottle with sleeve and bamboo lid.",
+  "specs": {
+   "Capacity": "500 ml",
+   "Material": "Borosilicate glass",
+   "Sleeve": "Silicone or neoprene",
+   "Branding": "Print"
+  },
+  "spec_prompt": "Item; capacity; colour; print method; individual box; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "glass water bottle"
+ },
+ {
+  "slug": "plastic-sports-bottle",
+  "name": "Plastic Sports Bottle",
+  "sku": "ATP-1142",
+  "category": "corporate-gifts",
+  "subcategory": "mugs-drinkware",
+  "unit": "piece",
+  "description": "BPA-free sports bottle for events.",
+  "specs": {
+   "Capacity": "500 / 750 ml",
+   "Material": "Tritan or PP",
+   "Lid": "Flip or sport cap",
+   "Branding": "Print"
+  },
+  "spec_prompt": "Item; capacity; colour; print method; individual box; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "sports water bottle"
+ },
+ {
+  "slug": "enamel-camp-mug",
+  "name": "Enamel Camp Mug",
+  "sku": "ATP-1143",
+  "category": "corporate-gifts",
+  "subcategory": "mugs-drinkware",
+  "unit": "piece",
+  "description": "Rustic enamel mug for outdoor themed gifts.",
+  "specs": {
+   "Capacity": "350 ml",
+   "Material": "Enamel steel",
+   "Rim": "Contrast rim",
+   "Branding": "Print"
+  },
+  "spec_prompt": "Item; capacity; colour; print method; individual box; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "enamel mug"
+ },
+ {
+  "slug": "baseball-cap",
+  "name": "Baseball Cap",
+  "sku": "ATP-1144",
+  "category": "corporate-gifts",
+  "subcategory": "caps-hats",
+  "unit": "piece",
+  "description": "6-panel cotton twill cap with curved peak.",
+  "specs": {
+   "Fabric": "Cotton twill",
+   "Panels": "6",
+   "Closure": "Velcro, buckle or snap",
+   "Branding": "3D or flat embroidery"
+  },
+  "spec_prompt": "Style; fabric; colour; closure; embroidery or print size; quantity.",
+  "sizes": [],
+  "colours": [
+   "Black",
+   "Navy",
+   "White",
+   "Red",
+   "Royal Blue",
+   "Khaki"
+  ],
+  "featured": false,
+  "image_query": "baseball cap"
+ },
+ {
+  "slug": "trucker-mesh-cap",
+  "name": "Trucker Mesh Cap",
+  "sku": "ATP-1145",
+  "category": "corporate-gifts",
+  "subcategory": "caps-hats",
+  "unit": "piece",
+  "description": "Foam front with mesh back.",
+  "specs": {
+   "Fabric": "Polyester foam and mesh",
+   "Panels": "5",
+   "Closure": "Snapback",
+   "Branding": "Print or patch"
+  },
+  "spec_prompt": "Style; fabric; colour; closure; embroidery or print size; quantity.",
+  "sizes": [],
+  "colours": [
+   "Black",
+   "Navy",
+   "White",
+   "Red",
+   "Royal Blue",
+   "Khaki"
+  ],
+  "featured": false,
+  "image_query": "trucker hat"
+ },
+ {
+  "slug": "snapback-flat-peak-cap",
+  "name": "Snapback Flat Peak Cap",
+  "sku": "ATP-1146",
+  "category": "corporate-gifts",
+  "subcategory": "caps-hats",
+  "unit": "piece",
+  "description": "Structured cap with flat peak.",
+  "specs": {
+   "Fabric": "Acrylic or cotton",
+   "Panels": "6",
+   "Closure": "Snapback",
+   "Branding": "3D embroidery"
+  },
+  "spec_prompt": "Style; fabric; colour; closure; embroidery or print size; quantity.",
+  "sizes": [],
+  "colours": [
+   "Black",
+   "Navy",
+   "White",
+   "Red",
+   "Royal Blue",
+   "Khaki"
+  ],
+  "featured": false,
+  "image_query": "snapback cap"
+ },
+ {
+  "slug": "bucket-hat",
+  "name": "Bucket Hat",
+  "sku": "ATP-1147",
+  "category": "corporate-gifts",
+  "subcategory": "caps-hats",
+  "unit": "piece",
+  "description": "Soft brim bucket hat for outdoor events.",
+  "specs": {
+   "Fabric": "Cotton twill",
+   "Brim": "Soft",
+   "Sizes": "S/M, L/XL",
+   "Branding": "Embroidery or print"
+  },
+  "spec_prompt": "Style; fabric; colour; closure; embroidery or print size; quantity.",
+  "sizes": [],
+  "colours": [
+   "Black",
+   "Navy",
+   "White",
+   "Red",
+   "Royal Blue",
+   "Khaki"
+  ],
+  "featured": false,
+  "image_query": "bucket hat"
+ },
+ {
+  "slug": "sun-visor",
+  "name": "Sun Visor",
+  "sku": "ATP-1148",
+  "category": "corporate-gifts",
+  "subcategory": "caps-hats",
+  "unit": "piece",
+  "description": "Open top visor for sports and summer events.",
+  "specs": {
+   "Fabric": "Cotton or polyester",
+   "Closure": "Velcro",
+   "Peak": "Curved",
+   "Branding": "Embroidery"
+  },
+  "spec_prompt": "Style; fabric; colour; closure; embroidery or print size; quantity.",
+  "sizes": [],
+  "colours": [
+   "Black",
+   "Navy",
+   "White",
+   "Red",
+   "Royal Blue",
+   "Khaki"
+  ],
+  "featured": false,
+  "image_query": "sun visor cap"
+ },
+ {
+  "slug": "knitted-beanie",
+  "name": "Knitted Beanie",
+  "sku": "ATP-1149",
+  "category": "corporate-gifts",
+  "subcategory": "caps-hats",
+  "unit": "piece",
+  "description": "Winter beanie with or without cuff.",
+  "specs": {
+   "Fabric": "Acrylic knit",
+   "Style": "Cuffed or plain",
+   "Colours": "As per brand",
+   "Branding": "Woven label or embroidery"
+  },
+  "spec_prompt": "Style; fabric; colour; closure; embroidery or print size; quantity.",
+  "sizes": [],
+  "colours": [
+   "Black",
+   "Navy",
+   "White",
+   "Red",
+   "Royal Blue",
+   "Khaki"
+  ],
+  "featured": false,
+  "image_query": "beanie hat"
+ },
+ {
+  "slug": "executive-gift-box",
+  "name": "Executive Gift Box",
+  "sku": "ATP-1150",
+  "category": "corporate-gifts",
+  "subcategory": "gift-sets",
+  "unit": "set",
+  "description": "Notebook, pen and bottle in a branded box.",
+  "specs": {
+   "Contents": "A5 diary, metal pen, steel bottle",
+   "Box": "Magnetic rigid box",
+   "Branding": "Logo on each item",
+   "Insert": "Foam or paper"
+  },
+  "spec_prompt": "Budget per set; items; packaging; branding; card or message; delivery addresses.",
+  "sizes": [],
+  "colours": [],
+  "featured": true,
+  "image_query": "corporate gift box"
+ },
+ {
+  "slug": "welcome-kit-for-new-staff",
+  "name": "Welcome Kit for New Staff",
+  "sku": "ATP-1151",
+  "category": "corporate-gifts",
+  "subcategory": "gift-sets",
+  "unit": "set",
+  "description": "Onboarding kit with T-shirt, mug and stationery.",
+  "specs": {
+   "Contents": "T-shirt, mug, notebook, pen, badge",
+   "Box": "Printed mailer box",
+   "Branding": "Full set branding",
+   "Insert": "Welcome card"
+  },
+  "spec_prompt": "Budget per set; items; packaging; branding; card or message; delivery addresses.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "welcome kit merchandise"
+ },
+ {
+  "slug": "conference-delegate-kit",
+  "name": "Conference Delegate Kit",
+  "sku": "ATP-1152",
+  "category": "corporate-gifts",
+  "subcategory": "gift-sets",
+  "unit": "set",
+  "description": "Bag, folder, pen and notepad for delegates.",
+  "specs": {
+   "Contents": "Bag, folder, notepad, pen, lanyard",
+   "Packing": "Assembled per delegate",
+   "Branding": "Event logo",
+   "Quantity": "50+"
+  },
+  "spec_prompt": "Budget per set; items; packaging; branding; card or message; delivery addresses.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "conference kit bag"
+ },
+ {
+  "slug": "festival-gift-hamper",
+  "name": "Festival Gift Hamper",
+  "sku": "ATP-1153",
+  "category": "corporate-gifts",
+  "subcategory": "gift-sets",
+  "unit": "set",
+  "description": "Festive hamper for Eid, Puja, New Year or year-end gifting.",
+  "specs": {
+   "Contents": "As per budget",
+   "Packing": "Basket or box",
+   "Branding": "Card and ribbon",
+   "Delivery": "Single or multiple addresses"
+  },
+  "spec_prompt": "Budget per set; items; packaging; branding; card or message; delivery addresses.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "gift hamper basket"
+ },
+ {
+  "slug": "tech-gift-set",
+  "name": "Tech Gift Set",
+  "sku": "ATP-1154",
+  "category": "corporate-gifts",
+  "subcategory": "gift-sets",
+  "unit": "set",
+  "description": "Power bank, USB drive and cable organiser set.",
+  "specs": {
+   "Contents": "Power bank, USB drive, cable",
+   "Box": "Rigid box",
+   "Branding": "Engraving or print",
+   "Warranty": "As per brand"
+  },
+  "spec_prompt": "Budget per set; items; packaging; branding; card or message; delivery addresses.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "power bank gift"
+ },
+ {
+  "slug": "eco-gift-set",
+  "name": "Eco Gift Set",
+  "sku": "ATP-1155",
+  "category": "corporate-gifts",
+  "subcategory": "gift-sets",
+  "unit": "set",
+  "description": "Bamboo, jute and recycled-material gift set.",
+  "specs": {
+   "Contents": "Bamboo pen, jute pouch, kraft notebook",
+   "Box": "Kraft box",
+   "Branding": "Engraving and print",
+   "Theme": "Sustainable"
+  },
+  "spec_prompt": "Budget per set; items; packaging; branding; card or message; delivery addresses.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "eco friendly gift set bamboo"
+ },
+ {
+  "slug": "lanyard-and-id-card-holder",
+  "name": "Lanyard and ID Card Holder",
+  "sku": "ATP-1156",
+  "category": "corporate-gifts",
+  "subcategory": "gift-sets",
+  "unit": "set",
+  "description": "Printed lanyards with badge holders for staff and events.",
+  "specs": {
+   "Width": "15 / 20 / 25 mm",
+   "Print": "Sublimation or screen",
+   "Fitting": "Hook or clip",
+   "Holder": "PVC or hard case"
+  },
+  "spec_prompt": "Budget per set; items; packaging; branding; card or message; delivery addresses.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "lanyard"
+ },
+ {
+  "slug": "keychain",
+  "name": "Keychain",
+  "sku": "ATP-1157",
+  "category": "corporate-gifts",
+  "subcategory": "gift-sets",
+  "unit": "set",
+  "description": "Metal, acrylic or rubber keyrings with logo.",
+  "specs": {
+   "Material": "Metal / acrylic / PVC",
+   "Branding": "Engraving or print",
+   "Packing": "Individual pouch",
+   "Quantity": "100+"
+  },
+  "spec_prompt": "Budget per set; items; packaging; branding; card or message; delivery addresses.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "keychain"
+ },
+ {
+  "slug": "3-ply-carton-box",
+  "name": "3-Ply Carton Box",
+  "sku": "ATP-1158",
+  "category": "packaging-materials",
+  "subcategory": "corrugated-cartons",
+  "unit": "piece",
+  "description": "Light carton for small shipments and e-commerce.",
+  "specs": {
+   "Ply": "3",
+   "Size": "Custom",
+   "Paper": "Kraft liner",
+   "Print": "Up to 2 colours"
+  },
+  "spec_prompt": "Inner dimensions; ply (3, 5 or 7); paper grade; printing; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "cardboard box"
+ },
+ {
+  "slug": "5-ply-export-carton",
+  "name": "5-Ply Export Carton",
+  "sku": "ATP-1159",
+  "category": "packaging-materials",
+  "subcategory": "corrugated-cartons",
+  "unit": "piece",
+  "description": "Heavy carton for export and bulk goods.",
+  "specs": {
+   "Ply": "5",
+   "Size": "Custom",
+   "Paper": "Kraft / test liner",
+   "Print": "Shipping marks"
+  },
+  "spec_prompt": "Inner dimensions; ply (3, 5 or 7); paper grade; printing; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "corrugated carton shipping box"
+ },
+ {
+  "slug": "mailer-box",
+  "name": "Mailer Box",
+  "sku": "ATP-1160",
+  "category": "packaging-materials",
+  "subcategory": "corrugated-cartons",
+  "unit": "piece",
+  "description": "Die-cut mailer box with tuck flaps.",
+  "specs": {
+   "Material": "E-flute corrugated",
+   "Size": "Custom",
+   "Print": "Full colour",
+   "Finish": "Matt or gloss"
+  },
+  "spec_prompt": "Inner dimensions; ply (3, 5 or 7); paper grade; printing; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "mailer box"
+ },
+ {
+  "slug": "pizza-and-food-box",
+  "name": "Pizza and Food Box",
+  "sku": "ATP-1161",
+  "category": "packaging-materials",
+  "subcategory": "corrugated-cartons",
+  "unit": "piece",
+  "description": "Corrugated boxes for food delivery.",
+  "specs": {
+   "Material": "Food-grade corrugated",
+   "Size": "8 to 14 inch",
+   "Print": "1 to 2 colour",
+   "Vent": "Optional"
+  },
+  "spec_prompt": "Inner dimensions; ply (3, 5 or 7); paper grade; printing; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "pizza box"
+ },
+ {
+  "slug": "archive-storage-box",
+  "name": "Archive Storage Box",
+  "sku": "ATP-1162",
+  "category": "packaging-materials",
+  "subcategory": "corrugated-cartons",
+  "unit": "piece",
+  "description": "Lidded box for files and records.",
+  "specs": {
+   "Material": "Corrugated board",
+   "Size": "A4 / foolscap",
+   "Lid": "Separate lid",
+   "Print": "Label area"
+  },
+  "spec_prompt": "Inner dimensions; ply (3, 5 or 7); paper grade; printing; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "archive storage box"
+ },
+ {
+  "slug": "corrugated-roll-and-sheet",
+  "name": "Corrugated Roll and Sheet",
+  "sku": "ATP-1163",
+  "category": "packaging-materials",
+  "subcategory": "corrugated-cartons",
+  "unit": "piece",
+  "description": "Single-face roll or sheets for wrapping.",
+  "specs": {
+   "Type": "Roll or sheet",
+   "Width": "As required",
+   "Flute": "B / C / E",
+   "Use": "Wrapping and protection"
+  },
+  "spec_prompt": "Inner dimensions; ply (3, 5 or 7); paper grade; printing; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "corrugated cardboard sheet"
+ },
+ {
+  "slug": "kraft-paper-bag-with-twisted-handle",
+  "name": "Kraft Paper Bag with Twisted Handle",
+  "sku": "ATP-1164",
+  "category": "packaging-materials",
+  "subcategory": "paper-bags",
+  "unit": "piece",
+  "description": "Brown or white kraft shopping bag.",
+  "specs": {
+   "Paper": "Kraft 100 / 120 GSM",
+   "Size": "Custom",
+   "Handle": "Twisted paper",
+   "Print": "1 to 4 colours"
+  },
+  "spec_prompt": "Size; paper type and GSM; handle style; printing; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "kraft paper bag"
+ },
+ {
+  "slug": "flat-handle-paper-bag",
+  "name": "Flat Handle Paper Bag",
+  "sku": "ATP-1165",
+  "category": "packaging-materials",
+  "subcategory": "paper-bags",
+  "unit": "piece",
+  "description": "Economy bag with flat paper handle.",
+  "specs": {
+   "Paper": "Kraft 80 / 100 GSM",
+   "Size": "Custom",
+   "Handle": "Flat",
+   "Print": "1 to 2 colours"
+  },
+  "spec_prompt": "Size; paper type and GSM; handle style; printing; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "brown paper bag handle"
+ },
+ {
+  "slug": "luxury-rope-handle-bag",
+  "name": "Luxury Rope Handle Bag",
+  "sku": "ATP-1166",
+  "category": "packaging-materials",
+  "subcategory": "paper-bags",
+  "unit": "piece",
+  "description": "Laminated art paper bag for premium retail and gifts.",
+  "specs": {
+   "Paper": "Art card 210 / 250 GSM",
+   "Lamination": "Matt or gloss",
+   "Handle": "Rope or ribbon",
+   "Finish": "Foil option"
+  },
+  "spec_prompt": "Size; paper type and GSM; handle style; printing; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "luxury paper shopping bag"
+ },
+ {
+  "slug": "sos-food-bag",
+  "name": "SOS Food Bag",
+  "sku": "ATP-1167",
+  "category": "packaging-materials",
+  "subcategory": "paper-bags",
+  "unit": "piece",
+  "description": "Flat-bottom bag for bakery and takeaway.",
+  "specs": {
+   "Paper": "Food-grade kraft",
+   "Size": "Small to large",
+   "Handle": "None",
+   "Print": "1 colour"
+  },
+  "spec_prompt": "Size; paper type and GSM; handle style; printing; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "paper bag food bakery"
+ },
+ {
+  "slug": "pharmacy-paper-bag",
+  "name": "Pharmacy Paper Bag",
+  "sku": "ATP-1168",
+  "category": "packaging-materials",
+  "subcategory": "paper-bags",
+  "unit": "piece",
+  "description": "Small flat paper bag for medicines.",
+  "specs": {
+   "Paper": "White or kraft",
+   "Size": "Small",
+   "Print": "Logo and instructions",
+   "Pack": "1000 pcs"
+  },
+  "spec_prompt": "Size; paper type and GSM; handle style; printing; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "small paper bags"
+ },
+ {
+  "slug": "product-label-roll",
+  "name": "Product Label Roll",
+  "sku": "ATP-1169",
+  "category": "packaging-materials",
+  "subcategory": "labels-stickers",
+  "unit": "roll",
+  "description": "Printed labels for bottles, jars and boxes.",
+  "specs": {
+   "Material": "Paper or BOPP",
+   "Finish": "Matt or gloss",
+   "Adhesive": "Permanent",
+   "Supply": "Roll"
+  },
+  "spec_prompt": "Size; material; adhesive; finish; roll core and direction; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "product labels roll"
+ },
+ {
+  "slug": "barcode-label-roll",
+  "name": "Barcode Label Roll",
+  "sku": "ATP-1170",
+  "category": "packaging-materials",
+  "subcategory": "labels-stickers",
+  "unit": "roll",
+  "description": "Blank labels for thermal barcode printers.",
+  "specs": {
+   "Material": "Thermal or chromo paper",
+   "Size": "e.g. 50 x 25 mm",
+   "Core": "1 / 3 inch",
+   "Supply": "Roll"
+  },
+  "spec_prompt": "Size; material; adhesive; finish; roll core and direction; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "barcode labels"
+ },
+ {
+  "slug": "die-cut-logo-sticker",
+  "name": "Die-Cut Logo Sticker",
+  "sku": "ATP-1171",
+  "category": "packaging-materials",
+  "subcategory": "labels-stickers",
+  "unit": "roll",
+  "description": "Custom shape stickers for branding.",
+  "specs": {
+   "Material": "Vinyl",
+   "Finish": "Gloss or matt",
+   "Shape": "Custom die-cut",
+   "Use": "Indoor / outdoor"
+  },
+  "spec_prompt": "Size; material; adhesive; finish; roll core and direction; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "stickers"
+ },
+ {
+  "slug": "security-hologram-sticker",
+  "name": "Security Hologram Sticker",
+  "sku": "ATP-1172",
+  "category": "packaging-materials",
+  "subcategory": "labels-stickers",
+  "unit": "roll",
+  "description": "Tamper-evident hologram labels.",
+  "specs": {
+   "Material": "Holographic film",
+   "Feature": "Tamper evident",
+   "Size": "Custom",
+   "Numbering": "Optional"
+  },
+  "spec_prompt": "Size; material; adhesive; finish; roll core and direction; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "hologram sticker"
+ },
+ {
+  "slug": "fragile-and-handling-labels",
+  "name": "Fragile and Handling Labels",
+  "sku": "ATP-1173",
+  "category": "packaging-materials",
+  "subcategory": "labels-stickers",
+  "unit": "roll",
+  "description": "Warning labels for shipping cartons.",
+  "specs": {
+   "Material": "Paper",
+   "Text": "Fragile, This side up, etc.",
+   "Size": "Standard",
+   "Supply": "Roll"
+  },
+  "spec_prompt": "Size; material; adhesive; finish; roll core and direction; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "fragile label"
+ },
+ {
+  "slug": "clear-bopp-packing-tape",
+  "name": "Clear BOPP Packing Tape",
+  "sku": "ATP-1174",
+  "category": "packaging-materials",
+  "subcategory": "packing-tape-wrap",
+  "unit": "roll",
+  "description": "Clear carton sealing tape.",
+  "specs": {
+   "Width": "48 / 72 mm",
+   "Length": "50 / 100 m",
+   "Thickness": "40 / 45 micron",
+   "Pack": "Carton of 36 / 72"
+  },
+  "spec_prompt": "Item; width; length; thickness; printing; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "packing tape"
+ },
+ {
+  "slug": "brown-packing-tape",
+  "name": "Brown Packing Tape",
+  "sku": "ATP-1175",
+  "category": "packaging-materials",
+  "subcategory": "packing-tape-wrap",
+  "unit": "roll",
+  "description": "Brown carton sealing tape.",
+  "specs": {
+   "Width": "48 mm",
+   "Length": "50 / 100 m",
+   "Thickness": "45 micron",
+   "Pack": "Carton of 72"
+  },
+  "spec_prompt": "Item; width; length; thickness; printing; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "brown packing tape"
+ },
+ {
+  "slug": "printed-logo-tape",
+  "name": "Printed Logo Tape",
+  "sku": "ATP-1176",
+  "category": "packaging-materials",
+  "subcategory": "packing-tape-wrap",
+  "unit": "roll",
+  "description": "Tape printed with your logo or message.",
+  "specs": {
+   "Width": "48 mm",
+   "Print": "1 to 3 colours",
+   "Length": "100 m",
+   "MOQ": "As per printer"
+  },
+  "spec_prompt": "Item; width; length; thickness; printing; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "printed packaging tape"
+ },
+ {
+  "slug": "stretch-film",
+  "name": "Stretch Film",
+  "sku": "ATP-1177",
+  "category": "packaging-materials",
+  "subcategory": "packing-tape-wrap",
+  "unit": "roll",
+  "description": "Pallet and carton stretch wrap.",
+  "specs": {
+   "Width": "500 mm",
+   "Thickness": "17 / 23 micron",
+   "Weight": "Per roll",
+   "Type": "Hand or machine"
+  },
+  "spec_prompt": "Item; width; length; thickness; printing; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "stretch film wrap"
+ },
+ {
+  "slug": "bubble-wrap-roll",
+  "name": "Bubble Wrap Roll",
+  "sku": "ATP-1178",
+  "category": "packaging-materials",
+  "subcategory": "packing-tape-wrap",
+  "unit": "roll",
+  "description": "Air bubble roll for fragile goods.",
+  "specs": {
+   "Width": "1 / 1.2 m",
+   "Length": "50 / 100 m",
+   "Bubble": "Small / large",
+   "Use": "Protective packing"
+  },
+  "spec_prompt": "Item; width; length; thickness; printing; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "bubble wrap"
+ },
+ {
+  "slug": "masking-tape",
+  "name": "Masking Tape",
+  "sku": "ATP-1179",
+  "category": "packaging-materials",
+  "subcategory": "packing-tape-wrap",
+  "unit": "roll",
+  "description": "Paper masking tape for painting and labelling.",
+  "specs": {
+   "Width": "12 / 24 / 48 mm",
+   "Length": "20 m",
+   "Use": "Painting, labelling",
+   "Pack": "Box"
+  },
+  "spec_prompt": "Item; width; length; thickness; printing; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "masking tape"
+ },
+ {
+  "slug": "toilet-tissue-roll",
+  "name": "Toilet Tissue Roll",
+  "sku": "ATP-1180",
+  "category": "cleaning-hygiene",
+  "subcategory": "tissue-products",
+  "unit": "pack",
+  "description": "Soft toilet rolls in standard and jumbo sizes.",
+  "specs": {
+   "Ply": "2 / 3",
+   "Roll": "Standard or jumbo",
+   "Pack": "6 / 12 rolls",
+   "Use": "Washrooms"
+  },
+  "spec_prompt": "Product; ply; sheets or roll length; pack size; quantity; brand preference.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "toilet paper roll"
+ },
+ {
+  "slug": "facial-tissue-box",
+  "name": "Facial Tissue Box",
+  "sku": "ATP-1181",
+  "category": "cleaning-hygiene",
+  "subcategory": "tissue-products",
+  "unit": "pack",
+  "description": "Box tissue for offices, cars and meeting rooms.",
+  "specs": {
+   "Ply": "2",
+   "Sheets": "100 / 150 / 200",
+   "Pack": "Box",
+   "Branding": "Custom box print"
+  },
+  "spec_prompt": "Product; ply; sheets or roll length; pack size; quantity; brand preference.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "tissue box"
+ },
+ {
+  "slug": "paper-napkins",
+  "name": "Paper Napkins",
+  "sku": "ATP-1182",
+  "category": "cleaning-hygiene",
+  "subcategory": "tissue-products",
+  "unit": "pack",
+  "description": "Napkins for restaurants and events.",
+  "specs": {
+   "Size": "25 / 33 cm",
+   "Ply": "1 / 2",
+   "Pack": "100 sheets",
+   "Branding": "Logo print"
+  },
+  "spec_prompt": "Product; ply; sheets or roll length; pack size; quantity; brand preference.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "paper napkins"
+ },
+ {
+  "slug": "hand-towel-paper",
+  "name": "Hand Towel Paper",
+  "sku": "ATP-1183",
+  "category": "cleaning-hygiene",
+  "subcategory": "tissue-products",
+  "unit": "pack",
+  "description": "Interfold towels for dispensers.",
+  "specs": {
+   "Fold": "N / M / Z fold",
+   "Ply": "1 / 2",
+   "Pack": "Carton",
+   "Use": "Washroom dispensers"
+  },
+  "spec_prompt": "Product; ply; sheets or roll length; pack size; quantity; brand preference.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "paper towels"
+ },
+ {
+  "slug": "kitchen-towel-roll",
+  "name": "Kitchen Towel Roll",
+  "sku": "ATP-1184",
+  "category": "cleaning-hygiene",
+  "subcategory": "tissue-products",
+  "unit": "pack",
+  "description": "Absorbent kitchen roll.",
+  "specs": {
+   "Ply": "2",
+   "Sheets": "50 / 80 per roll",
+   "Pack": "2 / 4 rolls",
+   "Use": "Kitchens"
+  },
+  "spec_prompt": "Product; ply; sheets or roll length; pack size; quantity; brand preference.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "kitchen roll paper towel"
+ },
+ {
+  "slug": "pocket-tissue",
+  "name": "Pocket Tissue",
+  "sku": "ATP-1185",
+  "category": "cleaning-hygiene",
+  "subcategory": "tissue-products",
+  "unit": "pack",
+  "description": "Small packs for events and gifting.",
+  "specs": {
+   "Ply": "3",
+   "Sheets": "10 per pack",
+   "Pack": "Bundle",
+   "Branding": "Custom wrapper"
+  },
+  "spec_prompt": "Product; ply; sheets or roll length; pack size; quantity; brand preference.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "pocket tissues"
+ },
+ {
+  "slug": "wet-wipes",
+  "name": "Wet Wipes",
+  "sku": "ATP-1186",
+  "category": "cleaning-hygiene",
+  "subcategory": "tissue-products",
+  "unit": "pack",
+  "description": "Moist wipes for hygiene and travel.",
+  "specs": {
+   "Sheets": "10 / 80",
+   "Type": "Antibacterial or baby",
+   "Pack": "Pouch",
+   "Branding": "Custom pouch"
+  },
+  "spec_prompt": "Product; ply; sheets or roll length; pack size; quantity; brand preference.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "wet wipes"
+ },
+ {
+  "slug": "floor-mop-with-bucket",
+  "name": "Floor Mop with Bucket",
+  "sku": "ATP-1187",
+  "category": "cleaning-hygiene",
+  "subcategory": "cleaning-tools-chemicals",
+  "unit": "piece",
+  "description": "Spin or flat mop set for floors.",
+  "specs": {
+   "Type": "Spin or flat mop",
+   "Bucket": "Plastic with wringer",
+   "Refill": "Microfibre heads",
+   "Use": "All hard floors"
+  },
+  "spec_prompt": "Item; size or volume; brand preference; quantity; safety data sheet requirement.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "mop bucket"
+ },
+ {
+  "slug": "soft-broom-and-dustpan",
+  "name": "Soft Broom and Dustpan",
+  "sku": "ATP-1188",
+  "category": "cleaning-hygiene",
+  "subcategory": "cleaning-tools-chemicals",
+  "unit": "piece",
+  "description": "Indoor broom set.",
+  "specs": {
+   "Type": "Soft bristle broom",
+   "Handle": "Plastic or metal",
+   "Includes": "Dustpan",
+   "Use": "Indoor"
+  },
+  "spec_prompt": "Item; size or volume; brand preference; quantity; safety data sheet requirement.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "broom dustpan"
+ },
+ {
+  "slug": "microfibre-cleaning-cloth",
+  "name": "Microfibre Cleaning Cloth",
+  "sku": "ATP-1189",
+  "category": "cleaning-hygiene",
+  "subcategory": "cleaning-tools-chemicals",
+  "unit": "piece",
+  "description": "Lint-free cloths for glass and surfaces.",
+  "specs": {
+   "Size": "30 x 30 / 40 x 40 cm",
+   "GSM": "250 / 300",
+   "Colours": "Colour coded",
+   "Pack": "Pack of 10"
+  },
+  "spec_prompt": "Item; size or volume; brand preference; quantity; safety data sheet requirement.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "microfiber cloth"
+ },
+ {
+  "slug": "toilet-brush-set",
+  "name": "Toilet Brush Set",
+  "sku": "ATP-1190",
+  "category": "cleaning-hygiene",
+  "subcategory": "cleaning-tools-chemicals",
+  "unit": "piece",
+  "description": "Toilet brush with holder.",
+  "specs": {
+   "Material": "Plastic",
+   "Holder": "Closed or open",
+   "Bristle": "Nylon",
+   "Use": "Washrooms"
+  },
+  "spec_prompt": "Item; size or volume; brand preference; quantity; safety data sheet requirement.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "toilet brush"
+ },
+ {
+  "slug": "floor-cleaner-liquid",
+  "name": "Floor Cleaner Liquid",
+  "sku": "ATP-1191",
+  "category": "cleaning-hygiene",
+  "subcategory": "cleaning-tools-chemicals",
+  "unit": "piece",
+  "description": "Disinfectant floor cleaner.",
+  "specs": {
+   "Volume": "1 L / 5 L",
+   "Type": "Disinfectant",
+   "Fragrance": "Assorted",
+   "Documents": "SDS on request"
+  },
+  "spec_prompt": "Item; size or volume; brand preference; quantity; safety data sheet requirement.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "cleaning products bottles"
+ },
+ {
+  "slug": "hand-wash-and-sanitiser",
+  "name": "Hand Wash and Sanitiser",
+  "sku": "ATP-1192",
+  "category": "cleaning-hygiene",
+  "subcategory": "cleaning-tools-chemicals",
+  "unit": "piece",
+  "description": "Liquid hand wash and alcohol sanitiser.",
+  "specs": {
+   "Volume": "250 ml / 500 ml / 5 L",
+   "Type": "Hand wash or 70% alcohol sanitiser",
+   "Pump": "With pump or refill",
+   "Documents": "Label details"
+  },
+  "spec_prompt": "Item; size or volume; brand preference; quantity; safety data sheet requirement.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "hand sanitizer pump bottle"
+ },
+ {
+  "slug": "glass-cleaning-squeegee",
+  "name": "Glass Cleaning Squeegee",
+  "sku": "ATP-1193",
+  "category": "cleaning-hygiene",
+  "subcategory": "cleaning-tools-chemicals",
+  "unit": "piece",
+  "description": "Window squeegee and washer.",
+  "specs": {
+   "Width": "25 / 35 / 45 cm",
+   "Blade": "Rubber",
+   "Handle": "Extendable option",
+   "Use": "Glass and windows"
+  },
+  "spec_prompt": "Item; size or volume; brand preference; quantity; safety data sheet requirement.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "window squeegee"
+ },
+ {
+  "slug": "janitor-cleaning-trolley",
+  "name": "Janitor Cleaning Trolley",
+  "sku": "ATP-1194",
+  "category": "cleaning-hygiene",
+  "subcategory": "cleaning-tools-chemicals",
+  "unit": "piece",
+  "description": "Multi-purpose cleaning cart with bag.",
+  "specs": {
+   "Material": "Plastic",
+   "Features": "Bag holder, shelves",
+   "Bucket": "Optional",
+   "Use": "Hotels, hospitals, offices"
+  },
+  "spec_prompt": "Item; size or volume; brand preference; quantity; safety data sheet requirement.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "janitor cart"
+ },
+ {
+  "slug": "pedal-dustbin",
+  "name": "Pedal Dustbin",
+  "sku": "ATP-1195",
+  "category": "cleaning-hygiene",
+  "subcategory": "waste-bins-dispensers",
+  "unit": "piece",
+  "description": "Foot pedal bin with lid.",
+  "specs": {
+   "Capacity": "8 / 12 / 20 / 30 L",
+   "Material": "Plastic or stainless steel",
+   "Lid": "Soft close option",
+   "Use": "Offices, clinics"
+  },
+  "spec_prompt": "Item; capacity; material; colour coding; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "pedal bin trash can"
+ },
+ {
+  "slug": "swing-lid-bin",
+  "name": "Swing Lid Bin",
+  "sku": "ATP-1196",
+  "category": "cleaning-hygiene",
+  "subcategory": "waste-bins-dispensers",
+  "unit": "piece",
+  "description": "Office and corridor bin with swing lid.",
+  "specs": {
+   "Capacity": "25 / 50 L",
+   "Material": "Plastic",
+   "Colours": "Assorted",
+   "Use": "Offices"
+  },
+  "spec_prompt": "Item; capacity; material; colour coding; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "swing lid bin"
+ },
+ {
+  "slug": "wheelie-bin",
+  "name": "Wheelie Bin",
+  "sku": "ATP-1197",
+  "category": "cleaning-hygiene",
+  "subcategory": "waste-bins-dispensers",
+  "unit": "piece",
+  "description": "Large wheeled bin for outdoor collection.",
+  "specs": {
+   "Capacity": "120 / 240 L",
+   "Material": "HDPE",
+   "Wheels": "2",
+   "Use": "Outdoor"
+  },
+  "spec_prompt": "Item; capacity; material; colour coding; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "wheelie bin"
+ },
+ {
+  "slug": "colour-coded-recycling-bins",
+  "name": "Colour-Coded Recycling Bins",
+  "sku": "ATP-1198",
+  "category": "cleaning-hygiene",
+  "subcategory": "waste-bins-dispensers",
+  "unit": "piece",
+  "description": "Segregation bins for recycling and medical waste.",
+  "specs": {
+   "Capacity": "30 / 60 L",
+   "Colours": "Per waste stream",
+   "Labels": "Printed",
+   "Use": "Segregation"
+  },
+  "spec_prompt": "Item; capacity; material; colour coding; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "recycling bins"
+ },
+ {
+  "slug": "garbage-bags",
+  "name": "Garbage Bags",
+  "sku": "ATP-1199",
+  "category": "cleaning-hygiene",
+  "subcategory": "waste-bins-dispensers",
+  "unit": "piece",
+  "description": "Bin liners in multiple sizes.",
+  "specs": {
+   "Size": "Small to jumbo",
+   "Thickness": "As required",
+   "Colour": "Black, green, yellow, red",
+   "Pack": "Roll / pack"
+  },
+  "spec_prompt": "Item; capacity; material; colour coding; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "garbage bags"
+ },
+ {
+  "slug": "soap-dispenser",
+  "name": "Soap Dispenser",
+  "sku": "ATP-1200",
+  "category": "cleaning-hygiene",
+  "subcategory": "waste-bins-dispensers",
+  "unit": "piece",
+  "description": "Wall-mounted liquid soap dispenser.",
+  "specs": {
+   "Capacity": "500 / 1000 ml",
+   "Type": "Manual or sensor",
+   "Material": "ABS or steel",
+   "Mount": "Wall"
+  },
+  "spec_prompt": "Item; capacity; material; colour coding; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "soap dispenser"
+ },
+ {
+  "slug": "tissue-dispenser",
+  "name": "Tissue Dispenser",
+  "sku": "ATP-1201",
+  "category": "cleaning-hygiene",
+  "subcategory": "waste-bins-dispensers",
+  "unit": "piece",
+  "description": "Wall-mounted towel or toilet roll dispenser.",
+  "specs": {
+   "Type": "Hand towel or jumbo roll",
+   "Material": "ABS plastic",
+   "Lock": "Key lock",
+   "Mount": "Wall"
+  },
+  "spec_prompt": "Item; capacity; material; colour coding; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "paper towel dispenser"
+ },
+ {
+  "slug": "ergonomic-mesh-chair",
+  "name": "Ergonomic Mesh Chair",
+  "sku": "ATP-1202",
+  "category": "office-institutional-furniture",
+  "subcategory": "office-chairs",
+  "unit": "piece",
+  "description": "Mesh back task chair with lumbar support.",
+  "specs": {
+   "Back": "Mesh with lumbar",
+   "Mechanism": "Synchro tilt",
+   "Arms": "Adjustable",
+   "Base": "Nylon or chrome"
+  },
+  "spec_prompt": "Chair type; back height; arms; base; upholstery colour; quantity; delivery location.",
+  "sizes": [],
+  "colours": [
+   "Black",
+   "Grey",
+   "Blue"
+  ],
+  "featured": false,
+  "image_query": "office chair mesh"
+ },
+ {
+  "slug": "executive-high-back-chair",
+  "name": "Executive High-Back Chair",
+  "sku": "ATP-1203",
+  "category": "office-institutional-furniture",
+  "subcategory": "office-chairs",
+  "unit": "piece",
+  "description": "Leatherette executive chair with headrest.",
+  "specs": {
+   "Upholstery": "PU leather",
+   "Back": "High back with headrest",
+   "Mechanism": "Tilt lock",
+   "Base": "Chrome"
+  },
+  "spec_prompt": "Chair type; back height; arms; base; upholstery colour; quantity; delivery location.",
+  "sizes": [],
+  "colours": [
+   "Black",
+   "Grey",
+   "Blue"
+  ],
+  "featured": false,
+  "image_query": "executive office chair"
+ },
+ {
+  "slug": "visitor-chair",
+  "name": "Visitor Chair",
+  "sku": "ATP-1204",
+  "category": "office-institutional-furniture",
+  "subcategory": "office-chairs",
+  "unit": "piece",
+  "description": "Four-leg or cantilever visitor chair.",
+  "specs": {
+   "Frame": "Steel",
+   "Seat": "Fabric or PU",
+   "Arms": "With or without",
+   "Stackable": "Optional"
+  },
+  "spec_prompt": "Chair type; back height; arms; base; upholstery colour; quantity; delivery location.",
+  "sizes": [],
+  "colours": [
+   "Black",
+   "Grey",
+   "Blue"
+  ],
+  "featured": false,
+  "image_query": "visitor chair office"
+ },
+ {
+  "slug": "training-chair-with-writing-pad",
+  "name": "Training Chair with Writing Pad",
+  "sku": "ATP-1205",
+  "category": "office-institutional-furniture",
+  "subcategory": "office-chairs",
+  "unit": "piece",
+  "description": "Chair with foldable writing tablet.",
+  "specs": {
+   "Frame": "Steel",
+   "Seat": "PP or upholstered",
+   "Tablet": "Foldable",
+   "Stackable": "Yes"
+  },
+  "spec_prompt": "Chair type; back height; arms; base; upholstery colour; quantity; delivery location.",
+  "sizes": [],
+  "colours": [
+   "Black",
+   "Grey",
+   "Blue"
+  ],
+  "featured": false,
+  "image_query": "chair with writing tablet"
+ },
+ {
+  "slug": "conference-chair",
+  "name": "Conference Chair",
+  "sku": "ATP-1206",
+  "category": "office-institutional-furniture",
+  "subcategory": "office-chairs",
+  "unit": "piece",
+  "description": "Mid-back chair for meeting rooms.",
+  "specs": {
+   "Back": "Mid back",
+   "Upholstery": "Mesh or fabric",
+   "Base": "Chrome",
+   "Arms": "Fixed"
+  },
+  "spec_prompt": "Chair type; back height; arms; base; upholstery colour; quantity; delivery location.",
+  "sizes": [],
+  "colours": [
+   "Black",
+   "Grey",
+   "Blue"
+  ],
+  "featured": false,
+  "image_query": "conference room chairs"
+ },
+ {
+  "slug": "bar-and-counter-stool",
+  "name": "Bar and Counter Stool",
+  "sku": "ATP-1207",
+  "category": "office-institutional-furniture",
+  "subcategory": "office-chairs",
+  "unit": "piece",
+  "description": "Height-adjustable stool for counters and labs.",
+  "specs": {
+   "Height": "Adjustable gas lift",
+   "Seat": "PU or wood",
+   "Base": "Chrome",
+   "Footrest": "Ring"
+  },
+  "spec_prompt": "Chair type; back height; arms; base; upholstery colour; quantity; delivery location.",
+  "sizes": [],
+  "colours": [
+   "Black",
+   "Grey",
+   "Blue"
+  ],
+  "featured": false,
+  "image_query": "bar stool"
+ },
+ {
+  "slug": "plastic-stacking-chair",
+  "name": "Plastic Stacking Chair",
+  "sku": "ATP-1208",
+  "category": "office-institutional-furniture",
+  "subcategory": "office-chairs",
+  "unit": "piece",
+  "description": "Lightweight chairs for events and canteens.",
+  "specs": {
+   "Material": "PP",
+   "Arms": "With or without",
+   "Stackable": "Yes",
+   "Colours": "Assorted"
+  },
+  "spec_prompt": "Chair type; back height; arms; base; upholstery colour; quantity; delivery location.",
+  "sizes": [],
+  "colours": [
+   "Black",
+   "Grey",
+   "Blue"
+  ],
+  "featured": false,
+  "image_query": "plastic chair"
+ },
+ {
+  "slug": "office-workstation-desk",
+  "name": "Office Workstation Desk",
+  "sku": "ATP-1209",
+  "category": "office-institutional-furniture",
+  "subcategory": "desks-classroom-furniture",
+  "unit": "piece",
+  "description": "Desk with modesty panel and cable management.",
+  "specs": {
+   "Top": "MFC / laminated board",
+   "Size": "e.g. 120 x 60 cm",
+   "Frame": "Steel or panel",
+   "Options": "Drawer pedestal"
+  },
+  "spec_prompt": "Item; size; material and colour; seating capacity; quantity; delivery and installation location.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "office desk"
+ },
+ {
+  "slug": "executive-table",
+  "name": "Executive Table",
+  "sku": "ATP-1210",
+  "category": "office-institutional-furniture",
+  "subcategory": "desks-classroom-furniture",
+  "unit": "piece",
+  "description": "Manager's table with side return.",
+  "specs": {
+   "Top": "Veneer or laminate",
+   "Size": "160 / 180 cm",
+   "Storage": "Side cabinet",
+   "Finish": "As per design"
+  },
+  "spec_prompt": "Item; size; material and colour; seating capacity; quantity; delivery and installation location.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "executive desk"
+ },
+ {
+  "slug": "classroom-desk-and-bench",
+  "name": "Classroom Desk and Bench",
+  "sku": "ATP-1211",
+  "category": "office-institutional-furniture",
+  "subcategory": "desks-classroom-furniture",
+  "unit": "piece",
+  "description": "Two-seater bench-desk for schools.",
+  "specs": {
+   "Material": "Steel frame with wood or MDF",
+   "Seats": "2 / 3",
+   "Size": "Junior or senior",
+   "Finish": "Powder coated"
+  },
+  "spec_prompt": "Item; size; material and colour; seating capacity; quantity; delivery and installation location.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "school desk classroom"
+ },
+ {
+  "slug": "student-chair-desk",
+  "name": "Student Chair Desk",
+  "sku": "ATP-1212",
+  "category": "office-institutional-furniture",
+  "subcategory": "desks-classroom-furniture",
+  "unit": "piece",
+  "description": "Single student desk with attached chair.",
+  "specs": {
+   "Frame": "Steel",
+   "Seat": "PP or wood",
+   "Top": "MDF",
+   "Size": "Junior or senior"
+  },
+  "spec_prompt": "Item; size; material and colour; seating capacity; quantity; delivery and installation location.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "student desk chair"
+ },
+ {
+  "slug": "meeting-table",
+  "name": "Meeting Table",
+  "sku": "ATP-1213",
+  "category": "office-institutional-furniture",
+  "subcategory": "desks-classroom-furniture",
+  "unit": "piece",
+  "description": "Rectangular or round meeting table.",
+  "specs": {
+   "Top": "Laminate or veneer",
+   "Seats": "4 to 12",
+   "Base": "Steel or wood",
+   "Options": "Power box"
+  },
+  "spec_prompt": "Item; size; material and colour; seating capacity; quantity; delivery and installation location.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "conference table"
+ },
+ {
+  "slug": "steel-filing-cabinet",
+  "name": "Steel Filing Cabinet",
+  "sku": "ATP-1214",
+  "category": "office-institutional-furniture",
+  "subcategory": "desks-classroom-furniture",
+  "unit": "piece",
+  "description": "Lockable steel cabinet for records.",
+  "specs": {
+   "Type": "2 / 3 / 4 drawer or almirah",
+   "Material": "Steel",
+   "Lock": "Central lock",
+   "Finish": "Powder coated"
+  },
+  "spec_prompt": "Item; size; material and colour; seating capacity; quantity; delivery and installation location.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "filing cabinet"
+ },
+ {
+  "slug": "library-bookshelf",
+  "name": "Library Bookshelf",
+  "sku": "ATP-1215",
+  "category": "office-institutional-furniture",
+  "subcategory": "desks-classroom-furniture",
+  "unit": "piece",
+  "description": "Open shelves for libraries and offices.",
+  "specs": {
+   "Material": "Steel or board",
+   "Shelves": "4 / 5",
+   "Size": "Single or double sided",
+   "Finish": "As required"
+  },
+  "spec_prompt": "Item; size; material and colour; seating capacity; quantity; delivery and installation location.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "bookshelf library"
+ },
+ {
+  "slug": "folding-table",
+  "name": "Folding Table",
+  "sku": "ATP-1216",
+  "category": "office-institutional-furniture",
+  "subcategory": "desks-classroom-furniture",
+  "unit": "piece",
+  "description": "Portable folding table for events and training.",
+  "specs": {
+   "Top": "HDPE or MDF",
+   "Size": "120 / 180 cm",
+   "Frame": "Steel",
+   "Foldable": "Yes"
+  },
+  "spec_prompt": "Item; size; material and colour; seating capacity; quantity; delivery and installation location.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "folding table"
+ },
+ {
+  "slug": "disposable-face-mask",
+  "name": "Disposable Face Mask",
+  "sku": "ATP-1217",
+  "category": "hospital-medical-consumables",
+  "subcategory": "medical-consumables",
+  "unit": "box",
+  "description": "3-ply surgical face masks with ear loops.",
+  "specs": {
+   "Ply": "3",
+   "Type": "Ear loop or tie",
+   "Pack": "Box of 50",
+   "Standard": "As specified"
+  },
+  "spec_prompt": "Item; size; sterility; standard or registration required; pack size; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "surgical mask"
+ },
+ {
+  "slug": "examination-gloves",
+  "name": "Examination Gloves",
+  "sku": "ATP-1218",
+  "category": "hospital-medical-consumables",
+  "subcategory": "medical-consumables",
+  "unit": "box",
+  "description": "Latex or nitrile exam gloves.",
+  "specs": {
+   "Material": "Latex or nitrile",
+   "Sizes": "S, M, L, XL",
+   "Pack": "Box of 100",
+   "Powder": "Powder-free"
+  },
+  "spec_prompt": "Item; size; sterility; standard or registration required; pack size; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "nitrile gloves"
+ },
+ {
+  "slug": "disposable-syringe",
+  "name": "Disposable Syringe",
+  "sku": "ATP-1219",
+  "category": "hospital-medical-consumables",
+  "subcategory": "medical-consumables",
+  "unit": "box",
+  "description": "Sterile single-use syringes.",
+  "specs": {
+   "Volume": "1 / 3 / 5 / 10 ml",
+   "Needle": "With needle",
+   "Sterility": "Sterile",
+   "Pack": "Box of 100"
+  },
+  "spec_prompt": "Item; size; sterility; standard or registration required; pack size; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "syringe"
+ },
+ {
+  "slug": "gauze-swabs-and-bandages",
+  "name": "Gauze Swabs and Bandages",
+  "sku": "ATP-1220",
+  "category": "hospital-medical-consumables",
+  "subcategory": "medical-consumables",
+  "unit": "box",
+  "description": "Cotton gauze, swabs and roller bandages.",
+  "specs": {
+   "Type": "Swab, roll or bandage",
+   "Size": "Various",
+   "Sterility": "Sterile or non-sterile",
+   "Pack": "As required"
+  },
+  "spec_prompt": "Item; size; sterility; standard or registration required; pack size; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "gauze bandage"
+ },
+ {
+  "slug": "surgical-cap-and-shoe-cover",
+  "name": "Surgical Cap and Shoe Cover",
+  "sku": "ATP-1221",
+  "category": "hospital-medical-consumables",
+  "subcategory": "medical-consumables",
+  "unit": "box",
+  "description": "Non-woven disposable cap and shoe cover.",
+  "specs": {
+   "Material": "Non-woven PP",
+   "Type": "Bouffant cap / shoe cover",
+   "Pack": "Pack of 100",
+   "Colour": "Blue / green"
+  },
+  "spec_prompt": "Item; size; sterility; standard or registration required; pack size; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "disposable shoe covers"
+ },
+ {
+  "slug": "disposable-isolation-gown",
+  "name": "Disposable Isolation Gown",
+  "sku": "ATP-1222",
+  "category": "hospital-medical-consumables",
+  "subcategory": "medical-consumables",
+  "unit": "box",
+  "description": "Non-woven gown for clinics and labs.",
+  "specs": {
+   "Material": "SMS / PP non-woven",
+   "GSM": "25 / 35 / 45",
+   "Cuff": "Elastic or knit",
+   "Pack": "Pack of 10"
+  },
+  "spec_prompt": "Item; size; sterility; standard or registration required; pack size; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "isolation gown"
+ },
+ {
+  "slug": "digital-thermometer",
+  "name": "Digital Thermometer",
+  "sku": "ATP-1223",
+  "category": "hospital-medical-consumables",
+  "subcategory": "medical-consumables",
+  "unit": "box",
+  "description": "Clinical digital thermometer.",
+  "specs": {
+   "Type": "Oral / underarm or infrared",
+   "Display": "LCD",
+   "Battery": "Included",
+   "Pack": "Each"
+  },
+  "spec_prompt": "Item; size; sterility; standard or registration required; pack size; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "digital thermometer"
+ },
+ {
+  "slug": "first-aid-kit",
+  "name": "First Aid Kit",
+  "sku": "ATP-1224",
+  "category": "hospital-medical-consumables",
+  "subcategory": "medical-consumables",
+  "unit": "box",
+  "description": "First aid box for offices, factories and vehicles.",
+  "specs": {
+   "Contents": "Bandages, antiseptic, scissors, gloves",
+   "Box": "Plastic or bag",
+   "Size": "Small / large",
+   "Branding": "Sticker"
+  },
+  "spec_prompt": "Item; size; sterility; standard or registration required; pack size; quantity.",
+  "sizes": [],
+  "colours": [],
+  "featured": false,
+  "image_query": "first aid kit"
+ }
+]
